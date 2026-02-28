@@ -12,21 +12,28 @@
 "c" = (
 /turf/wall/r_wall/prepainted,
 /area/testzone/crew)
-"d" = (
-/obj/structure/cable/orange{
-	icon_state = "4-8"
-	},
-/turf/floor/tiled,
-/area/testzone/crew)
 "f" = (
 /turf/floor/wood/rough/bamboo,
+/area/testzone/crew)
+"g" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/floor/tiled,
 /area/testzone/crew)
 "h" = (
 /turf/floor/pool,
 /area/testzone/crew)
-"j" = (
-/obj/machinery/light{
+"i" = (
+/obj/machinery/light,
+/turf/floor/woven,
+/area/testzone/crew)
+"k" = (
+/obj/machinery/apc/high{
 	dir = 1
+	},
+/obj/structure/cable/orange{
+	dir = 4
 	},
 /turf/floor/tiled,
 /area/testzone/crew)
@@ -36,19 +43,22 @@
 "r" = (
 /turf/floor/wood/bamboo,
 /area/testzone/crew)
+"s" = (
+/obj/machinery/cryopod,
+/turf/floor/tiled,
+/area/testzone/crew)
+"t" = (
+/obj/abstract/landmark/latejoin/cryo,
+/turf/floor/tiled,
+/area/testzone/crew)
 "v" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/floor/pool/deep,
 /area/testzone/crew)
-"x" = (
-/obj/machinery/apc/high{
-	dir = 1
-	},
-/obj/structure/cable/orange{
-	dir = 4
-	},
+"w" = (
+/obj/item/flashlight/maglight,
 /turf/floor/tiled,
 /area/testzone/crew)
 "z" = (
@@ -57,20 +67,20 @@
 "A" = (
 /turf/floor/pool/deep,
 /area/testzone/crew)
-"B" = (
+"D" = (
 /obj/machinery/light{
-	dir = 8
+	dir = 4
 	},
-/turf/floor/tiled,
+/turf/floor/pool,
 /area/testzone/crew)
 "E" = (
 /turf/floor/wood/walnut,
 /area/testzone/crew)
 "F" = (
 /obj/machinery/light{
-	dir = 4
+	dir = 8
 	},
-/turf/floor/pool,
+/turf/floor/tiled,
 /area/testzone/crew)
 "H" = (
 /turf/floor/wood/mahogany,
@@ -78,20 +88,18 @@
 "I" = (
 /turf/floor/woven,
 /area/testzone/crew)
-"M" = (
-/obj/machinery/light_switch/on,
+"J" = (
+/obj/structure/cable/orange{
+	icon_state = "4-8"
+	},
 /turf/floor/tiled,
-/area/testzone/crew)
-"N" = (
-/obj/item/flashlight/maglight,
-/turf/floor/tiled,
-/area/testzone/crew)
-"O" = (
-/obj/machinery/light,
-/turf/floor/woven,
 /area/testzone/crew)
 "P" = (
 /turf/floor/wood/ebony,
+/area/testzone/crew)
+"S" = (
+/obj/machinery/light_switch/on,
+/turf/floor/tiled,
 /area/testzone/crew)
 "Z" = (
 /obj/abstract/level_data_spawner/testmap_main,
@@ -2678,10 +2686,10 @@ c
 b
 z
 z
-B
+F
 z
 z
-B
+F
 z
 z
 z
@@ -2757,7 +2765,7 @@ a
 a
 a
 c
-d
+J
 r
 r
 r
@@ -2839,7 +2847,7 @@ a
 a
 a
 c
-x
+k
 r
 r
 r
@@ -2921,8 +2929,8 @@ a
 a
 a
 c
-j
-N
+g
+w
 z
 z
 z
@@ -2930,7 +2938,7 @@ z
 z
 z
 z
-O
+i
 c
 a
 a
@@ -3003,7 +3011,7 @@ a
 a
 a
 c
-M
+S
 f
 f
 f
@@ -3167,8 +3175,8 @@ a
 a
 a
 c
-z
-z
+s
+t
 z
 z
 z
@@ -3249,7 +3257,7 @@ a
 a
 a
 c
-j
+g
 H
 H
 H
@@ -3258,7 +3266,7 @@ P
 P
 P
 z
-O
+i
 c
 a
 a
@@ -3498,7 +3506,7 @@ c
 z
 h
 h
-F
+D
 A
 A
 v

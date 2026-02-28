@@ -23,9 +23,11 @@
 	else
 		. += "no name set"
 
+/*
 // Generic ships to populate the list.
 /decl/submap_archetype/derelict
 	name = "drifting wreck"
 
 /decl/submap_archetype/abandoned_ship
 	name = "abandoned ship"
+*/

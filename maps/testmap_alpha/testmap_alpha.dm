@@ -13,8 +13,14 @@
 	#include "testmap_jobs.dm"
 	#include "testmap_levels.dm"
 	#include "testmap_departments.dm"
+	#include "testmap_spawnpoints.dm"
 
-	#include "jobs/civilian.dm"
+	#include "jobs/civilian_services.dm"
+	#include "jobs/deck_authority.dm"
+	#include "jobs/emergency_public_services.dm"
+	#include "jobs/mess_hall.dm"
+	#include "jobs/supply_operations.dm"
+	#include "jobs/trauma_center.dm"
 
 	#include "testmap_unit_tests.dm"
 	#include "testmap_alpha-0.dmm"
