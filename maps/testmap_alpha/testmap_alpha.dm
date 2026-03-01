@@ -1,6 +1,6 @@
 #if !defined(USING_MAP_DATUM)
 
-//	#include "../../mods/content/baychems/_baychems.dme"
+	#include "../../mods/content/baychems/_baychems.dme"
 	#include "../../mods/content/breath_holding/_breath_holding.dme"
 	#include "../../mods/content/modern_earth/_modern_earth.dme"
 	#include "../../mods/content/mouse_highlights/_mouse_highlight.dme"

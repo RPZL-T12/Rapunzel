@@ -15,9 +15,9 @@
 	result_amount = 1
 	required_reagents = list(
 		/decl/material/liquid/acetone = 1,
-		/decl/material/solid/phoron = 0.1
+		/decl/material/liquid/enzyme = 0.1
 	)
-	catalysts = list(/decl/material/solid/phoron = 5)
+	catalysts = list(/decl/material/liquid/enzyme = 5)
 
 /decl/chemical_reaction/drug/dexalinp
 	name = "Dexalin Plus"
@@ -53,7 +53,7 @@
 	name = "Oxycodone"
 	result = /decl/material/liquid/painkillers/oxycodone
 	required_reagents = list(/decl/material/liquid/alcohol/ethanol = 1, /decl/material/liquid/painkillers/strong = 1)
-	catalysts = list(/decl/material/solid/phoron = 5)
+	catalysts = list(/decl/material/liquid/enzyme = 5)
 	result_amount = 1
 
 /decl/chemical_reaction/drug/fentanyl
