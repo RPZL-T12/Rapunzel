@@ -21,13 +21,15 @@
 	#include "../../mods/species/vox/_vox.dme"
 */
 
-
 	#include "testmap_areas.dm"
 	#include "testmap_jobs.dm"
 	#include "testmap_levels.dm"
 	#include "testmap_departments.dm"
 	#include "testmap_spawnpoints.dm"
 
+	#include "overrides/cards_ids.dm"
+
+	#include "jobs/outfits/generic.dm"
 	#include "jobs/civilian_services.dm"
 	#include "jobs/deck_authority.dm"
 	#include "jobs/emergency_public_services.dm"

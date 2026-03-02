@@ -530,6 +530,10 @@
 /obj/machinery/vitals_monitor,
 /turf/floor/tiled,
 /area/testzone/medical)
+"wh" = (
+/obj/machinery/portable_atmospherics/canister/hydrogen,
+/turf/floor/plating,
+/area/testzone/engine_room)
 "wA" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -540,6 +544,15 @@
 /obj/machinery/vending/materials,
 /turf/floor/tiled,
 /area/testzone/tool_storage)
+"wC" = (
+/obj/item/fuel_assembly/boron,
+/obj/item/fuel_assembly/boron,
+/obj/item/fuel_assembly/boron,
+/obj/item/fuel_assembly/boron,
+/obj/item/fuel_assembly/boron,
+/obj/item/fuel_assembly/boron,
+/turf/floor/plating,
+/area/testzone/engine_room)
 "wL" = (
 /turf/wall/r_wall/prepainted,
 /area/testzone/viewingbay)
@@ -12606,7 +12619,7 @@ Kb
 Kb
 Ov
 Kb
-ov
+wh
 VN
 IL
 tp
@@ -12852,7 +12865,7 @@ Gv
 ov
 ov
 ov
-ov
+wC
 ky
 Lt
 Rq

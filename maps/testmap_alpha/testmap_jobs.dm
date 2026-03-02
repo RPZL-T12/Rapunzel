@@ -1,8 +1,8 @@
 /datum/map/testmap_alpha
-	default_job_type = /datum/job/standard/assistant/testmap
+	default_job_type = /datum/job/assistant
 	default_department_type = /decl/department/civilian_services
 	allowed_jobs = list(
-		/datum/job/standard/assistant/testmap,
+		/datum/job/assistant,
 		/datum/job/upper_tower_rep,
 		/datum/job/department_coordinator,
 		/datum/job/eps_coordinator,
