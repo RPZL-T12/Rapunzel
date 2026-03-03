@@ -7,6 +7,9 @@
 /obj/abstract/level_data_spawner/testmap_upper
 	level_data_type = /datum/level_data/main_level/testmap/upper
 
+/obj/abstract/level_data_spawner/testmap_tower
+	level_data_type = /datum/level_data/main_level/testmap/tower
+
 /datum/level_data/main_level/testmap
 	abstract_type = /datum/level_data/main_level/testmap
 
@@ -21,3 +24,7 @@
 /datum/level_data/main_level/testmap/upper
 	name = "Testmap Upper Deck"
 	level_id = "testmap_upper"
+
+/datum/level_data/main_level/testmap/tower
+	name = "Testmap Tower Deck"
+	level_id = "testmap_tower"

@@ -38,8 +38,9 @@
 	#include "jobs/trauma_center.dm"
 
 	#include "testmap_unit_tests.dm"
-	#include "testmap_alpha-joined.dmm"
+	#include "testmap_0-0-2.dmm"
 /*
+	#include "testmap_alpha-joined.dmm"
 	#include "testmap_alpha-0.dmm"
 	#include "testmap_alpha-1.dmm"
 	#include "testmap_alpha-2.dmm"
