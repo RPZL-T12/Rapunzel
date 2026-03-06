@@ -24,6 +24,7 @@
 	#include "testmap_areas.dm"
 	#include "testmap_jobs.dm"
 	#include "testmap_levels.dm"
+	#include "testmap_shuttles.dm"
 	#include "testmap_departments.dm"
 	#include "testmap_spawnpoints.dm"
 
@@ -39,12 +40,9 @@
 
 	#include "testmap_unit_tests.dm"
 	#include "testmap_0-0-2.dmm"
-/*
-	#include "testmap_alpha-joined.dmm"
-	#include "testmap_alpha-0.dmm"
-	#include "testmap_alpha-1.dmm"
-	#include "testmap_alpha-2.dmm"
-*/
+	#include "testmap_centcomm.dmm"
+
+
 	#define USING_MAP_DATUM /datum/map/testmap_alpha
 
 #elif !defined(MAP_OVERRIDE)

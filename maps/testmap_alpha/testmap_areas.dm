@@ -139,3 +139,72 @@
 /area/testzone/eps_utility
 	name = "\improper Emergency Public Services Utility Storage"
 	icon_state = "security"
+
+/area/testzone/lounge
+	name = "\improper Lounge"
+	icon_state = "green"
+
+/area/testzone/deck3_aft_port_maintenance
+	name = "\improper Deck 3 Aft Port Maintenance"
+	icon_state = "yellow"
+
+/area/testzone/deck3_atrium
+	name = "\improper Deck 3 Atrium"
+	icon_state = "green"
+
+/area/testzone/deck4_atrium
+	name = "\improper Deck 4 Atrium"
+	icon_state = "green"
+
+/area/testzone/command_smes
+	name = "\improper Command SMES"
+	icon_state = "yellow"
+
+/area/testzone/coordinator_office
+	name = "\improper Department Coordinator's Office"
+	icon_state = "heads_hop"
+
+/area/testzone/coordinator_bedroom
+	name = "\improper Department Coordinator's Bedroom"
+	icon_state = "heads_hop"
+
+/area/testzone/telecomms_hallway
+	name = "\improper Telecommunications Hallway"
+	icon_state = "blue2"
+
+/area/testzone/telecomms_servers
+	name = "\improper Telecommunications Servers"
+	icon_state = "blue2"
+
+/area/testzone/trauma_center_lobby
+	name = "\improper Trauma Center Lobby"
+	icon_state = "medbay4"
+
+/area/testzone/trauma_center_reception
+	name = "\improper Trauma Center Reception"
+	icon_state = "medbay4"
+
+/area/testzone/trauma_center_treatment
+	name = "\improper Trauma Center - General Treatment"
+	icon_state = "medbay4"
+
+/area/testzone/trauma_center_smes
+	name = "\improper Trauma Center SMES"
+	icon_state = "yellow"
+
+/area/testzone/supply_dock
+	name = "Warehouse Docking Arm"
+	icon_state = "green"
+
+/// Non-station
+/area/testzone/centcomm
+	name = "\improper Upper Tower Authority"
+	icon_state = "centcom"
+	requires_power = 0
+
+//// Shuttles
+/area/testzone/shuttle/supply
+	name = "\improper Supply Shuttle"
+	icon_state = "shuttlered"
+	area_flags = AREA_FLAG_SHUTTLE
+	requires_power = 0
