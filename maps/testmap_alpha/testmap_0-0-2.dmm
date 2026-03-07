@@ -493,6 +493,14 @@
 	},
 /turf/floor/tiled,
 /area/testzone/deck4_atrium)
+"dG" = (
+/obj/machinery/button/access/interior{
+	dir = 1;
+	pixel_y = -22
+	},
+/obj/abstract/airlock_helper/button,
+/turf/floor/tiled,
+/area/testzone/supply_dock)
 "dJ" = (
 /obj/machinery/door/firedoor,
 /turf/floor/tiled,
@@ -2723,10 +2731,6 @@
 	id_tag = "station_supply_external"
 	},
 /obj/abstract/airlock_helper/door/ext_door,
-/obj/abstract/local_dock/automatic{
-	port_tag = "nav_station_supply";
-	shuttle_tag = "UTA Supply Shuttle"
-	},
 /turf/floor/plating,
 /area/testzone/supply_dock)
 "ve" = (
@@ -3335,6 +3339,15 @@
 "Ac" = (
 /turf/wall/r_wall,
 /area/testzone/cryo_one)
+"Ae" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/floor/tiled,
+/area/testzone/supply_dock)
 "Ah" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 10
@@ -3956,6 +3969,13 @@
 /obj/machinery/door/firedoor,
 /turf/floor/tiled,
 /area/testzone/engine_med_station)
+"DY" = (
+/obj/machinery/button/access/interior{
+	pixel_y = 16
+	},
+/obj/abstract/airlock_helper/button,
+/turf/space,
+/area/space)
 "Ei" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/floor/tiled,
@@ -4095,12 +4115,15 @@
 /turf/floor/plating,
 /area/testzone/engine_room)
 "Fj" = (
-/obj/machinery/computer/modular/preset/dock,
-/obj/structure/cable{
-	icon_state = "0-8"
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/network/relay/wall_mounted/north{
+	initial_network_key = "1234";
+	initial_network_id = "tower12"
 	},
 /turf/floor/tiled,
-/area/testzone/deck3_aft_bay)
+/area/testzone/warehouse)
 "Fo" = (
 /obj/machinery/door/window/southleft,
 /obj/machinery/door/firedoor,
@@ -4430,6 +4453,10 @@
 	},
 /turf/floor/tiled,
 /area/testzone/eps_emt)
+"HM" = (
+/obj/machinery/computer/modular/preset/dock,
+/turf/floor/tiled,
+/area/testzone/supply_dock)
 "HN" = (
 /obj/machinery/power/breakerbox/activated,
 /obj/structure/cable{
@@ -5163,6 +5190,10 @@
 	},
 /turf/floor/tiled,
 /area/testzone/atmospherics)
+"NR" = (
+/obj/effect/shuttle_landmark/supply_station,
+/turf/space,
+/area/space)
 "NV" = (
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -6205,9 +6236,6 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
 /turf/floor/tiled,
 /area/testzone/deck3_aft_bay)
 "Wo" = (
@@ -6253,6 +6281,11 @@
 /obj/machinery/commsrelay,
 /turf/floor/plating,
 /area/testzone/telecomms_servers)
+"WH" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/full,
+/turf/floor/plating,
+/area/testzone/supply_dock)
 "WI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -6304,6 +6337,12 @@
 /obj/abstract/airlock_helper/door/int_door,
 /obj/machinery/door/airlock/external/glass/bolted,
 /turf/floor/plating,
+/area/testzone/supply_dock)
+"Xe" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/floor/tiled,
 /area/testzone/supply_dock)
 "Xf" = (
 /turf/wall/r_wall,
@@ -14853,13 +14892,13 @@ jN
 BR
 BR
 kT
-qD
+Xe
 qD
 kT
 IW
 kT
 kT
-BR
+DY
 BR
 BR
 BR
@@ -14942,7 +14981,7 @@ Mr
 bZ
 vd
 BR
-BR
+NR
 BR
 BR
 BR
@@ -15099,8 +15138,8 @@ jN
 BR
 BR
 kT
-qD
-qD
+Xe
+dG
 kT
 OK
 kT
@@ -15263,7 +15302,7 @@ jN
 BR
 BR
 kT
-qD
+HM
 qD
 qD
 qD
@@ -15349,7 +15388,7 @@ kT
 qD
 qD
 qD
-kT
+WH
 BR
 BR
 BR
@@ -15431,7 +15470,7 @@ kT
 kT
 rg
 qD
-kT
+WH
 BR
 BR
 BR
@@ -15513,7 +15552,7 @@ BR
 kT
 TH
 qD
-kT
+WH
 II
 II
 BR
@@ -15593,9 +15632,9 @@ BR
 BR
 BR
 kT
-TH
+Ae
 qD
-kT
+WH
 II
 II
 II
@@ -15757,7 +15796,7 @@ BR
 BR
 BR
 kT
-TH
+Ae
 qD
 kT
 II
@@ -16002,7 +16041,7 @@ xZ
 Je
 nC
 nC
-PR
+Fj
 vk
 IP
 PR
@@ -23227,7 +23266,7 @@ Es
 kc
 jM
 SV
-Fj
+XY
 XY
 XY
 XY

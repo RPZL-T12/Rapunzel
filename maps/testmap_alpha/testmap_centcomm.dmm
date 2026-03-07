@@ -7,85 +7,62 @@
 /turf/floor/shuttle/black,
 /area/testzone/shuttle/supply)
 "d" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	id_tag = "lower_level_dock_pump";
-	dir = 4
-	},
-/obj/abstract/airlock_helper/atmos/chamber_pump,
-/obj/machinery/embedded_controller/radio/airlock/docking_port{
-	pixel_x = -16;
-	dir = 4;
-	id_tag = "uta_warehouse";
-	tag_exterior_door = "uta_warehouse_exterior";
-	tag_interior_door = "uta_warehouse_interior"
-	},
-/turf/floor/plating,
-/area/testzone/centcomm)
-"e" = (
-/turf/floor/wood,
+/turf/space,
 /area/testzone/centcomm)
 "i" = (
 /obj/structure/shuttle/engine/propulsion/left{
 	dir = 4
 	},
-/turf/space,
+/turf/floor/plating/airless,
 /area/testzone/shuttle/supply)
 "l" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
-	id_tag = "uta_supply_shuttle";
+	id_tag = "supply_shuttle_starboard";
 	tag_door = "station_supply";
 	pixel_y = 16;
 	pixel_x = -8
 	},
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/floor/shuttle/black,
 /area/testzone/shuttle/supply)
 "p" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden{
-	dir = 4
+/obj/machinery/light{
+	dir = 1
 	},
-/obj/machinery/airlock_sensor{
-	id_tag = "uta_warehouse_sensor_chamber";
-	dir = 8;
-	pixel_x = 16
-	},
-/obj/abstract/airlock_helper/sensor/chamber_sensor,
-/turf/floor/plating,
-/area/testzone/centcomm)
+/turf/floor/shuttle/black,
+/area/testzone/shuttle/supply)
 "q" = (
-/obj/machinery/atmospherics/portables_connector,
-/obj/machinery/portable_atmospherics/canister/air/airlock,
-/turf/floor/wood,
-/area/testzone/centcomm)
-"r" = (
-/obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/machinery/door/airlock/external/bolted{
-	id_tag = "uta_warehouse_interior"
-	},
 /turf/floor/plating,
 /area/testzone/centcomm)
 "t" = (
 /turf/floor/shuttle/white,
 /area/testzone/shuttle/supply)
 "v" = (
-/turf/wall/shuttle/dark,
+/obj/item/toy/plushie/nymph{
+	name = "Loaf";
+	pixel_x = 2;
+	pixel_y = 4
+	},
+/obj/structure/chair/comfy/lime{
+	dir = 8;
+	pixel_x = 6
+	},
+/obj/item/book/skill/general/pilot/adept{
+	pixel_x = -8;
+	pixel_y = -6
+	},
+/obj/structure/chair/comfy/lime{
+	dir = 8;
+	pixel_x = 6
+	},
+/turf/floor/shuttle/black,
 /area/testzone/shuttle/supply)
-"A" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 9
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/floor/plating,
-/area/testzone/centcomm)
 "B" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	id_tag = "lower_level_dock_pump";
-	dir = 4
-	},
-/obj/abstract/airlock_helper/atmos/chamber_pump,
-/turf/floor/plating,
-/area/testzone/centcomm)
+/obj/machinery/light,
+/turf/floor/shuttle/black,
+/area/testzone/shuttle/supply)
 "C" = (
 /turf/wall/r_wall,
 /area/testzone/centcomm)
@@ -93,7 +70,7 @@
 /obj/structure/shuttle/engine/propulsion/right{
 	dir = 4
 	},
-/turf/space,
+/turf/floor/plating/airless,
 /area/testzone/shuttle/supply)
 "F" = (
 /obj/machinery/door/airlock/external/bolted{
@@ -101,23 +78,9 @@
 	},
 /turf/floor/shuttle/black,
 /area/testzone/shuttle/supply)
-"H" = (
-/obj/machinery/atmospherics/pipe/simple/hidden,
-/turf/floor/wood,
-/area/testzone/centcomm)
 "I" = (
 /turf/floor/shuttle/black,
 /area/testzone/shuttle/supply)
-"K" = (
-/obj/machinery/door/airlock/external/bolted{
-	id_tag = "uta_warehouse_exterior"
-	},
-/obj/abstract/local_dock/automatic{
-	port_tag = "nav_uta_warehouse";
-	shuttle_tag = "UTA Supply Shuttle"
-	},
-/turf/floor/plating,
-/area/testzone/centcomm)
 "L" = (
 /obj/effect/shuttle_landmark/supply_uta,
 /turf/floor/shuttle/black,
@@ -125,16 +88,6 @@
 "O" = (
 /turf/wall/shuttle/light,
 /area/testzone/shuttle/supply)
-"P" = (
-/obj/effect/wallframe_spawn/reinforced/titanium,
-/turf/floor/plating,
-/area/testzone/shuttle/supply)
-"W" = (
-/obj/machinery/door/airlock/external/bolted{
-	id_tag = "uta_warehouse_interior"
-	},
-/turf/floor/plating,
-/area/testzone/centcomm)
 "X" = (
 /obj/abstract/level_data_spawner/admin_level,
 /turf/space,
@@ -472,23 +425,23 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
 a
 a
 a
@@ -554,23 +507,23 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+C
+q
+q
+q
+q
+q
+q
+C
+d
+d
+d
+d
+d
+d
+d
+d
+C
 a
 a
 a
@@ -636,23 +589,23 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+C
+q
+q
+q
+q
+q
+q
+C
+d
+d
+d
+d
+d
+d
+d
+d
+C
 a
 a
 a
@@ -718,23 +671,23 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-v
-P
-P
-v
-a
-a
-a
+C
+q
+q
+q
+q
+q
+q
+C
+d
+d
+O
+O
+O
+O
+d
+d
+C
 a
 a
 a
@@ -800,23 +753,23 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-v
+C
+q
+q
+q
+q
+q
+q
+C
+d
+O
 O
 l
-L
-O
 v
-a
-a
+O
+O
+d
+C
 a
 a
 a
@@ -882,23 +835,23 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-v
+C
+q
+q
+q
+q
+q
+q
+C
+d
+O
 O
 c
 O
 O
-v
-a
-a
+O
+d
+C
 a
 a
 a
@@ -964,23 +917,23 @@ a
 a
 a
 a
-a
-a
+C
+q
+q
+q
+q
+q
+q
 C
 C
-C
-C
-C
-C
-C
-v
+O
+p
 I
 I
 I
-I
-v
-a
-a
+O
+d
+C
 a
 a
 a
@@ -1046,23 +999,23 @@ a
 a
 a
 a
-a
-a
 C
-e
-e
-W
-B
-d
-K
+q
+q
+q
+q
+q
+q
+q
+C
 F
-I
+L
 t
 t
 I
 O
-a
-a
+d
+C
 a
 a
 a
@@ -1128,23 +1081,23 @@ a
 a
 a
 a
-a
-a
 C
 q
-H
-r
-p
-A
-K
+q
+q
+q
+q
+q
+q
+C
 F
 I
 t
 t
-I
+B
 O
-a
-a
+d
+C
 a
 a
 a
@@ -1210,23 +1163,23 @@ a
 a
 a
 a
-a
-a
 C
-e
-e
+q
+q
+q
+q
+q
+q
 C
 C
-C
-C
-v
-I
+O
+p
 t
 t
 I
-v
-a
-a
+O
+d
+C
 a
 a
 a
@@ -1292,23 +1245,23 @@ a
 a
 a
 a
-a
-a
 C
-e
-e
-e
-e
-e
+q
+q
+q
+q
+q
+q
 C
+d
 O
 I
 t
 t
 I
 O
-a
-a
+d
+C
 a
 a
 a
@@ -1374,23 +1327,23 @@ a
 a
 a
 a
-a
-a
 C
-e
-e
-e
-e
-e
+q
+q
+q
+q
+q
+q
 C
+d
 O
 I
 t
 t
-I
+B
 O
-a
-a
+d
+C
 a
 a
 a
@@ -1456,23 +1409,23 @@ a
 a
 a
 a
-a
-a
 C
-e
-e
-e
-e
-e
+q
+q
+q
+q
+q
+q
 C
-v
-v
-v
-v
-v
-v
-a
-a
+d
+O
+O
+O
+O
+O
+O
+d
+C
 a
 a
 a
@@ -1538,23 +1491,23 @@ a
 a
 a
 a
-a
-a
 C
-e
-e
-e
-e
-e
+q
+q
+q
+q
+q
+q
 C
-v
+d
+O
 D
-v
-v
+O
+O
 i
-v
-a
-a
+O
+d
+C
 a
 a
 a
@@ -1620,23 +1573,23 @@ a
 a
 a
 a
-a
-a
 C
-e
-e
-e
-e
-e
+q
+q
+q
+q
+q
+q
 C
-a
-a
-a
-a
-a
-a
-a
-a
+d
+d
+d
+d
+d
+d
+d
+d
+C
 a
 a
 a
@@ -1702,23 +1655,23 @@ a
 a
 a
 a
-a
-a
 C
-e
-e
-e
-e
-e
+q
+q
+q
+q
+q
+q
 C
-a
-a
-a
-a
-a
-a
-a
-a
+d
+d
+d
+d
+d
+d
+d
+d
+C
 a
 a
 a
@@ -1784,23 +1737,23 @@ a
 a
 a
 a
-a
-a
 C
+q
+q
+q
+q
+q
+q
 C
+d
+d
+d
+d
+d
+d
+d
+d
 C
-C
-C
-C
-C
-a
-a
-a
-a
-a
-a
-a
-a
 a
 a
 a
@@ -1866,23 +1819,23 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
 a
 a
 a
