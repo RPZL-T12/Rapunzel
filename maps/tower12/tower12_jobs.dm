@@ -1,4 +1,4 @@
-/datum/map/testmap_alpha
+/datum/map/tower12
 	default_job_type = /datum/job/assistant
 	default_department_type = /decl/department/civilian_services
 	allowed_jobs = list(

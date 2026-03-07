@@ -37,6 +37,8 @@
 	#include "jobs/id_cards.dm"
 	#include "jobs/outfits.dm"
 
+	#include "tower12_combined.dmm"
+
 	#define USING_MAP_DATUM /datum/map/tower12
 
 #elif !defined(MAP_OVERRIDE)
