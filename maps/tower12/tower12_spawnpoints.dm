@@ -1,6 +1,6 @@
 /// TODO: Make this some sort of elevator to residential tower.
 
-/datum/map/testmap_alpha
+/datum/map/tower12
 	allowed_latejoin_spawns = list(
 		/decl/spawnpoint/cryo,
 	)
