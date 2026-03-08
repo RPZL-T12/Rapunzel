@@ -67,6 +67,26 @@
 	name = "\improper Kitchen Maintenance"
 	icon_state = "yellow"
 
+/area/tower12/aft_port_maint_d3
+	name = "\improper Deck Three - Aft Port Maintenance"
+	icon_state = "yellow"
+
+/area/tower12/fore_maint_d3
+	name = "\improper Deck Three - Fore Maintenance"
+	icon_state = "yellow"
+
+/area/tower12/fore_starboard_maint_d3
+	name = "\improper Deck Three - Fore Starboard Maintenance"
+	icon_state = "yellow"
+
+/area/tower12/aft_starboard_maint_d3
+	name = "\improper Deck Three - Aft Starboard Maintenance"
+	icon_state = "yellow"
+
+/area/tower12/central_maint_d3
+	name = "\improper Deck Three - Central Maintenance"
+	icon_state = "yellow"
+
 ///// Engine //////
 
 /area/tower12/engine_room
@@ -155,6 +175,14 @@
 	name = "\improper Central Staircase - Deck Three"
 	icon_state = "green"
 
+/area/tower12/upperdeck_staircase_d3
+	name = "\improper Upper Deck Staircase - Deck Three"
+	icon_state = "green"
+
+/area/tower12/upperdeck_staircase_d4
+	name = "\improper Upper Deck Staircase - Deck Four"
+	icon_state = "green"
+
 ///// Hallways /////
 
 /area/tower12/aft_starboard_hallway_d2
@@ -171,6 +199,26 @@
 
 /area/tower12/fore_hall_d2
 	name = "\improper Fore Hallway - Deck Two"
+	icon_state = "green"
+
+/area/tower12/fore_port_hall_d3
+	name = "\improper Fore Port Hallway - Deck Three"
+	icon_state = "green"
+
+/area/tower12/aft_port_hall_d3
+	name = "\improper Aft Port Hallway - Deck Three"
+	icon_state = "green"
+
+/area/tower12/fore_starboard_hall_d3
+	name = "\improper Fore Starboard Hallway - Deck Three"
+	icon_state = "green"
+
+/area/tower12/aft_starboard_hall_d3
+	name = "\improper Aft Starboard Hallway - Deck Three"
+	icon_state = "green"
+
+/area/tower12/docking_arm
+	name = "\improper Main Docking Arm"
 	icon_state = "green"
 
 ///// Supply /////
@@ -198,6 +246,42 @@
 ///// Trauma Center /////
 /area/tower12/cmo_office
 	name = "\improper CMO's Office"
+	icon_state = "medbay"
+
+/area/tower12/trauma_center_lobby
+	name = "\improper Trauma Center Lobby"
+	icon_state = "medbay"
+
+/area/tower12/trauma_recovery
+	name = "\improper Recovery Ward"
+	icon_state = "medbay"
+
+/area/tower12/trauma_gtc
+	name = "\improper General Treatment Center"
+	icon_state = "medbay"
+
+/area/tower12/trauma_icu
+	name = "\improper Intensive Care Unit"
+	icon_state = "medbay"
+
+/area/tower12/trauma_or_joint
+	name = "\improper Joint Operating Room"
+	icon_state = "medbay"
+
+/area/tower12/trauma_chem
+	name = "\improper Medical Chemistry Lab"
+	icon_state = "medbay"
+
+/area/tower12/trauma_hall
+	name = "\improper Trauma Center Hallway"
+	icon_state = "medbay"
+
+/area/tower12/morgue
+	name = "\improper Morgue"
+	icon_state = "medbay"
+
+/area/tower12/medical_storage
+	name = "\improper Trauma Center Storage"
 	icon_state = "medbay"
 
 ///// Medical Waypoints /////
@@ -238,6 +322,14 @@
 	name = "\improper EPS Stairwell - Deck Three"
 	icon_state = "security"
 
+/area/tower12/security_checkpoint_booth
+	name = "\improper Security Checkpoint Booth"
+	icon_state = "security"
+
+/area/tower12/security_checkpoint
+	name = "\improper Security Checkpoint"
+	icon_state = "security"
+
 ///// Civillian Services /////
 
 /area/tower12/kitchen
@@ -255,3 +347,27 @@
 /area/tower12/residential_exit
 	name = "\improper Residential Transport"
 	icon_state = "cryo"
+
+/area/tower12/bar
+	name = "\improper Bar"
+	icon_state = "bar"
+
+/area/tower12/bar_backroom
+	name = "\improper Bar Backroom"
+	icon_state = "bar"
+
+/area/tower12/public_garden
+	name = "\improper Public Garden"
+	icon_state = "hydro"
+
+/area/tower12/chapel
+	name = "\improper Chapel"
+	icon_state = "chapel"
+
+/area/tower12/chapel_office
+	name = "\improper Spiritual Services Office"
+	icon_state = "chapeloffice"
+
+/area/tower12/custodial
+	name = "\improper Custodial Closet"
+	icon_state = "janitor"
