@@ -239,6 +239,10 @@
 	name = "\improper Supply Desk"
 	icon_state = "storage"
 
+/area/tower12/disposals
+	name = "\improper Disposals"
+	icon_state = "storage"
+
 /area/tower12/warehouse
 	name = "\improper Warehouse"
 	icon_state = "storage"
