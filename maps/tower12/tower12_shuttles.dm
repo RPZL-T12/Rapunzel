@@ -1,3 +1,5 @@
+///// Supply Shuttle
+
 /obj/effect/shuttle_landmark/supply_station
 	name = "SUPPLY"
 	landmark_tag = "nav_supply"
@@ -26,3 +28,20 @@
 		"PORT" = "supply_shuttle_port"
 	)
 	ceiling_type = /turf/floor/shuttle_ceiling
+
+///// Central Elevator
+
+/obj/abstract/turbolift_spawner/central
+	name = "Central Elevator"
+	icon = 'icons/obj/turbolift_preview_5x5.dmi'
+	depth = 4
+	lift_size_x = 4
+	lift_size_y = 4
+	areas_to_use = list(
+		/area/turbolift/central_d1,
+		/area/turbolift/central_d2,
+		/area/turbolift/central_d3,
+		/area/turbolift/central_d4
+	)
+	floor_departure_sound = 'sound/effects/lift_heavy_start.ogg'
+	floor_arrival_sound = 'sound/effects/lift_heavy_stop.ogg'

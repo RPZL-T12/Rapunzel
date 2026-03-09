@@ -445,3 +445,38 @@
 /area/tower12/uta_rep_office
 	name = "\improper Upper Tower Representative's Office"
 	icon_state = "bridge"
+
+///// Turbolift //////
+
+/area/turbolift
+	name = "\improper Turbolift"
+	icon_state = "shuttle"
+	requires_power = 0
+	dynamic_lighting = 1
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_NO_LEGACY_PERSISTENCE | AREA_FLAG_CONSTRUCTED
+	icon_state = "shuttlegrn"
+
+/area/turbolift/central_d1
+	name = "lift (underdeck)"
+	lift_floor_label = "Underdeck"
+	lift_floor_name = "Underdeck"
+	lift_announce_str = "Arriving at Deck One: Engine. Atmospherics. Supply Operations."
+	base_turf = /turf/floor/plating
+
+/area/turbolift/central_d2
+	name = "lift (lower deck)"
+	lift_floor_label = "Lower Deck"
+	lift_floor_name = "Lower Deck"
+	lift_announce_str = "Arriving at Deck Two: Kitchen. Hydroponics. Residential Departure. EPS. Station Supply Store."
+
+/area/turbolift/central_d3
+	name = "lift (upper deck)"
+	lift_floor_label = "Upper Deck"
+	lift_floor_name = "Upper Deck"
+	lift_announce_str = "Arriving at Deck Three: Garden. Bar. Chapel. Security. Trauma Center. Custodial."
+
+/area/turbolift/central_d4
+	name = "lift (top deck)"
+	lift_floor_label = "Top Deck"
+	lift_floor_name = "Top Deck"
+	lift_announce_str = "Arriving at Deck Four: Bridge. Upper Tower Authority's Office. Telecommunications."

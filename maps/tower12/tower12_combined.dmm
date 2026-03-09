@@ -8,7 +8,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/floor/carpet/purple,
+/turf/floor/tiled,
 /area/tower12/dept_coordinator_bedroom)
 "ac" = (
 /obj/machinery/alarm{
@@ -126,9 +126,8 @@
 /turf/floor/carpet/purple,
 /area/tower12/dept_coordinator_bedroom)
 "ar" = (
-/obj/machinery/network/message_server{
-	initial_network_id = "tower12";
-	initial_network_key = "1234"
+/obj/machinery/network/router{
+	initial_network_id = "tower12"
 	},
 /turf/floor/greengrid,
 /area/tower12/telecomms_servers)
@@ -489,11 +488,16 @@
 /area/tower12/fore_maint_d3)
 "bx" = (
 /obj/machinery/network/acl{
-	initial_network_id = "tower12";
-	initial_network_key = "1234"
+	initial_network_id = "tower12"
 	},
 /turf/floor/greengrid,
 /area/tower12/telecomms_servers)
+"by" = (
+/obj/structure/chair/comfy/black{
+	dir = 1
+	},
+/turf/floor/wood/mahogany,
+/area/tower12/dept_coordinator_office)
 "bB" = (
 /obj/machinery/commsrelay,
 /turf/floor/greengrid,
@@ -638,7 +642,8 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass/command{
 	name = "Bridge";
-	req_access = list("ACCESS_COMMAND")
+	req_access = list("ACCESS_COMMAND");
+	id_tag = "bridge_door"
 	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -648,6 +653,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
+	},
+/obj/machinery/door/blast/regular/open{
+	id_tag = "bridge_lockdown";
+	name = "Lockdown Shutter"
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/bridge)
@@ -745,6 +754,11 @@
 /obj/structure/window/reinforced/full,
 /turf/floor/plating,
 /area/tower12/aid_station/bridge_d4)
+"cd" = (
+/obj/structure/table/wood/ebony,
+/obj/machinery/chemical_dispenser/bar_coffee/full,
+/turf/floor/carpet/blue2,
+/area/tower12/bridge_meeting)
 "ch" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -797,6 +811,12 @@
 	},
 /turf/floor/tiled,
 /area/tower12/central_elevator_d1)
+"co" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/floor/carpet/blue2,
+/area/tower12/bridge_meeting)
 "cq" = (
 /obj/structure/stairs/long/north,
 /turf/floor/tiled,
@@ -807,12 +827,12 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/table/wood/ebony,
 /turf/floor/carpet/blue2,
 /area/tower12/bridge_meeting)
 "cs" = (
-/obj/machinery/network/router{
-	initial_network_id = "tower12";
-	initial_network_key = "1234"
+/obj/machinery/network/message_server{
+	initial_network_id = "tower12"
 	},
 /turf/floor/greengrid,
 /area/tower12/telecomms_servers)
@@ -935,6 +955,11 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/floor/tiled,
 /area/tower12/bar_backroom)
+"cN" = (
+/obj/structure/table/wood/ebony,
+/obj/item/box/glasses/coffeecup,
+/turf/floor/wood/mahogany,
+/area/tower12/dept_coordinator_office)
 "cO" = (
 /obj/machinery/vitals_monitor,
 /turf/floor/tiled,
@@ -1080,6 +1105,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/flora/pottedplant/shoot,
 /turf/floor/wood/mahogany,
 /area/tower12/dept_coordinator_office)
 "dl" = (
@@ -1216,6 +1242,13 @@
 	},
 /turf/floor/tiled,
 /area/tower12/security_checkpoint)
+"dC" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/table/wood/ebony,
+/turf/floor/wood/mahogany,
+/area/tower12/dept_coordinator_office)
 "dD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/floor/tiled/white,
@@ -1299,6 +1332,16 @@
 "dP" = (
 /turf/wall/r_wall,
 /area/tower12/substation_d2)
+"dQ" = (
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/regular/open{
+	id_tag = "dept_coord_office_lockdown";
+	name = "Lockdown Shutter"
+	},
+/obj/structure/window/reinforced/full,
+/turf/floor/plating,
+/area/tower12/dept_coordinator_office)
 "dR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -1882,6 +1925,11 @@
 /obj/structure/cable/green{
 	icon_state = "0-2"
 	},
+/obj/structure/table/desk/dresser,
+/obj/item/clothing/costume/captainformal,
+/obj/item/clothing/suit/jacket/captain,
+/obj/item/clothing/costume/centcom_captain,
+/obj/item/card/id/captains_spare,
 /turf/floor/carpet/purple,
 /area/tower12/dept_coordinator_bedroom)
 "fy" = (
@@ -1911,15 +1959,22 @@
 	},
 /turf/floor/tiled,
 /area/tower12/trauma_center_lobby)
+"fD" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/closet/emcloset,
+/turf/floor/wood/mahogany,
+/area/tower12/upperdeck_staircase_d4)
 "fE" = (
 /turf/wall/r_wall,
 /area/tower12/cmo_office)
 "fF" = (
-/obj/structure/railing/mapped/wooden/mahogany{
-	dir = 4
-	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
+	},
+/obj/structure/railing/mapped/wooden/ebony{
+	dir = 4
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/central_elevator_d4)
@@ -2311,7 +2366,7 @@
 "gE" = (
 /obj/structure/grille,
 /obj/machinery/door/firedoor,
-/obj/structure/window/reinforced/full,
+/obj/structure/window/reinforced/polarized/full,
 /turf/floor/plating,
 /area/tower12/uta_rep_office)
 "gF" = (
@@ -2509,6 +2564,10 @@
 	},
 /turf/floor/plating,
 /area/tower12/substation_d4)
+"hl" = (
+/obj/structure/chair/office/comfy/blue,
+/turf/floor/carpet/blue2,
+/area/tower12/bridge_meeting)
 "hm" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/floor/tiled,
@@ -2732,9 +2791,7 @@
 /turf/floor/tiled,
 /area/tower12/central_staircase_d1)
 "hQ" = (
-/obj/machinery/alarm{
-	pixel_y = 24
-	},
+/obj/structure/table/wood/ebony,
 /turf/floor/wood/mahogany,
 /area/tower12/dept_coordinator_office)
 "hR" = (
@@ -2794,7 +2851,7 @@
 /turf/floor/tiled,
 /area/tower12/warehouse)
 "hZ" = (
-/obj/structure/railing/mapped/wooden/mahogany{
+/obj/structure/railing/mapped/wooden/ebony{
 	dir = 1
 	},
 /turf/floor/wood/mahogany,
@@ -3008,11 +3065,11 @@
 /turf/floor/tiled,
 /area/tower12/aft_starboard_hallway_d2)
 "iD" = (
-/obj/structure/railing/mapped/wooden/mahogany{
-	dir = 8
-	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
+	},
+/obj/structure/railing/mapped/wooden/ebony{
+	dir = 8
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/central_elevator_d4)
@@ -3234,6 +3291,10 @@
 "jj" = (
 /turf/floor/tiled,
 /area/tower12/trauma_hall)
+"jk" = (
+/obj/structure/table/wood/ebony,
+/turf/floor/wood/mahogany,
+/area/tower12/bridge)
 "jl" = (
 /turf/floor/plating,
 /area/tower12/central_staircase_d2)
@@ -3397,10 +3458,10 @@
 /turf/floor/tiled/white,
 /area/tower12/kitchen)
 "jI" = (
-/obj/structure/railing/mapped/wooden/mahogany{
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/railing/mapped/wooden/ebony{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/floor/wood/mahogany,
 /area/tower12/central_elevator_d4)
 "jJ" = (
@@ -3448,6 +3509,15 @@
 "jP" = (
 /turf/wall/r_wall,
 /area/tower12/fore_starboard_maint_d3)
+"jQ" = (
+/obj/machinery/button/blast_door{
+	pixel_y = 27;
+	id_tag = "bridge_lockdown";
+	name = "Bridge Lockdown"
+	},
+/obj/structure/table/wood/ebony,
+/turf/floor/wood/mahogany,
+/area/tower12/bridge)
 "jR" = (
 /obj/structure/grille,
 /obj/machinery/door/firedoor,
@@ -3510,8 +3580,8 @@
 /turf/floor/tiled,
 /area/tower12/port_hall_d2)
 "kc" = (
-/turf/floor/plating,
-/area/tower12/central_elevator_d3)
+/turf/unsimulated/mask,
+/area/turbolift/central_d3)
 "kd" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -3803,6 +3873,9 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/machinery/computer/modular/preset/engineering/atmospherics{
+	dir = 4
+	},
 /turf/floor/wood/mahogany,
 /area/tower12/bridge)
 "kW" = (
@@ -3965,6 +4038,12 @@
 	},
 /turf/floor/tiled,
 /area/tower12/supply_dock)
+"ls" = (
+/obj/structure/chair/comfy/black{
+	dir = 4
+	},
+/turf/floor/carpet/blue2,
+/area/tower12/uta_rep_office)
 "lt" = (
 /obj/machinery/light{
 	dir = 8
@@ -3980,6 +4059,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
+	},
+/obj/structure/chair/office/comfy/blue{
+	dir = 1
 	},
 /turf/floor/carpet/blue2,
 /area/tower12/bridge_meeting)
@@ -4290,6 +4372,15 @@
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/bar)
+"mf" = (
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/obj/structure/chair/office/comfy/beige{
+	dir = 1
+	},
+/turf/floor/wood/mahogany,
+/area/tower12/bridge)
 "mg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4331,7 +4422,7 @@
 "mm" = (
 /obj/machinery/door/airlock/lift,
 /obj/machinery/door/firedoor,
-/turf/floor/plating,
+/turf/floor/tiled,
 /area/tower12/central_elevator_d3)
 "mn" = (
 /obj/machinery/door/firedoor,
@@ -4686,6 +4777,12 @@
 	},
 /turf/floor/tiled,
 /area/tower12/warehouse)
+"nl" = (
+/obj/structure/mirror{
+	pixel_y = -28
+	},
+/turf/floor/carpet/purple,
+/area/tower12/dept_coordinator_bedroom)
 "nm" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass/civilian,
@@ -4738,9 +4835,8 @@
 /turf/floor/plating,
 /area/tower12/central_maint_d1)
 "nu" = (
-/obj/machinery/door/airlock/lift,
-/turf/floor/tiled,
-/area/tower12/central_elevator_d2)
+/turf/unsimulated/mask,
+/area/turbolift/central_d4)
 "nv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -4765,8 +4861,7 @@
 /area/tower12/public_garden)
 "ny" = (
 /obj/machinery/network/relay/wall_mounted/west{
-	initial_network_id = "tower12";
-	initial_network_key = "1234"
+	initial_network_id = "tower12"
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/eps_coord_office)
@@ -4853,6 +4948,7 @@
 /obj/machinery/alarm{
 	pixel_y = 24
 	},
+/obj/structure/table/wood/ebony,
 /turf/floor/wood/mahogany,
 /area/tower12/bridge)
 "nN" = (
@@ -5138,6 +5234,7 @@
 /obj/structure/cable/green{
 	icon_state = "0-2"
 	},
+/obj/structure/table/wood/ebony,
 /turf/floor/wood/mahogany,
 /area/tower12/bridge)
 "oy" = (
@@ -5547,8 +5644,7 @@
 /area/tower12/upperdeck_staircase_d3)
 "px" = (
 /obj/machinery/network/telecomms_hub{
-	initial_network_id = "tower12";
-	initial_network_key = "1234"
+	initial_network_id = "tower12"
 	},
 /turf/floor/greengrid,
 /area/tower12/telecomms_servers)
@@ -5711,6 +5807,13 @@
 	},
 /turf/floor/tiled,
 /area/tower12/trauma_gtc)
+"pU" = (
+/obj/structure/table/wood/ebony,
+/obj/machinery/chemical_dispenser/bar_coffee/full{
+	dir = 1
+	},
+/turf/floor/wood/mahogany,
+/area/tower12/dept_coordinator_office)
 "pV" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -5743,6 +5846,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
+/obj/structure/chair/comfy/black,
 /turf/floor/wood/mahogany,
 /area/tower12/dept_coordinator_office)
 "pZ" = (
@@ -5892,6 +5996,10 @@
 /obj/machinery/door/firedoor,
 /turf/floor/plating,
 /area/tower12/fore_starboard_maint_d3)
+"qs" = (
+/obj/structure/flora/pottedplant/fern,
+/turf/floor/carpet/blue2,
+/area/tower12/uta_rep_office)
 "qt" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -6026,6 +6134,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
+/obj/structure/table/wood/ebony,
 /turf/floor/carpet/blue2,
 /area/tower12/bridge_meeting)
 "qI" = (
@@ -6522,6 +6631,13 @@
 /obj/machinery/light,
 /turf/floor/tiled,
 /area/tower12/engineering_eva)
+"rP" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/closet/emcloset,
+/turf/floor/wood/mahogany,
+/area/tower12/bridge_hallway)
 "rQ" = (
 /obj/machinery/alarm{
 	dir = 8;
@@ -6657,6 +6773,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
+	},
+/obj/machinery/computer/modular/preset/cardslot/command{
+	dir = 4
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/bridge)
@@ -7072,6 +7191,7 @@
 /obj/machinery/alarm{
 	pixel_y = 19
 	},
+/obj/structure/closet/emcloset,
 /turf/floor/wood/mahogany,
 /area/tower12/central_elevator_d4)
 "tp" = (
@@ -7102,10 +7222,10 @@
 /turf/floor/tiled,
 /area/tower12/trauma_gtc)
 "tv" = (
-/obj/structure/railing/mapped/wooden/mahogany{
+/obj/structure/railing/mapped/wooden/ebony{
 	dir = 4
 	},
-/obj/structure/railing/mapped/wooden/mahogany{
+/obj/structure/railing/mapped/wooden/ebony{
 	dir = 1
 	},
 /turf/floor/wood/mahogany,
@@ -7188,7 +7308,11 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/floor/carpet/purple,
+/obj/structure/hygiene/toilet{
+	dir = 8
+	},
+/obj/structure/window/reinforced,
+/turf/floor/tiled,
 /area/tower12/dept_coordinator_bedroom)
 "tG" = (
 /turf/wall/r_wall,
@@ -7602,6 +7726,10 @@
 /obj/machinery/light/small,
 /turf/floor/plating,
 /area/tower12/fore_starboard_maint_d2)
+"uP" = (
+/obj/machinery/computer/modular/preset/cardslot/command,
+/turf/floor/carpet/blue2,
+/area/tower12/uta_rep_office)
 "uQ" = (
 /obj/machinery/light{
 	dir = 1
@@ -7633,6 +7761,10 @@
 /obj/structure/window/reinforced/full,
 /turf/floor/plating,
 /area/tower12/aid_station/central_d2)
+"uV" = (
+/obj/structure/chair/office/comfy/black,
+/turf/floor/carpet/blue2,
+/area/tower12/uta_rep_office)
 "uW" = (
 /obj/machinery/light{
 	dir = 8
@@ -7662,6 +7794,9 @@
 /obj/structure/table/marble,
 /turf/floor/tiled/white,
 /area/tower12/kitchen)
+"va" = (
+/turf/unsimulated/mask,
+/area/turbolift/central_d2)
 "vb" = (
 /obj/machinery/door/airlock/double/glass/security{
 	name = "EPS - EMT Lockers";
@@ -7709,6 +7844,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
+/obj/structure/chair/office/comfy/beige,
 /turf/floor/wood/mahogany,
 /area/tower12/bridge)
 "vg" = (
@@ -7787,10 +7923,10 @@
 /turf/floor/tiled,
 /area/tower12/engineering_eva)
 "vo" = (
-/obj/structure/railing/mapped/wooden/mahogany{
+/obj/structure/railing/mapped/wooden/ebony{
 	dir = 8
 	},
-/obj/structure/railing/mapped/wooden/mahogany{
+/obj/structure/railing/mapped/wooden/ebony{
 	dir = 1
 	},
 /turf/floor/wood/mahogany,
@@ -7918,8 +8054,8 @@
 /turf/floor/tiled,
 /area/tower12/fore_hall_d2)
 "vI" = (
-/turf/floor/plating,
-/area/tower12/central_elevator_d1)
+/turf/unsimulated/mask,
+/area/turbolift/central_d1)
 "vJ" = (
 /obj/machinery/portable_atmospherics/hydroponics/soil/invisible,
 /obj/machinery/light{
@@ -8155,6 +8291,15 @@
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/trauma_recovery)
+"wq" = (
+/obj/structure/chair/office/comfy/blue{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/floor/carpet/blue2,
+/area/tower12/bridge_meeting)
 "wr" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/medical,
@@ -8239,8 +8384,7 @@
 /area/tower12/fore_starboard_hallway_d2)
 "wB" = (
 /obj/machinery/network/relay/wall_mounted/south{
-	initial_network_id = "tower12";
-	initial_network_key = "1234"
+	initial_network_id = "tower12"
 	},
 /turf/floor/wood/yew,
 /area/tower12/civil_manager_office)
@@ -8845,6 +8989,12 @@
 	},
 /turf/floor/tiled,
 /area/tower12/brig)
+"yk" = (
+/obj/structure/chair/office/comfy/black{
+	dir = 8
+	},
+/turf/floor/wood/mahogany,
+/area/tower12/dept_coordinator_office)
 "yl" = (
 /obj/structure/cable/green{
 	icon_state = "0-2"
@@ -9583,6 +9733,22 @@
 	},
 /turf/floor/tiled,
 /area/tower12/engine_observation)
+"Ad" = (
+/obj/structure/table/wood/mahogany,
+/obj/item/paper_bin,
+/obj/item/pen{
+	pixel_x = 6
+	},
+/obj/item/pen/blue{
+	pixel_y = 3;
+	pixel_x = 3
+	},
+/obj/item/pen/red{
+	pixel_y = 6;
+	pixel_x = -1
+	},
+/turf/floor/carpet/blue2,
+/area/tower12/uta_rep_office)
 "Ae" = (
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -9825,10 +9991,10 @@
 /turf/floor/tiled,
 /area/tower12/atmospherics)
 "AQ" = (
-/obj/structure/railing/mapped/wooden/mahogany{
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/railing/mapped/wooden/ebony{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/floor/wood/mahogany,
 /area/tower12/central_elevator_d4)
 "AR" = (
@@ -10072,6 +10238,7 @@
 /area/tower12/bar)
 "Bx" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/chair/office/comfy/blue,
 /turf/floor/carpet/blue2,
 /area/tower12/bridge_meeting)
 "By" = (
@@ -10132,6 +10299,16 @@
 "BG" = (
 /turf/wall/r_wall,
 /area/tower12/bar_backroom)
+"BH" = (
+/obj/machinery/button/windowtint{
+	pixel_x = -24;
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/floor/carpet/blue2,
+/area/tower12/bridge_meeting)
 "BI" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -10265,8 +10442,12 @@
 /turf/floor/tiled,
 /area/tower12/aft_starboard_hallway_d2)
 "BX" = (
-/turf/wall/elevator,
-/area/tower12/central_elevator_d2)
+/obj/machinery/light,
+/obj/structure/chair/comfy/black{
+	dir = 4
+	},
+/turf/floor/carpet/blue2,
+/area/tower12/uta_rep_office)
 "BY" = (
 /obj/structure/cable/green{
 	icon_state = "2-4"
@@ -10330,6 +10511,18 @@
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/bridge_hallway)
+"Ck" = (
+/obj/structure/table/wood/mahogany,
+/obj/item/stamp/boss{
+	pixel_y = -1;
+	pixel_x = 8
+	},
+/obj/item/stamp/denied{
+	pixel_y = 2;
+	pixel_x = -2
+	},
+/turf/floor/carpet/blue2,
+/area/tower12/uta_rep_office)
 "Cl" = (
 /obj/machinery/smartfridge/drinks{
 	opacity = 1
@@ -10952,6 +11145,10 @@
 	},
 /turf/floor/tiled/white,
 /area/tower12/kitchen)
+"DS" = (
+/obj/structure/closet/emcloset,
+/turf/floor/wood/mahogany,
+/area/tower12/central_elevator_d4)
 "DT" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/floor/tiled,
@@ -10982,6 +11179,10 @@
 /obj/structure/grille,
 /obj/machinery/door/firedoor,
 /obj/structure/window/reinforced/full,
+/obj/machinery/door/blast/regular/open{
+	id_tag = "bridge_lockdown";
+	name = "Lockdown Shutter"
+	},
 /turf/floor/plating,
 /area/tower12/bridge)
 "DZ" = (
@@ -11372,6 +11573,10 @@
 /obj/machinery/atmospherics/pipe/manifold/visible/supply,
 /turf/floor/plating,
 /area/tower12/substation_d3)
+"Fe" = (
+/obj/structure/chair/office/comfy/beige,
+/turf/space,
+/area/space)
 "Ff" = (
 /obj/machinery/light{
 	dir = 4
@@ -11741,7 +11946,7 @@
 /turf/floor/tiled,
 /area/tower12/atmospherics)
 "Gm" = (
-/obj/structure/railing/mapped/wooden/mahogany,
+/obj/structure/railing/mapped/wooden/ebony,
 /turf/floor/wood/mahogany,
 /area/tower12/central_elevator_d4)
 "Gn" = (
@@ -11751,13 +11956,18 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/command{
 	name = "Department Coordinator's Office";
-	req_access = list("ACCESS_COMMAND", "ACCESS_CAPTAIN")
+	req_access = list("ACCESS_COMMAND", "ACCESS_CAPTAIN");
+	id_tag = "dept_coord_office"
 	},
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/blast/regular/open{
+	id_tag = "dept_coord_office_lockdown";
+	name = "Lockdown Shutter"
+	},
 /turf/floor/wood/mahogany,
 /area/tower12/dept_coordinator_office)
 "Gp" = (
@@ -11865,6 +12075,11 @@
 "GC" = (
 /turf/floor/tiled,
 /area/tower12/security_lockers)
+"GD" = (
+/obj/structure/table/wood/ebony,
+/obj/item/box/glasses/coffeecup,
+/turf/floor/carpet/blue2,
+/area/tower12/bridge_meeting)
 "GE" = (
 /obj/machinery/light,
 /turf/floor/tiled,
@@ -12134,8 +12349,7 @@
 /area/tower12/central_maint_d4)
 "Ht" = (
 /obj/machinery/network/relay/wall_mounted/south{
-	initial_network_id = "tower12";
-	initial_network_key = "1234"
+	initial_network_id = "tower12"
 	},
 /turf/floor/wood/yew,
 /area/tower12/cmo_office)
@@ -12262,6 +12476,9 @@
 "HO" = (
 /obj/machinery/light{
 	dir = 4
+	},
+/obj/structure/chair/office/comfy/blue{
+	dir = 8
 	},
 /turf/floor/carpet/blue2,
 /area/tower12/bridge_meeting)
@@ -12533,6 +12750,10 @@
 	},
 /turf/floor/tiled,
 /area/tower12/central_elevator_d2)
+"ID" = (
+/obj/structure/closet/emcloset,
+/turf/floor/wood/mahogany,
+/area/tower12/bridge_hallway)
 "IE" = (
 /obj/machinery/light{
 	dir = 8
@@ -12584,6 +12805,10 @@
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/bar)
+"IL" = (
+/obj/abstract/turbolift_spawner/central,
+/turf/unsimulated/mask,
+/area/turbolift/central_d1)
 "IM" = (
 /obj/machinery/light{
 	dir = 1
@@ -12847,6 +13072,14 @@
 	},
 /turf/floor/tiled,
 /area/tower12/aft_starboard_hallway_d2)
+"Jz" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/table/wood/mahogany,
+/obj/item/box/glasses/coffeecup,
+/turf/floor/carpet/blue2,
+/area/tower12/uta_rep_office)
 "JA" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -12927,6 +13160,7 @@
 /area/tower12/armory)
 "JN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/table/wood/ebony,
 /turf/floor/carpet/blue2,
 /area/tower12/bridge_meeting)
 "JO" = (
@@ -12942,6 +13176,10 @@
 /obj/machinery/light/small,
 /turf/floor/plating,
 /area/tower12/aft_port_maint_d2)
+"JR" = (
+/obj/structure/table/wood/ebony,
+/turf/floor/carpet/blue2,
+/area/tower12/bridge_meeting)
 "JS" = (
 /obj/structure/chair/office/comfy/teal{
 	dir = 4
@@ -13132,6 +13370,9 @@
 /area/tower12/central_elevator_d2)
 "Kt" = (
 /obj/machinery/light,
+/obj/structure/chair/comfy/black{
+	dir = 8
+	},
 /turf/floor/carpet/blue2,
 /area/tower12/uta_rep_office)
 "Ku" = (
@@ -13270,6 +13511,10 @@
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/floor/tiled,
 /area/tower12/engineering_eva)
+"KJ" = (
+/obj/structure/closet/secure_closet/captains,
+/turf/floor/carpet/purple,
+/area/tower12/dept_coordinator_bedroom)
 "KK" = (
 /obj/structure/cable/orange{
 	icon_state = "2-8"
@@ -13325,6 +13570,16 @@
 "KQ" = (
 /turf/wall/r_wall,
 /area/tower12/security_checkpoint)
+"KR" = (
+/obj/machinery/door/firedoor,
+/obj/structure/grille,
+/obj/structure/window/reinforced/polarized/full,
+/obj/machinery/door/blast/regular/open{
+	id_tag = "dept_coord_office_lockdown";
+	name = "Lockdown Shutter"
+	},
+/turf/floor/plating,
+/area/tower12/dept_coordinator_office)
 "KS" = (
 /turf/floor/wood/mahogany,
 /area/tower12/chapel)
@@ -13489,6 +13744,13 @@
 	},
 /turf/floor/tiled,
 /area/tower12/medical_storage)
+"Ll" = (
+/obj/machinery/alarm/server{
+	dir = 4;
+	pixel_x = -21
+	},
+/turf/floor/greengrid,
+/area/tower12/telecomms_servers)
 "Lm" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -13797,6 +14059,12 @@
 	},
 /turf/floor/tiled,
 /area/tower12/supply_service_store)
+"Mh" = (
+/obj/machinery/computer/station_alert/all{
+	dir = 1
+	},
+/turf/floor/wood/mahogany,
+/area/tower12/bridge)
 "Mi" = (
 /turf/floor/tiled,
 /area/tower12/security_checkpoint)
@@ -14278,6 +14546,10 @@
 	},
 /turf/floor/tiled,
 /area/tower12/atmospherics)
+"Ny" = (
+/obj/machinery/light,
+/turf/floor/carpet/blue2,
+/area/tower12/bridge_meeting)
 "Nz" = (
 /obj/structure/chair/office/comfy/red{
 	dir = 4
@@ -14359,6 +14631,9 @@
 /area/tower12/central_elevator_d3)
 "NN" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/structure/chair/office/comfy/beige{
+	dir = 8
+	},
 /turf/floor/wood/mahogany,
 /area/tower12/bridge)
 "NO" = (
@@ -14764,6 +15039,13 @@
 	},
 /turf/floor/tiled,
 /area/tower12/fore_port_hall_d3)
+"OT" = (
+/obj/machinery/alarm/server{
+	dir = 8;
+	pixel_x = 21
+	},
+/turf/floor/greengrid,
+/area/tower12/telecomms_servers)
 "OU" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -14776,8 +15058,7 @@
 /area/tower12/secure_armory)
 "OV" = (
 /obj/machinery/network/mainframe{
-	initial_network_id = "tower12";
-	initial_network_key = "1234"
+	initial_network_id = "tower12"
 	},
 /turf/floor/greengrid,
 /area/tower12/telecomms_servers)
@@ -14875,6 +15156,11 @@
 /obj/machinery/light,
 /turf/floor/tiled,
 /area/tower12/trauma_center_lobby)
+"Pj" = (
+/obj/structure/bed/padded,
+/obj/item/bedsheet/captain,
+/turf/floor/carpet/purple,
+/area/tower12/dept_coordinator_bedroom)
 "Pk" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -14942,6 +15228,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
+/obj/structure/table/wood/ebony,
 /turf/floor/carpet/blue2,
 /area/tower12/bridge_meeting)
 "Ps" = (
@@ -15340,10 +15627,6 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -22
-	},
 /turf/floor/greengrid,
 /area/tower12/telecomms_servers)
 "Qz" = (
@@ -15510,6 +15793,10 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/floor/tiled,
 /area/tower12/security_hallway)
+"QV" = (
+/obj/structure/flora/pottedplant/orientaltree,
+/turf/floor/wood/mahogany,
+/area/tower12/bridge_hallway)
 "QW" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -15611,8 +15898,14 @@
 /turf/floor/wood/mahogany,
 /area/tower12/bridge_hallway)
 "Rj" = (
-/turf/floor/plating,
-/area/tower12/central_elevator_d4)
+/obj/structure/table/wood/mahogany,
+/obj/machinery/button/windowtint{
+	dir = 1;
+	pixel_y = 5;
+	pixel_x = -5
+	},
+/turf/floor/carpet/blue2,
+/area/tower12/uta_rep_office)
 "Rk" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/firstaid,
@@ -15779,6 +16072,21 @@
 "RJ" = (
 /turf/floor/wood/mahogany,
 /area/tower12/central_elevator_d2)
+"RK" = (
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/chair/office/comfy/blue{
+	dir = 1
+	},
+/turf/floor/carpet/blue2,
+/area/tower12/bridge_meeting)
 "RL" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -15815,6 +16123,13 @@
 	},
 /turf/floor/tiled,
 /area/tower12/fore_starboard_hallway_d2)
+"RQ" = (
+/obj/structure/table/wood/mahogany,
+/obj/machinery/chemical_dispenser/bar_coffee/full{
+	dir = 8
+	},
+/turf/floor/carpet/blue2,
+/area/tower12/uta_rep_office)
 "RR" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -15826,6 +16141,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/structure/table/wood/ebony,
 /turf/floor/wood/mahogany,
 /area/tower12/bridge)
 "RT" = (
@@ -16228,6 +16544,10 @@
 /obj/structure/grille,
 /obj/machinery/door/firedoor,
 /obj/structure/window/reinforced/full,
+/obj/machinery/door/blast/regular/open{
+	id_tag = "dept_coord_office_lockdown";
+	name = "Lockdown Shutter"
+	},
 /turf/floor/plating,
 /area/tower12/dept_coordinator_office)
 "SX" = (
@@ -16450,7 +16770,10 @@
 /turf/floor/tiled,
 /area/tower12/security_hallway)
 "Tw" = (
-/turf/floor/carpet/purple,
+/obj/structure/window/reinforced,
+/obj/structure/hygiene/shower,
+/obj/structure/curtain/open/shower,
+/turf/floor/tiled,
 /area/tower12/dept_coordinator_bedroom)
 "Tx" = (
 /obj/machinery/light{
@@ -16570,6 +16893,10 @@
 /obj/machinery/door/firedoor,
 /turf/floor/plating,
 /area/tower12/engineering_eva)
+"TL" = (
+/obj/structure/chair/comfy/black,
+/turf/floor/wood/mahogany,
+/area/tower12/dept_coordinator_office)
 "TM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -16640,6 +16967,12 @@
 	},
 /turf/floor/tiled,
 /area/tower12/engineering_hall)
+"TX" = (
+/obj/machinery/computer/modular/preset/cardslot/command{
+	dir = 8
+	},
+/turf/floor/wood/mahogany,
+/area/tower12/dept_coordinator_office)
 "TY" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
@@ -16678,6 +17011,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
+	},
+/obj/structure/chair/comfy/black{
+	dir = 8
 	},
 /turf/floor/carpet/blue2,
 /area/tower12/uta_rep_office)
@@ -16742,6 +17078,31 @@
 /obj/machinery/door/firedoor,
 /turf/floor/tiled,
 /area/tower12/fore_port_hall_d3)
+"Un" = (
+/obj/structure/table/wood/ebony,
+/obj/machinery/button/access{
+	pixel_y = -2;
+	pixel_x = -6;
+	name = "Office Door";
+	id_tag = "dept_coord_office"
+	},
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 22
+	},
+/obj/machinery/button/access{
+	pixel_y = -2;
+	pixel_x = 6;
+	name = "Bridge Door";
+	id_tag = "bridge_door"
+	},
+/obj/machinery/button/blast_door{
+	pixel_y = -4;
+	id_tag = "dept_coord_office_lockdown";
+	name = "Office Lockdown"
+	},
+/turf/floor/wood/mahogany,
+/area/tower12/dept_coordinator_office)
 "Uo" = (
 /obj/structure/cable/orange{
 	icon_state = "2-8"
@@ -16920,6 +17281,12 @@
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/floor/tiled,
 /area/tower12/engine_entry)
+"UN" = (
+/obj/machinery/computer/modular/preset/cardslot/personnel{
+	dir = 4
+	},
+/turf/floor/wood/mahogany,
+/area/tower12/bridge)
 "UO" = (
 /obj/structure/cable/green{
 	icon_state = "0-4"
@@ -16958,7 +17325,9 @@
 /turf/floor/tiled,
 /area/tower12/fore_starboard_hallway_d2)
 "UU" = (
-/obj/machinery/network/relay,
+/obj/machinery/network/relay{
+	initial_network_id = "tower12"
+	},
 /turf/floor/plating,
 /area/tower12/telecomms_relay)
 "UV" = (
@@ -17775,11 +18144,24 @@
 /obj/effect/floor_decal/corner/red,
 /turf/floor/tiled,
 /area/tower12/engineering_eva)
+"Xi" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/chair/comfy/black{
+	dir = 1
+	},
+/turf/floor/wood/mahogany,
+/area/tower12/dept_coordinator_office)
 "Xj" = (
 /obj/machinery/alarm{
 	pixel_y = 24
 	},
-/turf/floor/carpet/purple,
+/obj/structure/hygiene/sink{
+	dir = 1;
+	pixel_y = 20
+	},
+/turf/floor/tiled,
 /area/tower12/dept_coordinator_bedroom)
 "Xl" = (
 /obj/structure/table/steel_reinforced,
@@ -18210,6 +18592,10 @@
 /obj/structure/closet/secure_closet/freezer/meat,
 /turf/floor/tiled/freezer,
 /area/tower12/kitchen_coldroom)
+"YA" = (
+/obj/structure/table/wood/mahogany,
+/turf/floor/carpet/blue2,
+/area/tower12/uta_rep_office)
 "YB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -21800,7 +22186,7 @@ vI
 vI
 vI
 vI
-vI
+IL
 TE
 mx
 mN
@@ -22130,7 +22516,7 @@ vI
 vI
 vI
 TE
-mx
+zZ
 SB
 tc
 Sm
@@ -28357,11 +28743,11 @@ QQ
 HB
 HB
 Kw
-BX
-BX
-BX
-BX
-BX
+va
+va
+va
+va
+va
 Kw
 wz
 Kq
@@ -28439,11 +28825,11 @@ QQ
 HB
 HB
 Kw
-BX
-Kq
-Kq
-Kq
-nu
+va
+va
+va
+va
+va
 Eb
 Kq
 Kq
@@ -28521,11 +28907,11 @@ QQ
 HB
 HB
 Kw
-BX
-Kq
-Kq
-Kq
-nu
+va
+va
+va
+va
+va
 Eb
 Kq
 MV
@@ -28603,11 +28989,11 @@ QQ
 HB
 HB
 Kw
-BX
-Kq
-Kq
-Kq
-nu
+va
+va
+va
+va
+va
 Eb
 Kq
 IC
@@ -28685,13 +29071,13 @@ QQ
 BZ
 HB
 Kw
-BX
-BX
-BX
-BX
-BX
+va
+va
+va
+va
+va
 Kw
-wz
+Od
 AB
 Vb
 Kq
@@ -34625,7 +35011,7 @@ Tk
 Pg
 XQ
 XQ
-qc
+XQ
 XQ
 XQ
 XQ
@@ -35252,7 +35638,7 @@ kc
 kc
 kc
 Iq
-sT
+Ve
 Ve
 yL
 Kg
@@ -39348,7 +39734,7 @@ rY
 rY
 au
 au
-SW
+dQ
 SW
 SW
 SW
@@ -39430,10 +39816,10 @@ rY
 rY
 au
 dk
-CC
-dk
-CC
-dk
+TL
+dC
+hQ
+Xi
 CC
 au
 au
@@ -39513,11 +39899,11 @@ rY
 au
 CC
 pY
+hQ
+hQ
+by
 CC
-CC
-CC
-CC
-CC
+pU
 SW
 rY
 rY
@@ -39599,7 +39985,7 @@ CC
 dS
 CC
 CC
-CC
+cN
 SW
 rY
 rY
@@ -39668,9 +40054,9 @@ rY
 rY
 rY
 FY
-XO
+jQ
 kV
-XO
+UN
 sj
 RZ
 FX
@@ -39755,10 +40141,10 @@ XO
 NN
 iI
 XO
-XO
-au
-CC
-CC
+Mh
+KR
+hQ
+hQ
 CC
 au
 au
@@ -39833,19 +40219,19 @@ rY
 rY
 FY
 ox
-eh
+mf
 eh
 Tf
 vf
-XO
-au
+jk
+KR
 hQ
-CC
+yk
 CC
 ug
 fx
 yM
-Tw
+Pj
 ug
 rY
 rY
@@ -39914,16 +40300,16 @@ rY
 rY
 rY
 FY
-XO
+jk
 RS
 XO
 up
 RS
-XO
-au
-CC
+jk
+KR
+Un
 dF
-CC
+TX
 ug
 qe
 yS
@@ -40009,7 +40395,7 @@ au
 ug
 Xj
 ab
-Tw
+nl
 ug
 rY
 rY
@@ -40068,7 +40454,7 @@ XQ
 XQ
 rY
 vP
-ue
+ID
 ue
 Ri
 ue
@@ -40083,7 +40469,7 @@ ue
 vD
 Kz
 ue
-ue
+QV
 It
 ek
 tm
@@ -40091,7 +40477,7 @@ ZR
 ug
 Tw
 tF
-Tw
+KJ
 ug
 rY
 rY
@@ -40253,12 +40639,12 @@ tm
 sk
 sM
 CG
-mW
+uP
+iB
+Rj
 iB
 mW
-iB
-mW
-mW
+qs
 CG
 rY
 rY
@@ -40336,11 +40722,11 @@ Dh
 LF
 CG
 mW
+uV
+YA
 mW
-mW
-mW
-mW
-Kt
+ls
+BX
 gE
 rY
 rY
@@ -40404,9 +40790,9 @@ NI
 Ua
 be
 be
-be
+co
 eR
-be
+BH
 be
 be
 PS
@@ -40418,11 +40804,11 @@ lg
 xE
 CG
 mW
-mW
-mW
+Ck
+Ad
 aI
-mW
-mW
+YA
+YA
 gE
 rY
 rY
@@ -40566,23 +40952,23 @@ Cr
 Cr
 Rf
 Ua
-be
-be
-be
+GD
+hl
+JR
 Pr
-be
-eR
-be
+JR
+RK
+Ny
 PS
 ue
 Kz
 vD
 ue
 ue
-vD
+rP
 CG
-mW
-UQ
+RQ
+Jz
 mW
 UQ
 nI
@@ -40642,15 +41028,15 @@ XQ
 XQ
 rY
 Ua
-TZ
+fD
 sZ
 KB
 hS
 St
 Ua
+cd
 be
-HO
-be
+wq
 ca
 HO
 pd
@@ -40750,7 +41136,7 @@ ue
 ue
 ue
 Kz
-vD
+rP
 vP
 vP
 vP
@@ -41333,7 +41719,7 @@ SE
 SE
 SE
 bC
-SE
+DS
 Kf
 Kf
 Kf
@@ -41479,11 +41865,11 @@ SE
 iL
 SE
 MK
-Rj
-Rj
-Rj
-Rj
-Rj
+nu
+nu
+nu
+nu
+nu
 MK
 Ia
 SE
@@ -41555,17 +41941,17 @@ Gn
 ar
 bi
 xl
-bi
+Ll
 MK
 eI
 iL
 SE
 MK
-Rj
-Rj
-Rj
-Rj
-Rj
+nu
+nu
+nu
+nu
+nu
 AL
 SE
 SE
@@ -41643,11 +42029,11 @@ GT
 gz
 SE
 MK
-Rj
-Rj
-Rj
-Rj
-Rj
+nu
+nu
+nu
+nu
+nu
 AL
 SE
 SE
@@ -41719,17 +42105,17 @@ Gn
 cs
 LP
 iH
-bi
+OT
 MK
 SE
 dc
 EL
 MK
-Rj
-Rj
-Rj
-Rj
-Rj
+nu
+nu
+nu
+nu
+nu
 AL
 SE
 SE
@@ -41807,13 +42193,13 @@ SE
 vr
 nE
 MK
-Rj
-Rj
-Rj
-Rj
-Rj
+nu
+nu
+nu
+nu
+nu
 MK
-Ia
+SE
 SE
 qT
 ku
@@ -41989,7 +42375,7 @@ SE
 SE
 SE
 aO
-SE
+DS
 Kf
 Kf
 Kf
@@ -42145,7 +42531,7 @@ SE
 aO
 SE
 SE
-SE
+DS
 MK
 rY
 rY
@@ -43859,7 +44245,7 @@ XQ
 XQ
 XQ
 XQ
-XQ
+Fe
 XQ
 XQ
 XQ
