@@ -36,7 +36,7 @@
 	var/close_door_at = 0 //When to automatically close the door, if possible
 	var/connections = 0
 
-	var/autoset_access = TRUE // Determines whether the door will automatically set its access from the areas surrounding it. Can be used for mapping.
+	var/autoset_access = FALSE // Determines whether the door will automatically set its access from the areas surrounding it. Can be used for mapping.
 
 	//Multi-tile doors
 	dir = SOUTH

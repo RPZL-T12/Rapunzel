@@ -87,6 +87,14 @@
 	name = "\improper Deck Three - Central Maintenance"
 	icon_state = "yellow"
 
+/area/tower12/central_maint_d4
+	name = "\improper Deck Four - Central Maintenance"
+	icon_state = "yellow"
+
+/area/tower12/starboard_maint_d4
+	name = "\improper Deck Four - Starboard Maintenance"
+	icon_state = "yellow"
+
 ///// Engine //////
 
 /area/tower12/engine_room
@@ -141,6 +149,10 @@
 
 /area/tower12/substation_d3
 	name = "\improper Deck Three Substation"
+	icon_state = "engine_smes"
+
+/area/tower12/substation_d4
+	name = "\improper Deck Four Substation"
 	icon_state = "engine_smes"
 
 ///// Central Elevator /////
@@ -293,6 +305,9 @@
 /area/tower12/aid_station/central_d2
 	name = "\improper Central Aid Station - Deck Two"
 
+/area/tower12/aid_station/bridge_d4
+	name = "\improper Bridge Aid Station - Deck Four"
+
 ///// EPS /////
 /area/tower12/eps_coord_office
 	name = "\improper EPS Coordinator's Office"
@@ -328,6 +343,38 @@
 
 /area/tower12/security_checkpoint
 	name = "\improper Security Checkpoint"
+	icon_state = "security"
+
+/area/tower12/security_lobby
+	name = "\improper Security Lobby"
+	icon_state = "security"
+
+/area/tower12/security_hallway
+	name = "\improper Security Hallway"
+	icon_state = "security"
+
+/area/tower12/security_lockers
+	name = "\improper Security Lockers"
+	icon_state = "security"
+
+/area/tower12/armory
+	name = "\improper Armory"
+	icon_state = "security"
+
+/area/tower12/secure_armory
+	name = "\improper Secure Armory"
+	icon_state = "security"
+
+/area/tower12/security_processing
+	name = "\improper Security Processing"
+	icon_state = "security"
+
+/area/tower12/confiscated_items
+	name = "\improper Confiscated Items"
+	icon_state = "security"
+
+/area/tower12/brig
+	name = "\improper Brig"
 	icon_state = "security"
 
 ///// Civillian Services /////
@@ -371,3 +418,30 @@
 /area/tower12/custodial
 	name = "\improper Custodial Closet"
 	icon_state = "janitor"
+
+///// Bridge /////
+
+/area/tower12/bridge_hallway
+	name = "\improper Bridge Hall"
+	icon_state = "bridge_hallway"
+
+/area/tower12/bridge_meeting
+	name = "\improper Bridge Meeting Room"
+	icon_state = "bridge_meeting"
+
+/area/tower12/bridge
+	name = "\improper Bridge"
+	icon_state = "bridge"
+
+/area/tower12/dept_coordinator_office
+	name = "\improper Department Coordinator's Office"
+	icon_state = "bridge"
+
+/area/tower12/dept_coordinator_bedroom
+	name = "\improper Department Coordinator's Bedroom"
+	icon_state = "bridge"
+
+
+/area/tower12/uta_rep_office
+	name = "\improper Upper Tower Representative's Office"
+	icon_state = "bridge"
