@@ -40,3 +40,22 @@
 
 /obj/item/card/id/tower/head/uppertower
 	detail_color = COLOR_PURPLE
+
+///// EPS Access /////
+var/global/const/access_eps = "ACCESS_EPS"
+/datum/access/access_eps
+	id = access_eps
+	desc = "Emergency Public Services"
+	region = ACCESS_REGION_SECURITY
+
+var/global/const/access_eps_emt = "ACCESS_EPS_EMT"
+/datum/access/access_eps_emt
+	id = access_eps_emt
+	desc = "Emergency Public Services - EMT"
+	region = ACCESS_REGION_MEDBAY
+
+var/global/const/access_eps_utility = "ACCESS_EPS_UTILITY"
+/datum/access/access_eps_utility
+	id = access_eps_utility
+	desc = "Emergency Public Services - Utility"
+	region = ACCESS_REGION_ENGINEERING

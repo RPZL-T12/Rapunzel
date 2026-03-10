@@ -3,7 +3,22 @@
 /decl/outfit/job/tower/civilian
 	name = "Job - Civilian"
 	abstract_type = /decl/outfit/job/tower/civilian
+	l_ear = /obj/item/radio/headset
 	id_type = /obj/item/card/id/tower/civilian
+	shoes = /obj/item/clothing/shoes/color/black
+
+/decl/outfit/job/tower/civilian/assistant
+	name = "Job - Assistant"
+	uniform = /obj/item/clothing/jumpsuit/grey
+
+/decl/outfit/job/tower/civilian/chaplain
+	name = "Job - Chaplain"
+	uniform = /obj/item/clothing/jumpsuit/black
+
+/decl/outfit/job/tower/civilian/janitor
+	name = "Job - Janitor"
+	uniform = /obj/item/clothing/jumpsuit/janitor
+	shoes = /obj/item/clothing/shoes/galoshes
 
 /decl/outfit/job/tower/mess_hall
 	abstract_type = /decl/outfit/job/tower/mess_hall

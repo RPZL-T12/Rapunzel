@@ -18,6 +18,16 @@
 		SKILL_ANATOMY = SKILL_EXPERT,
 		SKILL_CHEMISTRY = SKILL_ADEPT
 	)
+	access = list(
+		access_heads,
+		access_medical,
+		access_medical_equip,
+		access_surgery,
+		access_chemistry,
+		access_morgue,
+		access_bridge,
+		access_keycard_auth
+	)
 
 /datum/job/medical/doctor
 	title = "Medical Doctor"
@@ -40,6 +50,12 @@
 		SKILL_ANATOMY = SKILL_EXPERT,
 		SKILL_CHEMISTRY = SKILL_BASIC
 	)
+	access = list(
+		access_medical,
+		access_medical_equip,
+		access_surgery,
+		access_morgue
+	)
 
 /datum/job/medical/nurse
 	title = "Nurse Practitioner"
@@ -58,4 +74,9 @@
 		SKILL_MEDICAL = SKILL_ADEPT,
 		SKILL_ANATOMY = SKILL_ADEPT,
 		SKILL_CHEMISTRY = SKILL_BASIC
+	)
+	access = list(
+		access_medical,
+		access_medical_equip,
+		access_morgue
 	)

@@ -17,5 +17,7 @@
 		/datum/job/engineering/maintenance,
 		/datum/job/chief_medical,
 		/datum/job/medical/doctor,
-		/datum/job/medical/nurse
+		/datum/job/medical/nurse,
+		/datum/job/chaplain,
+		/datum/job/janitor
 	)

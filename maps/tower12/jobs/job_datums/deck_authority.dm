@@ -2,9 +2,10 @@
 	title = "Upper Tower Representative"
 	supervisors = "the Upper Tower and its board of operations"
 	minimum_character_age = list("species_human" = 30) /// TODO: Add other species reqs
-	ideal_character_age = list("species_human" = 45)
+	ideal_character_age = list("species_human" = 65)
 	total_positions = 1
 	spawn_positions = 1
+	not_random_selectable = 1
 	department_types = list(
 		/decl/department/deck_authority
 	)
@@ -16,13 +17,17 @@
 		SKILL_COMPUTER = SKILL_ADEPT
 	)
 
+/datum/job/upper_tower_rep/get_access()
+	return get_all_station_access()
+
 /datum/job/department_coordinator
 	title = "Department Coordinator"
 	supervisors = "the Upper Tower Representative"
 	minimum_character_age = list("species_human" = 30)
-	ideal_character_age = list("species_human" = 40)
+	ideal_character_age = list("species_human" = 50)
 	total_positions = 1
 	spawn_positions = 1
+	not_random_selectable = 1
 	department_types = list(
 		/decl/department/deck_authority
 	)
@@ -33,3 +38,6 @@
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_COMPUTER = SKILL_ADEPT
 	)
+
+/datum/job/department_coordinator/get_access()
+	return get_all_station_access()

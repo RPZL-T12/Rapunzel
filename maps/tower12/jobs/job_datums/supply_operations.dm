@@ -22,6 +22,19 @@
 		SKILL_HAULING = SKILL_BASIC,
 		SKILL_COOKING = SKILL_BASIC
 	)
+	access = list(
+		access_qm,
+		access_cargo,
+		access_engine,
+		access_engine_equip,
+		access_atmospherics,
+		access_eva,
+		access_external_airlocks,
+		access_heads,
+		access_bridge,
+		access_maint_tunnels,
+		access_keycard_auth
+	)
 
 /datum/job/provisions_technician
 	title = "Department Provisions Technician"
@@ -38,6 +51,9 @@
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_HAULING = SKILL_BASIC
+	)
+	access = list(
+		access_cargo
 	)
 
 /datum/job/engineering/maintenance
@@ -59,4 +75,12 @@
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_ATMOS = SKILL_ADEPT,
 		SKILL_ENGINES = SKILL_ADEPT
+	)
+	access = list(
+		access_atmospherics,
+		access_engine,
+		access_engine_equip,
+		access_maint_tunnels,
+		access_eva,
+		access_external_airlocks
 	)

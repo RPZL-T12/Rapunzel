@@ -14,6 +14,9 @@
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_COOKING = SKILL_ADEPT
 	)
+	access = list(
+		access_kitchen
+	)
 
 /datum/job/mess_hall/botany
 	title = "Botanist"
@@ -30,6 +33,9 @@
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_BOTANY = SKILL_ADEPT
+	)
+	access = list(
+		access_hydroponics
 	)
 
 /datum/job/mess_hall/bartender
@@ -50,4 +56,7 @@
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_COOKING = SKILL_ADEPT
+	)
+	access = list(
+		access_bar
 	)

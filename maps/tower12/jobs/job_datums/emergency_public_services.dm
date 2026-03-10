@@ -18,6 +18,19 @@
 		SKILL_MEDICAL = SKILL_BASIC,
 		SKILL_EVA = SKILL_ADEPT
 	)
+	access = list(
+		access_eps,
+		access_security,
+		access_armory,
+		access_brig,
+		access_bridge,
+		access_keycard_auth,
+		access_hos,
+		access_eva,
+		access_external_airlocks,
+		access_eps_emt,
+		access_eps_utility
+	)
 
 /datum/job/peacekeeping_officer
 	title = "Peacekeeping Officer"
@@ -41,6 +54,13 @@
 		SKILL_MEDICAL = SKILL_BASIC,
 		SKILL_EVA = SKILL_ADEPT
 	)
+	access = list(
+		access_eps,
+		access_security,
+		access_brig,
+		access_eva,
+		access_external_airlocks
+	)
 
 /datum/job/medical/emt
 	title = "Emergency Medical Technician"
@@ -58,6 +78,14 @@
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_MEDICAL = SKILL_ADEPT,
 		SKILL_EVA = SKILL_ADEPT
+	)
+	access = list(
+		access_eps,
+		access_medical,
+		access_medical_equip,
+		access_eva,
+		access_external_airlocks,
+		access_eps_emt
 	)
 
 /datum/job/engineering/utility
@@ -77,4 +105,13 @@
 		SKILL_EVA = SKILL_ADEPT,
 		SKILL_CONSTRUCTION = SKILL_EXPERT,
 		SKILL_ELECTRICAL = SKILL_ADEPT
+	)
+	access = list(
+		access_eps,
+		access_maint_tunnels,
+		access_engine,
+		access_construction,
+		access_eva,
+		access_external_airlocks,
+		access_eps_utility
 	)

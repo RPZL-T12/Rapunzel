@@ -37,6 +37,7 @@
 
 	#include "jobs/id_cards.dm"
 	#include "jobs/outfits.dm"
+	#include "jobs/temporary_overrides.dm"
 
 	#include "tower12_combined.dmm"
 	#include "tower12_uta.dmm"

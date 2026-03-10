@@ -567,6 +567,16 @@
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/dept_coordinator_office)
+"bA" = (
+/obj/machinery/conveyor{
+	dir = 1;
+	id_tag = "disposals_belt"
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/floor/tiled,
+/area/tower12/disposals)
 "bB" = (
 /obj/machinery/commsrelay,
 /turf/floor/greengrid,
@@ -731,7 +741,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass/command{
 	name = "Bridge";
-	req_access = list("ACCESS_COMMAND");
+	req_access = list("ACCESS_BRIDGE");
 	id_tag = "bridge_door"
 	},
 /obj/structure/cable/green{
@@ -903,7 +913,7 @@
 "cl" = (
 /obj/machinery/door/airlock/double/glass/security{
 	name = "EPS - Utility Lockers";
-	req_access = list("ACCESS_EPS", "ACCESS_ENGINEERING");
+	req_access = list("ACCESS_EPS", "ACCESS_EPS_UTILITY");
 	dir = 8
 	},
 /obj/machinery/door/firedoor,
@@ -913,7 +923,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/turf/floor/plating,
+/turf/floor/tiled,
 /area/tower12/eps_utility_prep)
 "cm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -996,6 +1006,10 @@
 /obj/structure/disposalpipe/segment,
 /turf/floor/wood/mahogany,
 /area/tower12/bar)
+"cy" = (
+/obj/structure/closet/secure_closet/security,
+/turf/floor/tiled,
+/area/tower12/security_lockers)
 "cz" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/security{
@@ -2332,6 +2346,13 @@
 /obj/machinery/light,
 /obj/structure/cable/green{
 	icon_state = "4-8"
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "kitchen_shutter";
+	name = "Kitchen Shutters";
+	dir = 1;
+	pixel_y = -24;
+	req_access = list("ACCESS_BAR")
 	},
 /turf/floor/tiled,
 /area/tower12/central_elevator_d2)
@@ -4347,16 +4368,6 @@
 	},
 /turf/floor/tiled,
 /area/tower12/warehouse)
-"kR" = (
-/obj/machinery/conveyor{
-	dir = 1;
-	id_tag = "disposals_belt"
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/floor/tiled,
-/area/tower12/disposals)
 "kS" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/floor/wood/mahogany,
@@ -4844,6 +4855,7 @@
 /area/tower12/engineering_lobby)
 "lV" = (
 /obj/machinery/light,
+/obj/structure/closet/secure_closet/security,
 /turf/floor/tiled,
 /area/tower12/security_lockers)
 "lW" = (
@@ -5305,6 +5317,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/closet/secure_closet/security,
 /turf/floor/tiled,
 /area/tower12/security_lockers)
 "ne" = (
@@ -7267,7 +7280,7 @@
 "rC" = (
 /obj/machinery/door/airlock/security{
 	name = "Peacekeeper EVA";
-	req_access = list("ACCESS_EPS", "ACCESS_ENGINEERING")
+	req_access = list("ACCESS_EPS", "ACCESS_SECURITY")
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -7339,6 +7352,13 @@
 	},
 /turf/floor/tiled,
 /area/tower12/custodial)
+"rJ" = (
+/obj/machinery/door/airlock/maintenance{
+	req_access = list("ACCESS_EPS");
+	name = "Maintenance"
+	},
+/turf/floor/plating,
+/area/tower12/fore_starboard_maint_d3)
 "rK" = (
 /obj/machinery/alarm{
 	dir = 1;
@@ -8494,7 +8514,7 @@
 "ux" = (
 /obj/machinery/door/airlock/security{
 	name = "EPS Maintenance";
-	req_access = list("ACCESS_EPS", "ACCESS_MEDICAL")
+	req_access = list("ACCESS_EPS", "ACCESS_EPS_EMT")
 	},
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -8708,7 +8728,7 @@
 "vb" = (
 /obj/machinery/door/airlock/double/glass/security{
 	name = "EPS - EMT Lockers";
-	req_access = list("ACCESS_EPS", "ACCESS_MEDICAL");
+	req_access = list("ACCESS_EPS", "ACCESS_EPS_EMT");
 	dir = 8
 	},
 /obj/structure/cable/green{
@@ -8810,7 +8830,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/command{
 	name = "Upper Tower Representative's Office";
-	req_access = list("ACCESS_COMMAND", "ACCESS_LAWYER")
+	req_access = list("ACCESS_BRIDGE", "ACCESS_LAWYER")
 	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -9477,6 +9497,14 @@
 	},
 /turf/floor/tiled,
 /area/tower12/eps_stairwell_d2)
+"wR" = (
+/obj/structure/disposalpipe/segment/bent{
+	dir = 8
+	},
+/obj/structure/table/wood/reinforced/mahogany,
+/obj/item/chems/spray/cleaner,
+/turf/floor/tiled,
+/area/tower12/disposals)
 "wS" = (
 /obj/machinery/airlock_sensor{
 	dir = 8;
@@ -9537,6 +9565,13 @@
 /obj/item/chems/ivbag/blood/nanoblood,
 /turf/floor/tiled,
 /area/tower12/trauma_gtc)
+"wZ" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/table/steel_reinforced,
+/turf/floor/tiled,
+/area/tower12/security_lockers)
 "xa" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -9600,6 +9635,12 @@
 /obj/structure/disposalpipe/segment,
 /turf/floor/tiled,
 /area/tower12/aft_port_hall_d3)
+"xh" = (
+/obj/machinery/conveyor_switch/oneway{
+	id_tag = "disposals_belt"
+	},
+/turf/floor/tiled,
+/area/tower12/disposals)
 "xi" = (
 /turf/wall/r_wall,
 /area/tower12/eps_stairwell_d3)
@@ -10468,6 +10509,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
+/mob/living/simple_animal/passive/cat/fluff/ran,
 /turf/floor/wood/yew,
 /area/tower12/cmo_office)
 "zf" = (
@@ -11514,7 +11556,8 @@
 	},
 /obj/machinery/light_switch{
 	dir = 4;
-	pixel_y = 7
+	pixel_y = 7;
+	pixel_x = -24
 	},
 /turf/floor/carpet/blue2,
 /area/tower12/bridge_meeting)
@@ -13172,6 +13215,20 @@
 	},
 /turf/floor/tiled,
 /area/tower12/bar_backroom)
+"FH" = (
+/obj/structure/closet/secure_closet/guncabinet,
+/obj/item/gun/energy,
+/obj/item/gun/energy,
+/obj/item/gun/energy,
+/obj/item/gun/energy,
+/obj/item/gun/energy,
+/obj/item/cell/gun,
+/obj/item/cell/gun,
+/obj/item/cell/gun,
+/obj/item/cell/gun,
+/obj/item/cell/gun,
+/turf/floor/tiled,
+/area/tower12/security_lockers)
 "FI" = (
 /obj/machinery/cryopod,
 /turf/floor/tiled,
@@ -13191,15 +13248,6 @@
 	},
 /turf/floor/tiled,
 /area/tower12/port_hall_d2)
-"FM" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	icon_state = "2-4"
-	},
-/turf/floor/tiled,
-/area/tower12/supply_dock)
 "FN" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/floor/tiled,
@@ -13388,7 +13436,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/command{
 	name = "Department Coordinator's Office";
-	req_access = list("ACCESS_COMMAND", "ACCESS_CAPTAIN");
+	req_access = list("ACCESS_BRIDGE", "ACCESS_CAPTAIN");
 	id_tag = "dept_coord_office"
 	},
 /obj/structure/cable/green{
@@ -13533,7 +13581,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/floor/plating,
+/turf/floor/tiled,
 /area/tower12/eps_utility_prep)
 "GG" = (
 /obj/structure/cable{
@@ -13850,11 +13898,12 @@
 /turf/floor/plating,
 /area/tower12/aft_port_maint_d3)
 "Hy" = (
-/obj/machinery/conveyor_switch/oneway{
-	id_tag = "disposals_belt"
+/mob/living/simple_animal/passive/cat/fluff{
+	icon = 'icons/mob/simple_animal/cat_black.dmi';
+	name = "Katniss"
 	},
-/turf/floor/tiled,
-/area/tower12/disposals)
+/turf/floor/wood/yew,
+/area/tower12/cmo_office)
 "Hz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/floor/tiled,
@@ -14604,7 +14653,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/command{
 	name = "Meeting Room";
-	req_access = list("ACCESS_COMMAND")
+	req_access = list("ACCESS_BRIDGE")
 	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -14787,6 +14836,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/floor/plating,
 /area/tower12/engine_observation)
+"JW" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/table/steel_reinforced,
+/turf/floor/tiled,
+/area/tower12/security_lockers)
 "JX" = (
 /obj/machinery/light{
 	dir = 4
@@ -15257,17 +15313,11 @@
 /turf/floor/wood/mahogany,
 /area/tower12/trauma_recovery)
 "KZ" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/machinery/disposal{
-	name = "Mass Driver Disposal"
-	},
-/obj/structure/disposalpipe/trunk{
-	dir = 1
-	},
-/turf/floor/tiled,
-/area/tower12/disposals)
+/obj/machinery/door/firedoor,
+/obj/structure/grille,
+/obj/structure/window/reinforced/full,
+/turf/floor/plating,
+/area/tower12/security_hallway)
 "La" = (
 /obj/structure/table/steel_reinforced,
 /turf/floor/tiled,
@@ -15667,7 +15717,7 @@
 "LY" = (
 /obj/machinery/door/airlock/double/glass/security{
 	name = "EPS - Utility Lockers";
-	req_access = list("ACCESS_EPS", "ACCESS_ENGINEERING")
+	req_access = list("ACCESS_EPS", "ACCESS_EPS_EMT")
 	},
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -16451,6 +16501,17 @@
 	},
 /turf/floor/carpet/red,
 /area/tower12/chapel)
+"NU" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id_tag = "disposals_belt"
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/flaps/airtight{
+	name = "airtight flaps"
+	},
+/turf/floor/plating,
+/area/tower12/disposals)
 "NV" = (
 /turf/floor/tiled,
 /area/tower12/eps_utility_prep)
@@ -17322,19 +17383,6 @@
 /obj/machinery/vending/hydroseeds,
 /turf/floor/tiled,
 /area/tower12/public_garden)
-"PX" = (
-/obj/structure/table/wood/reinforced/mahogany,
-/obj/machinery/button/mass_driver{
-	id_tag = "disposals"
-	},
-/obj/machinery/button/blast_door{
-	id_tag = "driver_hatch";
-	pixel_y = 8;
-	name = "Driver Hatch"
-	},
-/obj/structure/disposalpipe/segment/bent,
-/turf/floor/tiled,
-/area/tower12/disposals)
 "PY" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -17533,7 +17581,7 @@
 "Qw" = (
 /obj/machinery/door/airlock/double/glass/security{
 	name = "EPS - Utility Lockers";
-	req_access = list("ACCESS_EPS", "ACCESS_ENGINEERING")
+	req_access = list("ACCESS_EPS", "ACCESS_EPS_UTILITY")
 	},
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -17549,17 +17597,6 @@
 	},
 /turf/floor/greengrid,
 /area/tower12/telecomms_servers)
-"Qy" = (
-/obj/machinery/conveyor{
-	dir = 8;
-	id_tag = "disposals_belt"
-	},
-/obj/machinery/door/firedoor,
-/obj/structure/flaps/airtight{
-	name = "airtight flaps"
-	},
-/turf/floor/plating,
-/area/tower12/disposals)
 "Qz" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
 /obj/machinery/light{
@@ -18077,11 +18114,16 @@
 /turf/floor/tiled,
 /area/tower12/fore_port_hall_d3)
 "RN" = (
-/obj/structure/disposalpipe/segment/bent{
-	dir = 8
-	},
 /obj/structure/table/wood/reinforced/mahogany,
-/obj/item/chems/spray/cleaner,
+/obj/machinery/button/mass_driver{
+	id_tag = "disposals"
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "driver_hatch";
+	pixel_y = 8;
+	name = "Driver Hatch"
+	},
+/obj/structure/disposalpipe/segment/bent,
 /turf/floor/tiled,
 /area/tower12/disposals)
 "RO" = (
@@ -18517,6 +18559,15 @@
 	},
 /turf/floor/tiled,
 /area/tower12/aft_starboard_hall_d3)
+"SN" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "2-4"
+	},
+/turf/floor/tiled,
+/area/tower12/supply_dock)
 "SO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -19038,7 +19089,7 @@
 "TW" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Engineering";
-	req_access = list("ACCESS_ENGINEERING")
+	req_access = list("ACCESS_ATMOSPHERICS")
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -20053,7 +20104,7 @@
 "Ws" = (
 /obj/machinery/door/airlock/security{
 	name = "EPS Maintenance";
-	req_access = list("ACCESS_EPS", "ACCESS_ENGINEERING")
+	req_access = list("ACCESS_EPS", "ACCESS_EPS_UTILITY")
 	},
 /obj/machinery/door/firedoor,
 /turf/floor/plating,
@@ -20820,6 +20871,18 @@
 	},
 /turf/floor/tiled,
 /area/tower12/brig)
+"Yo" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/disposal{
+	name = "Mass Driver Disposal"
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/turf/floor/tiled,
+/area/tower12/disposals)
 "Yp" = (
 /obj/machinery/vending/boozeomat{
 	dir = 8;
@@ -21149,6 +21212,32 @@
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/bar)
+"Zd" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/crowbar/red{
+	pixel_x = -2
+	},
+/obj/item/crowbar/red{
+	pixel_x = -2;
+	pixel_y = 5
+	},
+/obj/item/crowbar/red{
+	pixel_x = -2;
+	pixel_y = -5
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/item/crowbar/red{
+	pixel_x = -2;
+	pixel_y = 10
+	},
+/obj/item/crowbar/red{
+	pixel_x = -1;
+	pixel_y = -10
+	},
+/turf/floor/tiled,
+/area/tower12/security_lockers)
 "Ze" = (
 /obj/effect/floor_decal/corner/red/three_quarters,
 /obj/machinery/portable_atmospherics/powered/scrubber,
@@ -25049,7 +25138,7 @@ IX
 ta
 Rs
 Gu
-FM
+SN
 Sa
 Sa
 YS
@@ -25127,7 +25216,7 @@ XQ
 XQ
 SZ
 dg
-Qy
+NU
 xf
 Rs
 Rs
@@ -25210,8 +25299,8 @@ XQ
 XQ
 zS
 PM
-PX
-KZ
+RN
+Yo
 oB
 aE
 Rs
@@ -25292,7 +25381,7 @@ XQ
 XQ
 zS
 aj
-Hy
+xh
 xx
 xx
 SF
@@ -25375,9 +25464,9 @@ XQ
 zS
 NM
 oM
-kR
+bA
 FS
-RN
+wR
 Rs
 UA
 lr
@@ -35991,7 +36080,7 @@ jj
 fE
 Nm
 TI
-iR
+Hy
 OE
 ig
 XQ
@@ -38090,7 +38179,7 @@ ZJ
 EE
 EJ
 ms
-nd
+JW
 GC
 GC
 nd
@@ -38172,10 +38261,10 @@ Nc
 EG
 VJ
 ms
+FH
 GC
 GC
-GC
-GC
+cy
 ms
 Cy
 Cy
@@ -38339,7 +38428,7 @@ ms
 GC
 Ph
 GC
-GC
+cy
 ms
 yX
 ZB
@@ -38418,7 +38507,7 @@ ur
 sW
 IV
 ms
-uQ
+wZ
 Ph
 oN
 lV
@@ -38503,7 +38592,7 @@ WW
 Os
 Jn
 uB
-GC
+Zd
 ms
 nP
 ZB
@@ -38748,7 +38837,7 @@ EJ
 yg
 yg
 MT
-Nc
+KZ
 HK
 yg
 Wq
@@ -39734,9 +39823,9 @@ Vw
 Vw
 Nc
 Nc
-Nc
-Nc
-Nc
+jP
+rJ
+jP
 Jh
 Jh
 Jh
@@ -39811,21 +39900,21 @@ XQ
 XQ
 XQ
 XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-Jh
 jP
+xd
+xd
+xd
+xd
+xd
+xd
+xd
+xd
+xd
+xd
+xd
+xd
+xd
+xd
 xd
 xd
 xd
@@ -39893,22 +39982,22 @@ XQ
 XQ
 XQ
 XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
 jP
 jP
+xd
+xd
+xd
+xd
+xd
+xd
+xd
+xd
+xd
+xd
+xd
+xd
+xd
+xd
 jP
 jP
 jP
@@ -39975,23 +40064,23 @@ XQ
 XQ
 XQ
 XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
+jP
+jP
+jP
+jP
+jP
+jP
+jP
+jP
+jP
+jP
+jP
+jP
+jP
+jP
+jP
+jP
+jP
 XQ
 XQ
 XQ
