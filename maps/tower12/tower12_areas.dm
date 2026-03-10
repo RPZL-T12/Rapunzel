@@ -423,6 +423,10 @@
 	name = "\improper Custodial Closet"
 	icon_state = "janitor"
 
+/area/tower12/library
+	name = "\improper Library"
+	icon_state = "library"
+
 ///// Bridge /////
 
 /area/tower12/bridge_hallway
