@@ -8466,7 +8466,7 @@
 /turf/floor/plating,
 /area/tower12/supply_maint_d1)
 "jpH" = (
-/turf/floor/plating,
+/turf/floor/plating/airless,
 /area/tower12/disposals)
 "jrf" = (
 /obj/structure/disposalpipe/segment{
