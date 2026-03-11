@@ -27,3 +27,8 @@
 	name = "Deck Authority"
 	display_priority = 6
 	display_color = "#2a2c92"
+
+/decl/department/digital_intelligence
+	name = "Digital Intelligence"
+	display_priority = -1
+	display_color = "#19850b"

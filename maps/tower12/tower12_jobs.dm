@@ -2,7 +2,6 @@
 	default_job_type = /datum/job/assistant
 	default_department_type = /decl/department/civilian_services
 	allowed_jobs = list(
-		/datum/job/assistant,
 		/datum/job/upper_tower_rep,
 		/datum/job/department_coordinator,
 		/datum/job/eps_coordinator,
@@ -19,5 +18,7 @@
 		/datum/job/medical/doctor,
 		/datum/job/medical/nurse,
 		/datum/job/chaplain,
-		/datum/job/janitor
+		/datum/job/janitor,
+		/datum/job/assistant,
+		/datum/job/artificial
 	)

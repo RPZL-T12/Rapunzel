@@ -29,71 +29,98 @@
 	name = "\improper Telecommunications Relay"
 	icon_state = "tcomsatcham"
 
+///// AI /////
+
+/area/tower12/ai_core
+	name = "\improper AI Core"
+	icon_state = "green"
+
+
+/area/tower12/ai_upload
+	name = "\improper AI Upload"
+	icon_state = "green"
+
 ///// Maintenance Tunnels /////
 
 /area/tower12/central_maint_d1
 	name = "\improper Deck One - Central Maintenance"
 	icon_state = "yellow"
+	area_flags = AREA_FLAG_MAINTENANCE | AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/central_maint_d2
 	name = "\improper Deck Two - Central Maintenance"
 	icon_state = "yellow"
+	area_flags = AREA_FLAG_MAINTENANCE | AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/supply_maint_d1
 	name = "\improper Deck One - Supply Maintenance"
 	icon_state = "yellow"
+	area_flags = AREA_FLAG_MAINTENANCE | AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/central_starboard_maint_d2
 	name = "\improper Deck Two - Central Starboard Maintenance"
 	icon_state = "yellow"
+	area_flags = AREA_FLAG_MAINTENANCE | AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/aft_starboard_maint_d2
 	name = "\improper Deck Two - Aft Starboard Maintenance"
 	icon_state = "yellow"
+	area_flags = AREA_FLAG_MAINTENANCE | AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/fore_starboard_maint_d2
 	name = "\improper Deck Two - Fore Starboard Maintenance"
 	icon_state = "yellow"
+	area_flags = AREA_FLAG_MAINTENANCE | AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/aft_port_maint_d2
 	name = "\improper Deck Two - Aft Port Maintenance"
 	icon_state = "yellow"
+	area_flags = AREA_FLAG_MAINTENANCE | AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/fore_port_maint_d2
 	name = "\improper Deck Two - Fore Port Maintenance"
 	icon_state = "yellow"
+	area_flags = AREA_FLAG_MAINTENANCE | AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/kitchen_maint
 	name = "\improper Kitchen Maintenance"
 	icon_state = "yellow"
+	area_flags = AREA_FLAG_MAINTENANCE | AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/aft_port_maint_d3
 	name = "\improper Deck Three - Aft Port Maintenance"
 	icon_state = "yellow"
+	area_flags = AREA_FLAG_MAINTENANCE | AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/fore_maint_d3
 	name = "\improper Deck Three - Fore Maintenance"
 	icon_state = "yellow"
+	area_flags = AREA_FLAG_MAINTENANCE | AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/fore_starboard_maint_d3
 	name = "\improper Deck Three - Fore Starboard Maintenance"
 	icon_state = "yellow"
+	area_flags = AREA_FLAG_MAINTENANCE | AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/aft_starboard_maint_d3
 	name = "\improper Deck Three - Aft Starboard Maintenance"
 	icon_state = "yellow"
+	area_flags = AREA_FLAG_MAINTENANCE | AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/central_maint_d3
 	name = "\improper Deck Three - Central Maintenance"
 	icon_state = "yellow"
+	area_flags = AREA_FLAG_MAINTENANCE | AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/central_maint_d4
 	name = "\improper Deck Four - Central Maintenance"
 	icon_state = "yellow"
+	area_flags = AREA_FLAG_MAINTENANCE | AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/starboard_maint_d4
 	name = "\improper Deck Four - Starboard Maintenance"
 	icon_state = "yellow"
+	area_flags = AREA_FLAG_MAINTENANCE | AREA_FLAG_RAD_SHIELDED
 
 ///// Engine //////
 
@@ -142,22 +169,27 @@
 /area/tower12/substation_d1
 	name = "\improper Deck One Substation"
 	icon_state = "engine_smes"
+	area_flags = AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/substation_d2
 	name = "\improper Deck Two Substation"
 	icon_state = "engine_smes"
+	area_flags = AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/substation_d3
 	name = "\improper Deck Three Substation"
 	icon_state = "engine_smes"
+	area_flags = AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/substation_d4
 	name = "\improper Deck Four Substation"
 	icon_state = "engine_smes"
+	area_flags = AREA_FLAG_RAD_SHIELDED
 
 /area/tower12/solar_smes
 	name = "\improper Solar Main SMES"
 	icon_state = "engine_smes"
+	area_flags = AREA_FLAG_RAD_SHIELDED
 
 ///// Central Elevator /////
 
