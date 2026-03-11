@@ -53,7 +53,8 @@
 		SKILL_HAULING = SKILL_BASIC
 	)
 	access = list(
-		access_cargo
+		access_cargo,
+		access_maint_tunnels
 	)
 
 /datum/job/engineering/maintenance
