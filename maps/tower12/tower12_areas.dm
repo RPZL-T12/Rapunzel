@@ -155,6 +155,10 @@
 	name = "\improper Deck Four Substation"
 	icon_state = "engine_smes"
 
+/area/tower12/solar_smes
+	name = "\improper Solar Main SMES"
+	icon_state = "engine_smes"
+
 ///// Central Elevator /////
 
 /area/tower12/central_elevator_d1
