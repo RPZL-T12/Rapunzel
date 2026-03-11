@@ -14,11 +14,13 @@
 /decl/outfit/job/tower/civilian/chaplain
 	name = "Job - Chaplain"
 	uniform = /obj/item/clothing/jumpsuit/black
+	l_ear = /obj/item/radio/headset/headset_service
 
 /decl/outfit/job/tower/civilian/janitor
 	name = "Job - Janitor"
 	uniform = /obj/item/clothing/jumpsuit/janitor
 	shoes = /obj/item/clothing/shoes/galoshes
+	l_ear = /obj/item/radio/headset/headset_service
 
 /decl/outfit/job/tower/mess_hall
 	abstract_type = /decl/outfit/job/tower/mess_hall
@@ -43,7 +45,7 @@
 /decl/outfit/job/tower/supply
 	name = "Job - Supply Ops"
 	id_type = /obj/item/card/id/tower/supply
-	l_ear = /obj/item/radio/headset/headset_cargo
+	l_ear = /obj/item/radio/headset/headset_cargo/tower12
 	uniform = /obj/item/clothing/jumpsuit/cargo
 
 /decl/outfit/job/tower/supply/maint
@@ -54,6 +56,7 @@
 	shoes = /obj/item/clothing/shoes/workboots
 	pda_type = /obj/item/modular_computer/pda/engineering
 	pda_slot = slot_l_store_str
+	l_ear = /obj/item/radio/headset/headset_cargo/tower12/engie
 
 /// Trauma Center ///
 
@@ -76,7 +79,7 @@
 
 /decl/outfit/job/tower/eps
 	id_type = /obj/item/card/id/tower/eps
-	l_ear = /obj/item/radio/headset/headset_sec
+	l_ear = /obj/item/radio/headset/headset_sec/tower12
 	abstract_type = /decl/outfit/job/tower/eps
 
 /decl/outfit/job/tower/eps/emt
@@ -85,6 +88,7 @@
 	shoes = /obj/item/clothing/shoes/color/white
 	hands = list(/obj/item/firstaid/adv)
 	pda_type = /obj/item/modular_computer/pda/medical
+	l_ear = /obj/item/radio/headset/headset_sec/tower12/emt
 
 /decl/outfit/job/tower/eps/peacekeeper
 	name = "Job - EPS Peacekeeper"
@@ -100,6 +104,7 @@
 	belt = /obj/item/belt/utility/full
 	r_pocket = /obj/item/t_scanner
 	pda_type = /obj/item/modular_computer/pda/engineering
+	l_ear = /obj/item/radio/headset/headset_sec/tower12/utility
 
 /// Deck Authority ///
 
@@ -107,7 +112,7 @@
 	abstract_type = /decl/outfit/job/tower/head
 	id_type = /obj/item/card/id/tower/head
 	uniform = /obj/item/clothing/jumpsuit/captain
-	l_ear = /obj/item/radio/headset/heads
+	l_ear = /obj/item/radio/headset/heads/tower12
 	shoes = /obj/item/clothing/shoes/color/white
 	pda_type = /obj/item/modular_computer/pda/heads
 
@@ -115,15 +120,18 @@
 	name = "Job - Civil Manager"
 	id_type = /obj/item/card/id/tower/head/civil
 	uniform = /obj/item/clothing/jumpsuit/hazard
+	l_ear = /obj/item/radio/headset/heads/tower12/civil
 
 /decl/outfit/job/tower/head/department_coordinator
 	name = "Job - Department Coordinator"
 	uniform = /obj/item/clothing/jumpsuit/head_of_personnel
+	l_ear = /obj/item/radio/headset/heads/tower12/dept_coord
 
 /decl/outfit/job/tower/head/eps
 	name = "Job - EPS Coordinator"
 	id_type = /obj/item/card/id/tower/head/eps
 	uniform = /obj/item/clothing/jumpsuit/head_of_security
+	l_ear = /obj/item/radio/headset/heads/tower12/eps_coord
 
 /decl/outfit/job/tower/head/cmo
 	name = "Job - CMO"
@@ -132,7 +140,9 @@
 	suit = /obj/item/clothing/suit/toggle/labcoat
 	hands = list(/obj/item/firstaid/adv)
 	r_pocket = /obj/item/flashlight/pen
+	l_ear = /obj/item/radio/headset/heads/tower12/cmo
 
 /decl/outfit/job/tower/head/uppertower
 	name = "Job - Upper Tower Rep"
 	id_type = /obj/item/card/id/tower/head/uppertower
+	l_ear = /obj/item/radio/headset/heads/tower12/uta

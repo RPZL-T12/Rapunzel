@@ -9,7 +9,7 @@
 	#include "../../mods/species/tajaran/_tajaran.dme"
 	#include "../../mods/species/unathi/_unathi.dme"
 	#include "../../mods/species/skrell/_skrell.dme"
-
+/*
 	#include "../../mods/content/pheromones/_pheromones.dme"
 	#include "../../mods/species/adherent/_adherent.dme"
 	#include "../../mods/species/ascent/_ascent.dme"
@@ -19,7 +19,7 @@
 	#include "../../mods/species/tritonian/_tritonian.dme"
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
 	#include "../../mods/species/vox/_vox.dme"
-
+*/
 	#include "tower12_areas.dm"
 	#include "tower12_define.dm"
 	#include "tower12_departments.dm"
@@ -36,6 +36,7 @@
 	#include "jobs/job_datums/supply_operations.dm"
 	#include "jobs/job_datums/trauma_center.dm"
 
+	#include "jobs/headsets.dm"
 	#include "jobs/id_cards.dm"
 	#include "jobs/outfits.dm"
 	#include "jobs/temporary_overrides.dm"
