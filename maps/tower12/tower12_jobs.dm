@@ -22,3 +22,7 @@
 		/datum/job/assistant,
 		/datum/job/artificial
 	)
+
+	job_to_species_whitelist = list(
+		/datum/job/upper_tower_rep = list(/decl/species/human)
+	)

@@ -12,10 +12,20 @@
 	name = "\improper Abandoned Maintenance"
 	icon_state = "yellow"
 
+/area/tower12/uta
+	name = "\improper Rapunzel Upper Tower"
+	icon_state = "centcom"
+	requires_power = 0
 
 ///// Shuttles /////
 /area/tower12/shuttle/supply
 	name = "\improper Supply Shuttle"
+	icon_state = "shuttle"
+	requires_power = 0
+	area_flags = AREA_FLAG_SHUTTLE | AREA_FLAG_RAD_SHIELDED
+
+/area/tower12/shuttle/evac
+	name = "\improper Evacuation Shuttle"
 	icon_state = "shuttle"
 	requires_power = 0
 	area_flags = AREA_FLAG_SHUTTLE | AREA_FLAG_RAD_SHIELDED

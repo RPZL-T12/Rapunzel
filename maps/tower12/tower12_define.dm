@@ -6,13 +6,20 @@
 
 	station_name  = "Rapunzel Tower 12"
 
+	dock_name = "Rapunzel Upper Tower Dock"
+
 	company_name  = "Rapunzel"
 	company_short = "RPNZL"
+	game_year = 350
 	lobby_screens = list('maps/tower12/lobby/rpzl12_lobby.png')
 	welcome_sound = 'sound/effects/cowboysting.ogg' /// Replace this and the emergency shuttles.
-	emergency_shuttle_leaving_dock = "Attention all hands: the escape pods have been launched, maintaining burn for %ETA%."
-	emergency_shuttle_called_message = "Attention all hands: emergency evacuation procedures are now in effect. Escape pods will launch in %ETA%."
-	emergency_shuttle_recall_message = "Attention all hands: emergency evacuation sequence aborted. Return to normal operating conditions."
+
+	evac_controller_type = /datum/evacuation_controller/shuttle
+
+	emergency_shuttle_called_message = "Rapunzel to Tower 12, your distress call is received. An emergency shuttle will arrive in %ETA%."
+	emergency_shuttle_docked_message = "Attention Tower 12: the Rapunzel Tower evacuation shuttle has arrived. It will depart in %ETD%."
+	emergency_shuttle_leaving_dock = "Attention Tower 12: the evacuation shuttle has departed. It will arrive in %ETA%."
+	emergency_shuttle_recall_message = "Copy Tower 12, your emergency shuttle from Rapunzel is recalled."
 
 	default_telecomms_channels = list(
 		list("name" = "Medical",       "key" = "m", "frequency" = 1355, "color" = COMMS_COLOR_MEDICAL,   "span_class" = "medradio", "secured" = list(access_medical)),

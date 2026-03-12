@@ -5166,6 +5166,10 @@
 	},
 /turf/floor/carpet/blue2,
 /area/tower12/uta_rep_office)
+"eLz" = (
+/obj/effect/shuttle_landmark/stationdock_starboard,
+/turf/space,
+/area/space)
 "eLZ" = (
 /obj/machinery/light{
 	dir = 4
@@ -48862,7 +48866,7 @@ rVC
 rVC
 rVC
 rVC
-rVC
+eLz
 rVC
 rVC
 rVC

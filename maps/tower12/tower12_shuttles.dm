@@ -29,6 +29,36 @@
 	)
 	ceiling_type = /turf/floor/shuttle_ceiling
 
+///// Escape Shuttle
+/obj/effect/shuttle_landmark/stationdock_starboard
+	name = "Tower 12 Docking Arm Starboard"
+	landmark_tag = "nav_stationdock_starboard"
+	docking_controller = "dockarm_starboard"
+	special_dock_targets = list(
+		/datum/shuttle/autodock/ferry/emergency/tower12 = "PORT"
+	)
+
+/obj/effect/shuttle_landmark/utadock_port
+	name = "Rapunzel Upper Tower Emergency Docking Arm"
+	landmark_tag = "nav_uta_port"
+	docking_controller = "utadock_port"
+	special_dock_targets = list(
+		/datum/shuttle/autodock/ferry/emergency/tower12 = "STARBOARD"
+	)
+
+/datum/shuttle/autodock/ferry/emergency/tower12
+	name = "Rapunzel Evacuation Shuttle"
+	shuttle_area = /area/tower12/shuttle/evac
+	dock_target = "dockarm_starboard"
+	location = 1
+	waypoint_station = "nav_stationdock_starboard"
+	waypoint_offsite = "nav_uta_port"
+	docking_cues = list(
+		"PORT" = "evac_port",
+		"STARBOARD" = "evac_starboard"
+	)
+	ceiling_type = /turf/floor/shuttle_ceiling
+
 ///// Central Elevator
 
 /obj/abstract/turbolift_spawner/central
