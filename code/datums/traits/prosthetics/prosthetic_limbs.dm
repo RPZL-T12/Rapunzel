@@ -77,10 +77,12 @@
 /decl/trait/prosthetic_limb/is_available_to_select(datum/preferences/pref)
 	. = ..()
 	if(.)
+		var/decl/bodytype/bodytype = pref.get_bodytype_decl()
 		if(fullbody_synthetic_only)
-			var/decl/bodytype/bodytype = pref.get_bodytype_decl()
 			if(!bodytype?.is_robotic)
 				return FALSE
+		if(istype(bodytype, /decl/bodytype/prosthetic/utility_frame))
+			return FALSE
 		if(model)
 			var/decl/bodytype/prosthetic/robot_model = GET_DECL(model)
 			if(!istype(robot_model))
