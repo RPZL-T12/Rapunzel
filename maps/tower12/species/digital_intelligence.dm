@@ -11,7 +11,7 @@
 	knockout_message = "collapses, rebooting."
 
 /decl/bodytype/prosthetic/utility_frame
-	movement_slowdown = 1.25
+	movement_slowdown = 1.15
 	eye_flash_mod = 1.5
 	eye_darksight_range = 3
 	eye_low_light_vision_effectiveness = 0.1

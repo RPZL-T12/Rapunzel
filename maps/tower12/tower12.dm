@@ -41,6 +41,9 @@
 	#include "jobs/outfits.dm"
 	#include "jobs/temporary_overrides.dm"
 
+	#include "loadout/clothing.dm"
+	#include "loadout/uniforms.dm"
+
 	#include "species/digital_intelligence.dm"
 
 	#include "tower12_combined.dmm"
