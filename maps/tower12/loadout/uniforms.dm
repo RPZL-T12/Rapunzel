@@ -53,3 +53,28 @@
 	name = "retro cargo pants"
 	path = /obj/item/clothing/costume/avrilcargo
 	uid = "gear_under_avrilcargo"
+
+/decl/loadout_option/uniform/strawberrylolita
+	name = "dress, strawberry lolita"
+	path = /obj/item/clothing/dress/strawberrylolita
+	uid = "gear_under_strawberrylolita"
+
+/decl/loadout_option/uniform/laceblack
+	name = "dress, lace black"
+	path = /obj/item/clothing/dress/laceblack
+	uid = "gear_under_laceblack"
+
+/decl/loadout_option/uniform/redsuit
+	name = "suit, fancy red"
+	path = /obj/item/clothing/costume/redsuit
+	uid = "gear_under_redsuit"
+
+/decl/loadout_option/uniform/pinup_dress
+	name = "dress, pinup"
+	path = /obj/item/clothing/dress/pinup
+	uid = "gear_under_pinup"
+
+/decl/loadout_option/uniform/turtleneck_dress
+	name = "dress, turtleneck"
+	path = /obj/item/clothing/dress/turtleneck
+	uid = "gear_under_turtleneck"

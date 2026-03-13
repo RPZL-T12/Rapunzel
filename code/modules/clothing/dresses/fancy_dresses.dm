@@ -39,3 +39,25 @@
 	name = "skater skirt"
 	desc = "A sporty skirt and shirt for the fashion-minded athletes."
 	icon = 'icons/clothing/dresses/dress_skaterskirt.dmi'
+
+/obj/item/clothing/dress/strawberrylolita
+	name = "strawberry lolita dress"
+	desc = "A cutesy strawberry themed dress in the lolita fashion."
+	icon = 'icons/clothing/dresses/dress_strawberrylolita.dmi'
+
+/obj/item/clothing/dress/laceblack
+	name = "black lace dress"
+	desc = "A black mesh dress of fine lace."
+	icon = 'icons/clothing/dresses/dress_lace_black.dmi'
+
+/obj/item/clothing/dress/pinup
+	name = "pinup dress"
+	desc = "A dress resembling those you'd find on a pinup model."
+	icon = 'icons/clothing/dresses/dress_pinup.dmi'
+
+/obj/item/clothing/dress/turtleneck
+	name = "turtleneck dress"
+	desc = "A long dress with a turtleneck."
+	icon = 'icons/clothing/dresses/dress_turtleneck.dmi'
+	flags_inv = HIDESHOES
+	body_parts_covered = SLOT_UPPER_BODY|SLOT_ARMS|SLOT_LOWER_BODY|SLOT_LEGS|SLOT_FEET
