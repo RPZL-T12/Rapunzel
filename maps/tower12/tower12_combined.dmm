@@ -81,6 +81,15 @@
 /obj/structure/disposalpipe/junction/mirrored,
 /turf/floor/tiled,
 /area/tower12/engineering_hall)
+"aeF" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/gun/projectile/pistol,
+/obj/item/gun/projectile/pistol,
+/obj/item/gun/projectile/pistol,
+/obj/item/gun/projectile/pistol,
+/obj/item/gun/projectile/pistol,
+/turf/floor/tiled,
+/area/tower12/secure_armory)
 "afj" = (
 /obj/random/shoes,
 /obj/random/plush,
@@ -360,6 +369,7 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/light,
+/obj/machinery/photocopier,
 /turf/floor/wood/yew,
 /area/tower12/civil_manager_office)
 "aul" = (
@@ -728,9 +738,14 @@
 /turf/floor/tiled,
 /area/tower12/security_checkpoint)
 "aKQ" = (
-/obj/machinery/cryopod,
-/turf/floor/tiled,
-/area/tower12/residential_exit)
+/obj/structure/chair/comfy/beige{
+	dir = 8
+	},
+/obj/abstract/landmark/start{
+	name = "Assistant"
+	},
+/turf/floor/wood/mahogany,
+/area/tower12/public_garden)
 "aKW" = (
 /obj/machinery/apc/high{
 	dir = 1;
@@ -1439,6 +1454,7 @@
 	dir = 10
 	},
 /obj/effect/floor_decal/corner/orange/full,
+/obj/machinery/photocopier,
 /turf/floor/tiled,
 /area/tower12/engineering_lobby)
 "bvs" = (
@@ -1559,6 +1575,15 @@
 	},
 /turf/floor/tiled,
 /area/tower12/trauma_recovery)
+"bCr" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/ammo_magazine/pistol,
+/obj/item/ammo_magazine/pistol,
+/obj/item/ammo_magazine/pistol,
+/obj/item/ammo_magazine/pistol,
+/obj/item/ammo_magazine/pistol,
+/turf/floor/tiled,
+/area/tower12/secure_armory)
 "bDa" = (
 /obj/machinery/light{
 	dir = 8
@@ -2293,6 +2318,19 @@
 /obj/machinery/hologram/holopad,
 /turf/floor/tiled,
 /area/tower12/hydroponics)
+"cir" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/table/steel_reinforced,
+/obj/machinery/door/firedoor,
+/obj/effect/floor_decal/corner/red/mono,
+/obj/item/paper_bin,
+/obj/item/pen{
+	pixel_x = 6
+	},
+/turf/floor/tiled,
+/area/tower12/security_lobby)
 "cis" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -2349,6 +2387,12 @@
 /obj/machinery/hologram/holopad,
 /turf/floor/tiled,
 /area/tower12/engineering_hall)
+"cjK" = (
+/obj/abstract/landmark/start{
+	name = "Department Provisions Technician"
+	},
+/turf/floor/tiled,
+/area/tower12/warehouse)
 "ckg" = (
 /obj/structure/cable/green{
 	icon_state = "2-4"
@@ -2553,6 +2597,9 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/red/mono,
+/obj/abstract/landmark/start{
+	name = "Peacekeeping Officer"
+	},
 /turf/floor/tiled,
 /area/tower12/security_lobby)
 "cun" = (
@@ -3104,6 +3151,9 @@
 /area/tower12/central_staircase_d2)
 "cRf" = (
 /obj/structure/chair/office/comfy/black,
+/obj/abstract/landmark/start{
+	name = "Upper Tower Representative"
+	},
 /turf/floor/carpet/blue2,
 /area/tower12/uta_rep_office)
 "cRG" = (
@@ -3155,6 +3205,14 @@
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/eps_coord_office)
+"cUd" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/clothing/armor_attachment/plate/medium,
+/obj/item/clothing/armor_attachment/plate/tactical,
+/obj/item/clothing/head/helmet/tactical,
+/obj/item/clothing/head/helmet/ballistic,
+/turf/floor/tiled,
+/area/tower12/secure_armory)
 "cUH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -3361,6 +3419,9 @@
 	icon_state = "1-4"
 	},
 /obj/effect/floor_decal/corner/orange/full,
+/obj/abstract/landmark/start{
+	name = "General Maintenance Technician"
+	},
 /turf/floor/tiled,
 /area/tower12/engineering_lockers)
 "ddp" = (
@@ -3868,6 +3929,9 @@
 	dir = 9
 	},
 /obj/machinery/hologram/holopad,
+/obj/abstract/landmark/start{
+	name = "Botanist"
+	},
 /turf/floor/tiled,
 /area/tower12/hydroponics)
 "dDQ" = (
@@ -4054,6 +4118,10 @@
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/bar)
+"dLH" = (
+/obj/machinery/photocopier,
+/turf/floor/carpet/blue2,
+/area/tower12/uta_rep_office)
 "dLR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -4254,6 +4322,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/light,
 /obj/effect/floor_decal/corner/brown/full,
+/obj/machinery/photocopier,
 /turf/floor/tiled,
 /area/tower12/supply_desk)
 "dVO" = (
@@ -4643,6 +4712,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
+/obj/structure/railing/mapped/wooden/ebony{
+	dir = 8
+	},
 /turf/floor/tiled,
 /area/tower12/residential_exit)
 "eoP" = (
@@ -4791,8 +4863,17 @@
 /obj/effect/floor_decal/corner/red/border{
 	dir = 1
 	},
+/obj/abstract/landmark/start{
+	name = "Peacekeeping Officer"
+	},
 /turf/floor/tiled,
 /area/tower12/security_lockers)
+"euz" = (
+/obj/machinery/photocopier{
+	id_tag = "test"
+	},
+/turf/floor/wood/yew,
+/area/tower12/cmo_office)
 "evl" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -5283,6 +5364,17 @@
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/bar)
+"ePl" = (
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/corner/orange/full,
+/obj/abstract/landmark/start{
+	name = "General Maintenance Technician"
+	},
+/obj/structure/chair/office/comfy/black,
+/turf/floor/tiled,
+/area/tower12/engineering_lobby)
 "ePE" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Engineering";
@@ -5466,6 +5558,9 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 6
 	},
+/obj/abstract/landmark/start{
+	name = "Utility Maintenance Technician"
+	},
 /turf/floor/tiled,
 /area/tower12/eps_utility_prep)
 "eYj" = (
@@ -5552,6 +5647,13 @@
 /obj/structure/disposalpipe/segment,
 /turf/floor/wood/mahogany,
 /area/tower12/bridge_hallway)
+"fcL" = (
+/obj/effect/floor_decal/corner/white/full,
+/obj/abstract/landmark/start{
+	name = "Nurse Practitioner"
+	},
+/turf/floor/tiled,
+/area/tower12/trauma_gtc)
 "fdj" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/effect/floor_decal/corner/white/full,
@@ -5764,6 +5866,9 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/brown/full,
+/obj/abstract/landmark/start{
+	name = "Department Provisions Technician"
+	},
 /turf/floor/tiled,
 /area/tower12/supply_desk)
 "flp" = (
@@ -5858,6 +5963,13 @@
 /obj/abstract/airlock_helper/door/int_door,
 /turf/floor/plating,
 /area/tower12/starboard_maint_d4)
+"fqr" = (
+/obj/structure/table/wood/ebony,
+/obj/machinery/faxmachine/mapped{
+	init_network_tag = "DEPT_COORD_OFFICE"
+	},
+/turf/floor/wood/mahogany,
+/area/tower12/dept_coordinator_office)
 "fqL" = (
 /obj/machinery/camera/network{
 	dir = 1
@@ -6061,6 +6173,9 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/blue/full,
+/obj/abstract/landmark/start{
+	name = "Medical Doctor"
+	},
 /turf/floor/tiled,
 /area/tower12/trauma_center_lobby)
 "fCk" = (
@@ -6871,6 +6986,9 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/red/mono,
+/obj/abstract/landmark/start{
+	name = "Peacekeeping Officer"
+	},
 /turf/floor/tiled,
 /area/tower12/security_lobby)
 "gtC" = (
@@ -6901,6 +7019,7 @@
 /obj/structure/cable/green{
 	icon_state = "0-4"
 	},
+/obj/machinery/photocopier,
 /turf/floor/carpet/red,
 /area/tower12/library)
 "guk" = (
@@ -7171,6 +7290,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/abstract/landmark/start{
+	name = "Cook"
+	},
 /turf/floor/tiled/white,
 /area/tower12/kitchen)
 "gLf" = (
@@ -7195,6 +7317,10 @@
 	icon_state = "0-2"
 	},
 /obj/structure/table/wood/ebony,
+/obj/item/paper_bin,
+/obj/item/pen{
+	pixel_x = 6
+	},
 /turf/floor/wood/mahogany,
 /area/tower12/bridge)
 "gLL" = (
@@ -7736,7 +7862,6 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/structure/table/steel_reinforced,
 /turf/floor/tiled,
 /area/tower12/secure_armory)
 "hmS" = (
@@ -8128,6 +8253,14 @@
 	},
 /turf/floor/tiled,
 /area/tower12/engineering_hall)
+"hEs" = (
+/obj/structure/table/wood/reinforced/mahogany,
+/obj/item/paper_bin,
+/obj/item/pen{
+	pixel_x = 6
+	},
+/turf/floor/wood/yew,
+/area/tower12/civil_manager_office)
 "hEy" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -8179,6 +8312,12 @@
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/security_processing)
+"hHB" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/floor/carpet/red,
+/area/tower12/library)
 "hHT" = (
 /obj/machinery/alarm{
 	dir = 4;
@@ -8363,6 +8502,16 @@
 	dir = 4
 	},
 /obj/structure/table/steel_reinforced,
+/obj/item/clothing/armor_attachment/plate,
+/obj/item/clothing/armor_attachment/plate,
+/obj/item/clothing/armor_attachment/plate,
+/obj/item/clothing/armor_attachment/plate,
+/obj/item/clothing/armor_attachment/plate,
+/obj/item/clothing/head/helmet,
+/obj/item/clothing/head/helmet,
+/obj/item/clothing/head/helmet,
+/obj/item/clothing/head/helmet,
+/obj/item/clothing/head/helmet,
 /turf/floor/tiled,
 /area/tower12/secure_armory)
 "hNP" = (
@@ -8826,6 +8975,12 @@
 "ilb" = (
 /turf/floor/wood/mahogany,
 /area/tower12/upperdeck_staircase_d4)
+"ilH" = (
+/obj/abstract/landmark/start{
+	name = "Bartender"
+	},
+/turf/floor/wood/mahogany,
+/area/tower12/bar)
 "ilP" = (
 /turf/floor/tiled,
 /area/tower12/aft_starboard_hall_d3)
@@ -9453,6 +9608,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/floor/wood/mahogany,
 /area/tower12/public_garden)
+"iST" = (
+/obj/structure/table/wood/walnut,
+/obj/item/paper_fortune_teller,
+/turf/floor/wood/mahogany,
+/area/tower12/public_garden)
 "iTA" = (
 /obj/machinery/apc/high{
 	pixel_y = -22
@@ -9736,6 +9896,12 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
+/obj/structure/table/steel_reinforced,
+/obj/item/ammo_magazine/pistol/flash,
+/obj/item/ammo_magazine/pistol/flash,
+/obj/item/ammo_magazine/pistol/flash,
+/obj/item/ammo_magazine/pistol/flash,
+/obj/item/ammo_magazine/pistol/flash,
 /turf/floor/tiled,
 /area/tower12/secure_armory)
 "jhb" = (
@@ -9812,13 +9978,8 @@
 /area/tower12/eps_stairwell_d3)
 "jmb" = (
 /obj/structure/table/wood/mahogany,
-/obj/item/stamp/boss{
-	pixel_y = -1;
-	pixel_x = 8
-	},
-/obj/item/stamp/denied{
-	pixel_y = 2;
-	pixel_x = -2
+/obj/machinery/faxmachine/mapped{
+	init_network_tag = "UTA_REP_OFFICE"
 	},
 /turf/floor/carpet/blue2,
 /area/tower12/uta_rep_office)
@@ -10499,6 +10660,9 @@
 /area/tower12/upperdeck_staircase_d3)
 "jVu" = (
 /obj/structure/chair/comfy/black,
+/obj/abstract/landmark/start{
+	name = "Chaplain"
+	},
 /turf/floor/wood/mahogany,
 /area/tower12/chapel_office)
 "jVv" = (
@@ -10538,6 +10702,11 @@
 /obj/structure/table/marble,
 /obj/item/chems/drinks/shaker,
 /obj/item/chems/rag,
+/obj/machinery/light_switch{
+	dir = 8;
+	pixel_x = 31;
+	pixel_y = 8
+	},
 /turf/floor/wood/mahogany,
 /area/tower12/bar)
 "jWB" = (
@@ -10637,6 +10806,10 @@
 	},
 /turf/floor/tiled,
 /area/tower12/docking_arm)
+"kbz" = (
+/obj/machinery/photocopier,
+/turf/floor/carpet/blue2,
+/area/tower12/bridge_meeting)
 "kcH" = (
 /obj/structure/cable/green{
 	icon_state = "0-2"
@@ -11157,6 +11330,15 @@
 	},
 /turf/floor/tiled,
 /area/tower12/hydroponics)
+"kzY" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/table/steel_reinforced,
+/obj/item/ammo_magazine/pistol/emp,
+/obj/item/ammo_magazine/pistol/emp,
+/turf/floor/tiled,
+/area/tower12/secure_armory)
 "kAj" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -11983,6 +12165,10 @@
 /obj/machinery/door/firedoor,
 /turf/floor/tiled,
 /area/tower12/supply_desk)
+"lsD" = (
+/obj/abstract/landmark/latejoin/lift,
+/turf/floor/tiled,
+/area/tower12/residential_exit)
 "lsI" = (
 /obj/machinery/apc/high{
 	dir = 8;
@@ -12176,6 +12362,10 @@
 	pixel_x = -21
 	},
 /obj/effect/floor_decal/corner/brown/full,
+/obj/item/paper_bin,
+/obj/item/pen{
+	pixel_x = 6
+	},
 /turf/floor/tiled,
 /area/tower12/supply_desk)
 "lym" = (
@@ -12324,6 +12514,10 @@
 /obj/structure/window/reinforced,
 /obj/structure/table/steel_reinforced,
 /obj/effect/floor_decal/corner/orange/full,
+/obj/item/paper_bin,
+/obj/item/pen{
+	pixel_x = 6
+	},
 /turf/floor/tiled,
 /area/tower12/engineering_lobby)
 "lFk" = (
@@ -12557,6 +12751,9 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/red/full,
+/obj/abstract/landmark/start{
+	name = "Emergency Medical Technician"
+	},
 /turf/floor/tiled,
 /area/tower12/eps_emt_prep)
 "lNY" = (
@@ -12660,6 +12857,14 @@
 	},
 /turf/floor/tiled,
 /area/tower12/fore_port_hall_d3)
+"lUb" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/red/mono,
+/obj/machinery/photocopier,
+/turf/floor/tiled,
+/area/tower12/security_lobby)
 "lUc" = (
 /obj/effect/floor_decal/corner/brown/full,
 /obj/machinery/camera/network/mining{
@@ -12814,6 +13019,12 @@
 /area/tower12/fore_starboard_maint_d2)
 "mbV" = (
 /obj/effect/floor_decal/corner/orange/full,
+/obj/abstract/landmark/start{
+	name = "General Maintenance Technician"
+	},
+/obj/structure/chair/office/comfy/black{
+	dir = 8
+	},
 /turf/floor/tiled,
 /area/tower12/engineering_lobby)
 "mcb" = (
@@ -12875,6 +13086,12 @@
 	},
 /turf/floor/tiled,
 /area/tower12/eps_stairwell_d2)
+"mfl" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/ammo_magazine/shotholder/flash,
+/obj/item/ammo_magazine/shotholder/flash,
+/turf/floor/tiled,
+/area/tower12/secure_armory)
 "mfr" = (
 /obj/machinery/light{
 	dir = 8
@@ -12951,6 +13168,9 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red/full,
+/obj/abstract/landmark/start{
+	name = "Emergency Medical Technician"
+	},
 /turf/floor/tiled,
 /area/tower12/eps_emt_prep)
 "miH" = (
@@ -13320,6 +13540,9 @@
 /obj/machinery/camera/network/security{
 	dir = 4
 	},
+/obj/machinery/faxmachine/mapped{
+	init_network_tag = "EPS_OFFICE"
+	},
 /turf/floor/wood/mahogany,
 /area/tower12/eps_coord_office)
 "mDE" = (
@@ -13554,6 +13777,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/abstract/landmark/start{
+	name = "Janitor"
+	},
 /turf/floor/tiled,
 /area/tower12/custodial)
 "mMv" = (
@@ -13569,6 +13795,9 @@
 	},
 /obj/structure/chair/office/comfy/black{
 	dir = 8
+	},
+/obj/abstract/landmark/start{
+	name = "Chief Medical Officer"
 	},
 /turf/floor/wood/yew,
 /area/tower12/cmo_office)
@@ -13666,6 +13895,10 @@
 /obj/structure/table/wood/ebony,
 /obj/structure/disposalpipe/segment/bent{
 	dir = 8
+	},
+/obj/item/paper_bin,
+/obj/item/pen{
+	pixel_x = 6
 	},
 /turf/floor/carpet/blue2,
 /area/tower12/bridge_meeting)
@@ -14165,10 +14398,6 @@
 	},
 /turf/floor/tiled,
 /area/tower12/hydroponics)
-"nmG" = (
-/obj/abstract/landmark/latejoin/cryo,
-/turf/floor/tiled,
-/area/tower12/residential_exit)
 "nmX" = (
 /turf/wall/r_wall,
 /area/tower12/trauma_or_joint)
@@ -14256,6 +14485,9 @@
 	dir = 1
 	},
 /obj/machinery/hologram/holopad,
+/obj/abstract/landmark/start{
+	name = "Peacekeeping Officer"
+	},
 /turf/floor/tiled,
 /area/tower12/security_lockers)
 "nsh" = (
@@ -14800,17 +15032,12 @@
 /area/tower12/engine_room)
 "nQq" = (
 /obj/structure/closet/secure_closet/guncabinet,
-/obj/item/gun/energy,
-/obj/item/gun/energy,
-/obj/item/gun/energy,
-/obj/item/gun/energy,
-/obj/item/gun/energy,
-/obj/item/cell/gun,
-/obj/item/cell/gun,
-/obj/item/cell/gun,
-/obj/item/cell/gun,
-/obj/item/cell/gun,
 /obj/effect/floor_decal/corner/red/mono,
+/obj/item/gun/energy/gun,
+/obj/item/gun/energy/gun,
+/obj/item/gun/energy/gun,
+/obj/item/gun/energy/gun,
+/obj/item/gun/energy/gun,
 /turf/floor/tiled,
 /area/tower12/security_lockers)
 "nQw" = (
@@ -15003,6 +15230,17 @@
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/central_elevator_d4)
+"nYO" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/table/wood/ebony,
+/obj/item/paper_bin,
+/obj/item/pen{
+	pixel_x = 6
+	},
+/turf/floor/carpet/red,
+/area/tower12/library)
 "nZC" = (
 /obj/machinery/alarm{
 	pixel_y = 24
@@ -15578,6 +15816,9 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/blue/full,
+/obj/abstract/landmark/start{
+	name = "Medical Doctor"
+	},
 /turf/floor/tiled,
 /area/tower12/trauma_center_lobby)
 "oAT" = (
@@ -15662,6 +15903,9 @@
 "oDj" = (
 /obj/structure/chair/office/comfy/black{
 	dir = 8
+	},
+/obj/abstract/landmark/start{
+	name = "Department Coordinator"
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/dept_coordinator_office)
@@ -16050,6 +16294,9 @@
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/corner/white/full,
+/obj/abstract/landmark/start{
+	name = "Nurse Practitioner"
+	},
 /turf/floor/tiled,
 /area/tower12/medical_storage)
 "oXx" = (
@@ -16864,9 +17111,11 @@
 /area/tower12/aft_port_hall_d3)
 "pNe" = (
 /obj/structure/table/steel_reinforced,
-/obj/machinery/camera/network/security{
-	dir = 8
-	},
+/obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/suit/armor/pcarrier,
 /turf/floor/tiled,
 /area/tower12/secure_armory)
 "pNj" = (
@@ -17743,6 +17992,10 @@
 	icon_state = "1-2"
 	},
 /obj/structure/table/wood/ebony,
+/obj/item/paper_bin,
+/obj/item/pen{
+	pixel_x = 6
+	},
 /turf/floor/wood/mahogany,
 /area/tower12/eps_coord_office)
 "qAO" = (
@@ -18436,6 +18689,7 @@
 /area/tower12/fore_starboard_maint_d3)
 "rmI" = (
 /obj/machinery/network/relay/wall_mounted/west,
+/obj/machinery/photocopier,
 /turf/floor/wood/mahogany,
 /area/tower12/eps_coord_office)
 "rne" = (
@@ -18506,6 +18760,9 @@
 /obj/structure/table/steel_reinforced,
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/corner/red/mono,
+/obj/machinery/faxmachine/mapped{
+	init_network_tag = "EPS_LOBBY"
+	},
 /turf/floor/tiled,
 /area/tower12/security_lobby)
 "rvh" = (
@@ -18528,6 +18785,13 @@
 /obj/effect/floor_decal/corner/orange/full,
 /turf/floor/tiled,
 /area/tower12/engine_storage)
+"rwM" = (
+/obj/structure/table/wood/reinforced/mahogany,
+/obj/machinery/faxmachine/mapped{
+	init_network_tag = "CIVIL_MANAGER"
+	},
+/turf/floor/wood/yew,
+/area/tower12/civil_manager_office)
 "rxB" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 8
@@ -18813,6 +19077,9 @@
 /obj/structure/bed/sofa/left/red{
 	dir = 4
 	},
+/obj/abstract/landmark/start{
+	name = "Assistant"
+	},
 /turf/floor/carpet/red,
 /area/tower12/library)
 "rKG" = (
@@ -18853,6 +19120,13 @@
 	},
 /turf/space,
 /area/space)
+"rNJ" = (
+/obj/structure/table/wood/mahogany,
+/obj/machinery/faxmachine/mapped{
+	init_network_tag = "CMO_OFFICE"
+	},
+/turf/floor/wood/yew,
+/area/tower12/cmo_office)
 "rOr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -18953,6 +19227,9 @@
 "rTC" = (
 /obj/structure/chair/office/comfy/red{
 	dir = 4
+	},
+/obj/abstract/landmark/start{
+	name = "Utility Maintenance Technician"
 	},
 /turf/floor/tiled,
 /area/tower12/eps_utility_prep)
@@ -19691,6 +19968,10 @@
 /obj/structure/table/wood/ebony,
 /turf/floor/carpet/blue2,
 /area/tower12/bridge_meeting)
+"swE" = (
+/obj/structure/railing/mapped/wooden/ebony,
+/turf/floor/tiled,
+/area/tower12/residential_exit)
 "syd" = (
 /obj/machinery/computer/message_monitor{
 	dir = 4
@@ -20045,6 +20326,12 @@
 	},
 /turf/floor/tiled,
 /area/tower12/public_garden)
+"sLz" = (
+/obj/machinery/camera/network/security{
+	dir = 8
+	},
+/turf/floor/tiled,
+/area/tower12/secure_armory)
 "sLY" = (
 /obj/structure/disposalpipe/segment/bent{
 	dir = 2
@@ -20244,6 +20531,9 @@
 /obj/structure/chair/office/comfy/red{
 	dir = 4
 	},
+/obj/abstract/landmark/start{
+	name = "Emergency Public Services Coordinator"
+	},
 /turf/floor/wood/mahogany,
 /area/tower12/eps_coord_office)
 "sVF" = (
@@ -20359,6 +20649,11 @@
 	},
 /obj/structure/table/steel_reinforced,
 /obj/effect/floor_decal/corner/red/half,
+/obj/item/ammo_magazine/pistol/rubber,
+/obj/item/ammo_magazine/pistol/rubber,
+/obj/item/ammo_magazine/pistol/rubber,
+/obj/item/ammo_magazine/pistol/rubber,
+/obj/item/ammo_magazine/pistol/rubber,
 /turf/floor/tiled,
 /area/tower12/armory)
 "tav" = (
@@ -20558,6 +20853,10 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/floor_decal/corner/brown/full,
+/obj/abstract/landmark/start{
+	name = "Department Provisions Technician"
+	},
+/obj/structure/chair/office/comfy/black,
 /turf/floor/tiled,
 /area/tower12/supply_desk)
 "tiw" = (
@@ -20739,6 +21038,9 @@
 	},
 /obj/effect/floor_decal/corner/red{
 	dir = 6
+	},
+/obj/abstract/landmark/start{
+	name = "Utility Maintenance Technician"
 	},
 /turf/floor/tiled,
 /area/tower12/eps_utility_prep)
@@ -21309,6 +21611,9 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
+/obj/abstract/landmark/start{
+	name = "Bartender"
+	},
 /turf/floor/wood/mahogany,
 /area/tower12/bar)
 "tPj" = (
@@ -21413,6 +21718,8 @@
 /area/tower12/engineering_eva)
 "tTR" = (
 /obj/structure/table/steel_reinforced,
+/obj/item/gun/energy/laser,
+/obj/item/gun/energy/laser,
 /turf/floor/tiled,
 /area/tower12/secure_armory)
 "tUU" = (
@@ -21420,6 +21727,7 @@
 	dir = 1
 	},
 /obj/structure/table/steel_reinforced,
+/obj/item/gun/projectile/shotgun/pump,
 /turf/floor/tiled,
 /area/tower12/secure_armory)
 "tVe" = (
@@ -21611,6 +21919,13 @@
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/chapel)
+"uew" = (
+/obj/machinery/faxmachine/mapped{
+	init_network_tag = "LIBRARY"
+	},
+/obj/structure/table/wood/ebony,
+/turf/floor/carpet/red,
+/area/tower12/library)
 "ugd" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 6
@@ -21665,6 +21980,20 @@
 /obj/structure/cable/green{
 	icon_state = "0-8"
 	},
+/obj/structure/closet/crate{
+	dir = 8
+	},
+/obj/item/clothing/armor_attachment/helmcover/blue,
+/obj/item/clothing/armor_attachment/helmcover/blue,
+/obj/item/clothing/armor_attachment/helmcover/green,
+/obj/item/clothing/armor_attachment/helmcover/green,
+/obj/item/clothing/armor_attachment/helmcover/tan,
+/obj/item/clothing/armor_attachment/helmcover/tan,
+/obj/item/clothing/armband/bluegold,
+/obj/item/clothing/armband/bluegold,
+/obj/item/clothing/armband/bluegold,
+/obj/item/clothing/armband/bluegold,
+/obj/item/clothing/armband/bluegold,
 /turf/floor/tiled,
 /area/tower12/secure_armory)
 "ujV" = (
@@ -22562,6 +22891,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/brown/full,
+/obj/machinery/photocopier,
 /turf/floor/tiled,
 /area/tower12/supply_service_store)
 "vdo" = (
@@ -22723,6 +23053,9 @@
 /area/tower12/fore_port_hall_d3)
 "vmZ" = (
 /obj/machinery/light,
+/obj/abstract/landmark/start{
+	name = "Nurse Practitioner"
+	},
 /turf/floor/wood/mahogany,
 /area/tower12/trauma_recovery)
 "vna" = (
@@ -22751,6 +23084,9 @@
 	dir = 1
 	},
 /obj/structure/bed/sofa/right/red,
+/obj/abstract/landmark/start{
+	name = "Assistant"
+	},
 /turf/floor/carpet/red,
 /area/tower12/library)
 "voi" = (
@@ -22859,6 +23195,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/floor/tiled,
 /area/tower12/engineering_lobby)
+"vxo" = (
+/obj/machinery/cryopod/lift,
+/turf/floor/tiled,
+/area/tower12/residential_exit)
 "vxq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/floor_decal/corner/brown/full,
@@ -23048,6 +23388,10 @@
 	},
 /turf/floor/tiled,
 /area/tower12/port_hall_d2)
+"vGd" = (
+/obj/machinery/photocopier,
+/turf/floor/wood/mahogany,
+/area/tower12/dept_coordinator_office)
 "vGg" = (
 /obj/structure/chair/bench/pew/ebony{
 	dir = 1
@@ -23537,6 +23881,9 @@
 "wnA" = (
 /obj/structure/chair/comfy/purple{
 	dir = 8
+	},
+/obj/abstract/landmark/start{
+	name = "Assistant"
 	},
 /turf/floor/tiled,
 /area/tower12/central_elevator_d2)
@@ -24126,9 +24473,9 @@
 /obj/machinery/apc/high{
 	pixel_y = -22
 	},
-/obj/structure/table/steel_reinforced,
 /obj/effect/floor_decal/corner/blue/full,
 /obj/effect/floor_decal/corner/white/border,
+/obj/machinery/photocopier,
 /turf/floor/tiled,
 /area/tower12/trauma_center_lobby)
 "wLM" = (
@@ -24191,6 +24538,12 @@
 /obj/structure/table/marble,
 /turf/floor/wood/mahogany,
 /area/tower12/bar)
+"wPz" = (
+/obj/abstract/landmark/start{
+	name = "Cook"
+	},
+/turf/floor/tiled/white,
+/area/tower12/kitchen)
 "wPV" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -24227,6 +24580,9 @@
 /turf/floor/tiled,
 /area/tower12/atmospherics)
 "wSQ" = (
+/obj/abstract/landmark/start{
+	name = "Janitor"
+	},
 /turf/floor/tiled,
 /area/tower12/custodial)
 "wSV" = (
@@ -24244,6 +24600,14 @@
 	},
 /obj/machinery/camera/network/security{
 	dir = 4
+	},
+/obj/item/stamp/denied{
+	pixel_y = 2;
+	pixel_x = 2
+	},
+/obj/item/stamp/boss{
+	pixel_y = -1;
+	pixel_x = 8
 	},
 /turf/floor/carpet/blue2,
 /area/tower12/uta_rep_office)
@@ -24360,11 +24724,21 @@
 /turf/floor/tiled,
 /area/tower12/central_staircase_d3)
 "wYR" = (
-/obj/machinery/light{
-	dir = 8
+/obj/structure/table/wood/ebony,
+/obj/item/paper_bin,
+/obj/item/pen{
+	pixel_x = 6
 	},
-/turf/floor/carpet/red,
-/area/tower12/library)
+/obj/item/pen/blue{
+	pixel_y = 3;
+	pixel_x = 3
+	},
+/obj/item/pen/red{
+	pixel_y = 6;
+	pixel_x = -1
+	},
+/turf/floor/wood/mahogany,
+/area/tower12/dept_coordinator_office)
 "wZf" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access = list("ACCESS_MAINT");
@@ -24374,9 +24748,6 @@
 /turf/floor/plating,
 /area/tower12/central_maint_d3)
 "wZh" = (
-/obj/machinery/light_switch{
-	dir = 4
-	},
 /obj/structure/sign/warning/smoking/large{
 	pixel_x = -32;
 	directional_offset = null
@@ -24577,6 +24948,15 @@
 	},
 /turf/floor/plating,
 /area/tower12/substation_d4)
+"xhJ" = (
+/obj/structure/chair/comfy/beige{
+	dir = 4
+	},
+/obj/abstract/landmark/start{
+	name = "Assistant"
+	},
+/turf/floor/wood/mahogany,
+/area/tower12/public_garden)
 "xik" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -24858,6 +25238,9 @@
 	paint_color = COLOR_PALE_RED_GRAY
 	},
 /obj/machinery/portable_atmospherics/hydroponics/soil/invisible,
+/obj/abstract/landmark/start{
+	name = "Assistant"
+	},
 /turf/floor/fake_grass,
 /area/tower12/public_garden)
 "xvE" = (
@@ -25086,6 +25469,12 @@
 	},
 /turf/floor/tiled,
 /area/tower12/fore_hall_d2)
+"xCi" = (
+/obj/abstract/landmark/start{
+	name = "Botanist"
+	},
+/turf/floor/fake_grass,
+/area/tower12/hydroponics)
 "xCl" = (
 /turf/floor/tiled,
 /area/tower12/central_elevator_d2)
@@ -25338,11 +25727,12 @@
 /turf/floor/tiled,
 /area/tower12/engineering_eva)
 "xNo" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
 /obj/structure/table/laminate/reinforced/walnut,
 /obj/effect/floor_decal/corner/brown/full,
+/obj/item/paper_bin,
+/obj/item/pen{
+	pixel_x = 6
+	},
 /turf/floor/tiled,
 /area/tower12/supply_service_store)
 "xNs" = (
@@ -25391,6 +25781,9 @@
 "xQN" = (
 /obj/structure/chair/office/comfy/black{
 	dir = 4
+	},
+/obj/abstract/landmark/start{
+	name = "Civil Manager"
 	},
 /turf/floor/wood/yew,
 /area/tower12/civil_manager_office)
@@ -25495,6 +25888,13 @@
 /obj/effect/floor_decal/corner/red/full,
 /turf/floor/tiled,
 /area/tower12/eps_utility_prep)
+"xVI" = (
+/obj/effect/floor_decal/corner/red/border,
+/obj/abstract/landmark/start{
+	name = "Peacekeeping Officer"
+	},
+/turf/floor/tiled,
+/area/tower12/security_lockers)
 "xWh" = (
 /obj/machinery/light/small,
 /turf/floor/plating,
@@ -25780,6 +26180,13 @@
 /obj/machinery/network/acl,
 /turf/floor/greengrid,
 /area/tower12/telecomms_servers)
+"yhn" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/photocopier,
+/turf/floor/wood/mahogany,
+/area/tower12/bridge)
 "yhI" = (
 /obj/structure/cable/green{
 	icon_state = "0-4"
@@ -25851,6 +26258,13 @@
 /obj/effect/floor_decal/corner/red/mono,
 /turf/floor/tiled,
 /area/tower12/security_hallway)
+"yjq" = (
+/obj/structure/table/wood/ebony,
+/obj/machinery/faxmachine/mapped{
+	init_network_tag = "BRIDGE"
+	},
+/turf/floor/wood/mahogany,
+/area/tower12/bridge)
 "yjR" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -29997,7 +30411,7 @@ phh
 pWO
 dbE
 eGt
-ewt
+rwM
 lDA
 xZB
 cCg
@@ -30094,7 +30508,7 @@ phh
 gVr
 gWM
 eGt
-ewt
+hEs
 xQN
 pjh
 cCg
@@ -30197,7 +30611,7 @@ vLJ
 cCg
 cCg
 cmw
-aoZ
+cjK
 rVP
 bwf
 hbD
@@ -30417,7 +30831,7 @@ gFc
 gFc
 sJY
 mbV
-grK
+ePl
 xLP
 sFl
 vsw
@@ -37386,14 +37800,14 @@ rVC
 rVC
 rVC
 rVC
-rVC
-rVC
-rVC
-rVC
-rVC
-rVC
-rVC
-rVC
+jWB
+jWB
+jWB
+jWB
+jWB
+jWB
+jWB
+jWB
 rVC
 rVC
 rVC
@@ -37484,12 +37898,12 @@ rVC
 rVC
 rVC
 jWB
-jWB
-jWB
-jWB
-jWB
-jWB
-jWB
+vxo
+lsD
+swE
+oYD
+vxo
+lsD
 jWB
 rVC
 rVC
@@ -37581,12 +37995,12 @@ rVC
 rVC
 rVC
 jWB
-aKQ
-aKQ
-aKQ
-aKQ
-aKQ
-aKQ
+vxo
+lsD
+swE
+oYD
+vxo
+lsD
 jWB
 rVC
 rVC
@@ -37678,12 +38092,12 @@ rVC
 rVC
 rVC
 jWB
-nmG
-nmG
-nmG
-nmG
-nmG
-nmG
+vxo
+lsD
+swE
+oYD
+vxo
+lsD
 jWB
 rVC
 rVC
@@ -38253,7 +38667,7 @@ rKe
 bId
 oSo
 vSF
-wYR
+vSF
 vSF
 gud
 qmI
@@ -38375,7 +38789,7 @@ dhl
 xfS
 kzw
 dWi
-ulI
+xCi
 ulI
 ulI
 ulI
@@ -38541,11 +38955,11 @@ oSw
 wIF
 gIQ
 aJI
-oSo
+hHB
 fIx
 fXq
-oSo
-vSF
+uew
+nYO
 uJm
 qmI
 pgj
@@ -39599,7 +40013,7 @@ rVC
 rVC
 gfH
 fPt
-gUb
+xNo
 wiq
 gUb
 tQn
@@ -39639,7 +40053,7 @@ glZ
 wgi
 rqt
 rkU
-rkU
+wPz
 rkU
 oIm
 hno
@@ -39890,7 +40304,7 @@ rVC
 rVC
 gfH
 jxJ
-xNo
+icj
 sOr
 vxq
 jAN
@@ -46112,7 +46526,7 @@ kBA
 pWv
 hhi
 tVe
-mfK
+fcL
 cJR
 xQK
 mfK
@@ -46810,7 +47224,7 @@ qdF
 iJl
 rdg
 xkv
-bHj
+rNJ
 mMA
 mAW
 ikb
@@ -46910,7 +47324,7 @@ xkv
 tdO
 mAW
 mAW
-mAW
+euz
 hSC
 uzc
 uzc
@@ -48459,7 +48873,7 @@ eWU
 rer
 jmH
 mSK
-mSK
+xhJ
 eYS
 jmH
 eYS
@@ -48555,7 +48969,7 @@ gjB
 qGD
 dRy
 jmH
-erM
+iST
 erM
 eYS
 jmH
@@ -48652,7 +49066,7 @@ kuB
 kno
 vXO
 jmH
-wUS
+aKQ
 wUS
 eYS
 eYS
@@ -49041,7 +49455,7 @@ kno
 vXO
 jmH
 mSK
-mSK
+xhJ
 eYS
 eYS
 eYS
@@ -49235,7 +49649,7 @@ vZC
 jIL
 jmH
 wUS
-wUS
+aKQ
 eYS
 jmH
 eYS
@@ -49303,7 +49717,7 @@ xZg
 fkS
 gup
 uHl
-kCH
+xVI
 cHo
 fkS
 jfV
@@ -49826,7 +50240,7 @@ vac
 wOQ
 fXK
 dLA
-nfg
+ilH
 tsu
 dgn
 rVC
@@ -50365,7 +50779,7 @@ eTC
 eTC
 tTR
 hmQ
-tTR
+aeF
 bdw
 rbX
 ejI
@@ -50462,7 +50876,7 @@ eTC
 eTC
 tTR
 dzp
-tTR
+bCr
 bdw
 qVA
 oGD
@@ -50654,7 +51068,7 @@ rVC
 rVC
 eTC
 eTC
-tTR
+mfl
 dzp
 lIF
 bqI
@@ -50667,7 +51081,7 @@ eOm
 qQu
 nra
 tZX
-rty
+cir
 izn
 rCh
 rty
@@ -50751,7 +51165,7 @@ rVC
 rVC
 eTC
 eTC
-tUU
+kzY
 vWU
 ciO
 ciO
@@ -50848,11 +51262,11 @@ rVC
 rVC
 eTC
 eTC
-tTR
+sLz
 pog
 pNe
 hNe
-tTR
+cUd
 ujK
 eTC
 nra
@@ -50959,7 +51373,7 @@ bzZ
 kaE
 tZX
 wnH
-sqy
+lUb
 jFy
 sqy
 tZX
@@ -55438,7 +55852,7 @@ luk
 evU
 ltB
 hYk
-aZJ
+vGd
 fHf
 fHf
 tsD
@@ -55821,7 +56235,7 @@ pwj
 ioe
 gXZ
 uTu
-ltB
+wYR
 ltB
 aZJ
 fHf
@@ -55918,7 +56332,7 @@ slR
 oyI
 ikp
 uTu
-ltB
+fqr
 oDj
 eTh
 iAl
@@ -56008,8 +56422,8 @@ tsD
 tsD
 tsD
 sUb
-ikp
-rXV
+yjq
+yhn
 uTL
 cxw
 rXV
@@ -56411,7 +56825,7 @@ bRe
 idw
 wTx
 idw
-uTG
+dLH
 mmT
 sYg
 tsD
@@ -56586,7 +57000,7 @@ nuE
 qrm
 tMw
 pNj
-lhU
+kbz
 lhU
 cbZ
 pns

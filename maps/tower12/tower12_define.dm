@@ -7,14 +7,16 @@
 	station_name  = "Rapunzel Tower 12"
 
 	dock_name = "Rapunzel Upper Tower Dock"
-
+	boss_name = "Reza Kaleva"
 	company_name  = "Rapunzel"
 	company_short = "RPNZL"
 	game_year = 350
 	lobby_screens = list('maps/tower12/lobby/rpzl12_lobby.png')
-	welcome_sound = 'sound/effects/cowboysting.ogg' /// Replace this and the emergency shuttles.
+	welcome_sound = 'sound/effects/cowboysting.ogg' /// Replace this.
 
 	evac_controller_type = /datum/evacuation_controller/shuttle
+
+	map_admin_faxes = list("UTA.RPZL" = list("name" = "Tower Coordinator", "color" = "#86538c", "access" = list(list(access_heads))))
 
 	emergency_shuttle_called_message = "Rapunzel to Tower 12, your distress call is received. An emergency shuttle will arrive in %ETA%."
 	emergency_shuttle_docked_message = "Attention Tower 12: the Rapunzel Tower evacuation shuttle has arrived. It will depart in %ETD%."
@@ -35,3 +37,6 @@
 
 /datum/map/tower12/get_map_info()
 	return "Welcome to <B>[station_name]</B>."
+
+/datum/map/tower12/setup_admin_faxes()
+	return

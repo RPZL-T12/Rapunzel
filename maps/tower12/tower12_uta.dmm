@@ -1,4 +1,14 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"af" = (
+/obj/machinery/vending/cola{
+	dir = 4
+	},
+/turf/unsimulated/floor/dark,
+/area/tower12/uta)
+"be" = (
+/obj/machinery/vending/boozeomat,
+/turf/unsimulated/floor/lino,
+/area/tower12/uta)
 "bE" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 1
@@ -60,6 +70,9 @@
 "fO" = (
 /turf/wall/shuttle,
 /area/tower12/shuttle/supply)
+"gh" = (
+/turf/unsimulated/floor/lino,
+/area/tower12/uta)
 "gi" = (
 /obj/machinery/computer/ship/navigation/telescreen{
 	pixel_y = 23
@@ -69,12 +82,30 @@
 	},
 /turf/floor/shuttle/yellow,
 /area/tower12/shuttle/supply)
+"gn" = (
+/obj/structure/table/laminate/ebony,
+/obj/item/toy/desk/newtoncradle,
+/turf/unsimulated/floor/carpet,
+/area/space)
+"hp" = (
+/obj/structure/bed/sofa/left/beige,
+/turf/unsimulated/floor/carpet,
+/area/tower12/uta)
 "ig" = (
 /turf/floor/shuttle/blue,
 /area/tower12/shuttle/evac)
 "in" = (
 /turf/floor/shuttle/purple,
 /area/tower12/shuttle/evac)
+"iz" = (
+/obj/structure/bed/sofa/middle/beige{
+	dir = 1
+	},
+/turf/unsimulated/floor/carpet,
+/area/tower12/uta)
+"kc" = (
+/turf/unsimulated/floor/carpet,
+/area/tower12/uta)
 "kK" = (
 /obj/structure/chair/shuttle/blue{
 	dir = 8
@@ -83,6 +114,12 @@
 /area/tower12/shuttle/evac)
 "kR" = (
 /obj/machinery/light,
+/turf/unsimulated/floor/dark,
+/area/tower12/uta)
+"mb" = (
+/obj/machinery/vending/coffee{
+	dir = 4
+	},
 /turf/unsimulated/floor/dark,
 /area/tower12/uta)
 "mc" = (
@@ -101,6 +138,10 @@
 	},
 /turf/floor/shuttle/yellow,
 /area/tower12/shuttle/supply)
+"oE" = (
+/obj/structure/table/marble,
+/turf/unsimulated/floor/lino,
+/area/tower12/uta)
 "oS" = (
 /obj/structure/chair/shuttle/black{
 	dir = 1
@@ -134,6 +175,12 @@
 	},
 /turf/floor/shuttle/purple,
 /area/tower12/shuttle/evac)
+"pw" = (
+/obj/structure/bed/sofa/left/beige{
+	dir = 8
+	},
+/turf/unsimulated/floor/carpet,
+/area/tower12/uta)
 "px" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/full,
@@ -155,6 +202,12 @@
 	},
 /turf/floor/shuttle/purple,
 /area/tower12/shuttle/evac)
+"rE" = (
+/obj/structure/chair/comfy/beige{
+	dir = 8
+	},
+/turf/unsimulated/floor/carpet,
+/area/tower12/uta)
 "rM" = (
 /obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "escape_shuttle_hatch"
@@ -179,11 +232,27 @@
 	},
 /turf/floor/shuttle/purple,
 /area/tower12/shuttle/evac)
+"us" = (
+/obj/structure/chair/comfy/captain,
+/obj/item/toy/plushie/corgi/ribbon{
+	name = "Sabi"
+	},
+/turf/unsimulated/floor/carpet,
+/area/space)
+"vo" = (
+/obj/machinery/door/airlock/double/command{
+	dir = 8
+	},
+/turf/unsimulated/floor/dark,
+/area/tower12/uta)
 "vT" = (
 /turf/floor/shuttle/red,
 /area/tower12/shuttle/evac)
 "vU" = (
-/obj/item/toy/plushie/face_hugger,
+/obj/machinery/door/airlock/double/glass/command{
+	dir = 8;
+	req_access = list("ACCESS_CENT_CAPTAIN")
+	},
 /turf/unsimulated/floor/dark,
 /area/tower12/uta)
 "yv" = (
@@ -192,6 +261,11 @@
 	},
 /turf/unsimulated/floor/dark,
 /area/tower12/uta)
+"yz" = (
+/obj/structure/table/laminate/ebony,
+/obj/item/toy/shipmodel,
+/turf/unsimulated/floor/carpet,
+/area/space)
 "zi" = (
 /obj/structure/chair/shuttle/white{
 	dir = 1
@@ -222,6 +296,17 @@
 "zP" = (
 /turf/wall/shuttle/light,
 /area/tower12/shuttle/evac)
+"zU" = (
+/obj/structure/table/laminate/ebony,
+/obj/item/chems/glass/bowl/mapped/noodlesoup/chicken,
+/turf/unsimulated/floor/carpet,
+/area/space)
+"AF" = (
+/obj/structure/bed/sofa/left/beige{
+	dir = 1
+	},
+/turf/unsimulated/floor/carpet,
+/area/tower12/uta)
 "AU" = (
 /obj/machinery/light{
 	dir = 1
@@ -236,6 +321,19 @@
 /obj/machinery/light,
 /turf/floor/shuttle/red,
 /area/tower12/shuttle/evac)
+"DE" = (
+/obj/structure/bed/sofa/middle/beige{
+	dir = 5
+	},
+/turf/unsimulated/floor/carpet,
+/area/tower12/uta)
+"DF" = (
+/obj/structure/table/marble,
+/obj/machinery/chemical_dispenser/bar_soft/full{
+	dir = 8
+	},
+/turf/unsimulated/floor/lino,
+/area/tower12/uta)
 "Ft" = (
 /turf/floor/shuttle/white,
 /area/tower12/shuttle/evac)
@@ -255,6 +353,11 @@
 	},
 /turf/floor/shuttle/red,
 /area/tower12/shuttle/evac)
+"Gl" = (
+/obj/structure/table/marble,
+/obj/item/chems/drinks/shaker,
+/turf/unsimulated/floor/lino,
+/area/tower12/uta)
 "GL" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/full,
@@ -275,6 +378,28 @@
 	},
 /turf/floor/shuttle/purple,
 /area/tower12/shuttle/evac)
+"Jv" = (
+/obj/structure/table/laminate/ebony,
+/obj/machinery/faxmachine/mapped{
+	init_network_tag = "RPZL"
+	},
+/turf/unsimulated/floor/carpet,
+/area/space)
+"Jw" = (
+/obj/structure/table/laminate/ebony,
+/obj/item/toy/plushie/face_hugger,
+/turf/unsimulated/floor/carpet,
+/area/tower12/uta)
+"JX" = (
+/obj/item/stool/bar/padded,
+/turf/unsimulated/floor/lino,
+/area/tower12/uta)
+"Ks" = (
+/obj/structure/bed/sofa/right/beige{
+	dir = 1
+	},
+/turf/unsimulated/floor/carpet,
+/area/tower12/uta)
 "Lw" = (
 /obj/structure/shuttle/engine/propulsion/left{
 	dir = 8
@@ -287,6 +412,13 @@
 	},
 /turf/floor/shuttle/purple,
 /area/tower12/shuttle/evac)
+"Ne" = (
+/obj/structure/table/marble,
+/obj/machinery/chemical_dispenser/bar_alc/full{
+	dir = 8
+	},
+/turf/unsimulated/floor/lino,
+/area/tower12/uta)
 "Nx" = (
 /obj/structure/shuttle/window,
 /turf/floor/shuttle,
@@ -298,6 +430,17 @@
 	},
 /turf/floor/shuttle/blue,
 /area/tower12/shuttle/evac)
+"Ps" = (
+/turf/unsimulated/floor/carpet,
+/area/space)
+"PX" = (
+/obj/structure/bed/sofa/right/beige,
+/turf/unsimulated/floor/carpet,
+/area/tower12/uta)
+"Qw" = (
+/obj/structure/table/laminate/ebony,
+/turf/unsimulated/floor/carpet,
+/area/space)
 "QI" = (
 /obj/machinery/light{
 	dir = 1
@@ -328,6 +471,19 @@
 	},
 /turf/floor/shuttle/red,
 /area/tower12/shuttle/evac)
+"UB" = (
+/obj/structure/chair/comfy/beige{
+	dir = 4
+	},
+/turf/unsimulated/floor/carpet,
+/area/tower12/uta)
+"Xf" = (
+/turf/unsimulated/floor/dark,
+/area/space)
+"Yg" = (
+/obj/structure/bed/sofa/middle/beige,
+/turf/unsimulated/floor/carpet,
+/area/tower12/uta)
 "Yz" = (
 /obj/machinery/door/airlock/hatch/maintenance/bolted{
 	hackProof = 1
@@ -749,16 +905,16 @@ eU
 eU
 eU
 eU
-zN
-zN
-zN
-zN
-zN
-zN
-zN
-zN
-zN
-zN
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 eU
 eU
 eU
@@ -831,7 +987,6 @@ eU
 eU
 eU
 eU
-zN
 eU
 eU
 eU
@@ -840,7 +995,8 @@ eU
 eU
 eU
 eU
-zN
+eU
+eU
 eU
 eU
 eU
@@ -913,16 +1069,16 @@ eU
 eU
 eU
 eU
-zN
 eU
 eU
-fO
-fO
-fO
-fO
 eU
 eU
-zN
+eU
+eU
+eU
+eU
+eU
+eU
 eU
 eU
 eU
@@ -995,16 +1151,16 @@ eU
 eU
 eU
 eU
-zN
 eU
 eU
-fO
-gi
-bW
-fO
 eU
 eU
-zN
+eU
+eU
+eU
+eU
+eU
+eU
 eU
 eU
 eU
@@ -1077,16 +1233,16 @@ eU
 eU
 eU
 eU
-zN
 eU
-fO
-fO
-Yz
-Ce
-fO
-fO
 eU
-zN
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 eU
 eU
 eU
@@ -1159,16 +1315,16 @@ eU
 eU
 eU
 eU
-zN
 eU
-fO
-nr
-FA
-FA
-nr
-fO
 eU
-zN
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 eU
 eU
 eU
@@ -1241,16 +1397,16 @@ eU
 eU
 eU
 eU
-zN
 eU
-fO
-FA
-FA
-FA
-GW
-fO
 eU
-zN
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 eU
 eU
 eU
@@ -1323,16 +1479,16 @@ eU
 eU
 eU
 eU
-zN
 eU
-fO
-FA
-FA
-FA
-fr
-pa
-zN
-zN
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 eU
 eU
 eU
@@ -1405,16 +1561,16 @@ eU
 eU
 eU
 eU
-zN
 eU
-fO
-FA
-FA
-FA
-FA
-pa
-zN
-zN
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 eU
 eU
 eU
@@ -1487,16 +1643,16 @@ eU
 eU
 eU
 eU
-zN
 eU
-fO
-sO
-FA
-FA
-mc
-fO
 eU
-zN
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 eU
 eU
 eU
@@ -1569,16 +1725,16 @@ eU
 eU
 eU
 eU
-zN
 eU
-fO
-FA
-FA
-FA
-FA
-fO
 eU
-zN
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 eU
 eU
 eU
@@ -1651,16 +1807,16 @@ eU
 eU
 eU
 eU
-zN
 eU
-fO
-fO
-fO
-fO
-fO
-fO
 eU
-zN
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 eU
 eU
 eU
@@ -1733,16 +1889,16 @@ eU
 eU
 eU
 eU
-zN
 eU
-fO
-mV
-fO
-fO
-Lw
-fO
 eU
-zN
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 eU
 eU
 eU
@@ -1815,7 +1971,6 @@ eU
 eU
 eU
 eU
-zN
 eU
 eU
 eU
@@ -1824,7 +1979,8 @@ eU
 eU
 eU
 eU
-zN
+eU
+eU
 eU
 eU
 eU
@@ -1897,16 +2053,16 @@ eU
 eU
 eU
 eU
-zN
-zN
-zN
-zN
-zN
-zN
-zN
-zN
-zN
-zN
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 eU
 eU
 eU
@@ -3142,16 +3298,16 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
 eU
 eU
 eU
@@ -3224,6 +3380,7 @@ eU
 eU
 eU
 eU
+zN
 eU
 eU
 eU
@@ -3232,8 +3389,7 @@ eU
 eU
 eU
 eU
-eU
-eU
+zN
 eU
 eU
 eU
@@ -3306,16 +3462,16 @@ eU
 eU
 eU
 eU
+zN
 eU
 eU
+fO
+fO
+fO
+fO
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
+zN
 eU
 eU
 eU
@@ -3388,28 +3544,28 @@ eU
 eU
 eU
 eU
+zN
 eU
 eU
+fO
+gi
+bW
+fO
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
+zN
 dJ
 dJ
-dJ
-dJ
+GL
+GL
 dJ
 dJ
 et
 zI
 dJ
 dJ
-dJ
-dJ
+GL
+GL
 dJ
 dJ
 eU
@@ -3470,27 +3626,27 @@ eU
 eU
 eU
 eU
+zN
 eU
+fO
+fO
+Yz
+Ce
+fO
+fO
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+zN
 dJ
 zI
-zI
+mb
+af
 zG
-zI
 dJ
 yv
 yv
 dJ
-zI
 zG
+zI
 zI
 zI
 dJ
@@ -3552,17 +3708,18 @@ eU
 eU
 eU
 eU
+zN
 eU
+fO
+nr
+FA
+FA
+nr
+fO
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+zN
 dJ
+QI
 zI
 zI
 zI
@@ -3573,8 +3730,7 @@ zI
 zI
 zI
 zI
-zI
-zI
+kR
 dJ
 eU
 eU
@@ -3634,35 +3790,35 @@ eU
 eU
 eU
 eU
+zN
 eU
+fO
+FA
+FA
+FA
+GW
+fO
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+zN
 dJ
-QI
+zI
+hp
+kc
+kc
 zI
 zI
 zI
 zI
+kc
+kc
+Ks
 zI
-zI
-zI
-zI
-zI
-zI
-kR
 dJ
-eU
-eU
-eU
-eU
-eU
+dJ
+dJ
+dJ
+dJ
+dJ
 eU
 eU
 eU
@@ -3716,35 +3872,35 @@ eU
 eU
 eU
 eU
+zN
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+fO
+FA
+FA
+FA
+fr
+pa
+zN
+zN
 dJ
 zI
+Yg
+kc
+kc
 zI
 zI
 zI
 zI
-vU
+kc
+kc
+iz
 zI
 zI
-zI
-zI
-zI
-zI
+gh
+gh
+gh
+gh
 dJ
-eU
-eU
-eU
-eU
-eU
 eU
 eU
 eU
@@ -3798,35 +3954,35 @@ eU
 eU
 eU
 eU
+zN
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+fO
+FA
+FA
+FA
+FA
+pa
+zN
+zN
 dJ
 QI
+PX
+kc
+Ks
 zI
 zI
 zI
 zI
+UB
+kc
+AF
 zI
 zI
-zI
-zI
-zI
-zI
-kR
+JX
+JX
+JX
+JX
 dJ
-eU
-eU
-eU
-eU
-eU
 eU
 eU
 eU
@@ -3880,35 +4036,35 @@ eU
 eU
 eU
 eU
+zN
 eU
+fO
+sO
+FA
+FA
+mc
+fO
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+zN
 dJ
 zI
+kc
+kc
+iz
 zI
 zI
 zI
 zI
+Jw
+kc
+kc
 zI
 zI
-zI
-zI
-zI
-zI
-zI
+oE
+oE
+oE
+oE
 dJ
-eU
-eU
-eU
-eU
-eU
 eU
 eU
 eU
@@ -3962,35 +4118,35 @@ eU
 eU
 eU
 eU
+zN
 eU
+fO
+FA
+FA
+FA
+FA
+fO
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+zN
 dJ
 QI
+kc
+pw
+DE
 zI
 zI
 zI
 zI
+rE
+kc
+kc
 zI
 zI
-zI
-zI
-zI
-zI
-kR
+gh
+gh
+gh
+gh
 dJ
-eU
-eU
-eU
-eU
-eU
 eU
 eU
 eU
@@ -4044,16 +4200,16 @@ eU
 eU
 eU
 eU
+zN
 eU
+fO
+fO
+fO
+fO
+fO
+fO
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+zN
 dJ
 zI
 zI
@@ -4068,11 +4224,11 @@ zI
 zI
 zI
 dJ
-eU
-eU
-eU
-eU
-eU
+gh
+gh
+gh
+Gl
+dJ
 eU
 eU
 eU
@@ -4126,35 +4282,35 @@ eU
 eU
 eU
 eU
+zN
 eU
+fO
+mV
+fO
+fO
+Lw
+fO
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+zN
 dJ
 dJ
 dJ
 dJ
 dJ
 dJ
+zI
+vU
 dJ
 dJ
 dJ
 dJ
 dJ
 dJ
+gh
+be
+DF
+Ne
 dJ
-dJ
-eU
-eU
-eU
-eU
-eU
 eU
 eU
 eU
@@ -4208,6 +4364,7 @@ eU
 eU
 eU
 eU
+zN
 eU
 eU
 eU
@@ -4216,27 +4373,26 @@ eU
 eU
 eU
 eU
+zN
 eU
 eU
 eU
 eU
+dJ
+zI
+zI
+zI
+zI
+dJ
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
 eU
 eU
 eU
@@ -4290,26 +4446,26 @@ eU
 eU
 eU
 eU
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
 eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+dJ
+zI
+zI
+zI
+zI
+dJ
 eU
 eU
 eU
@@ -4386,12 +4542,12 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
+dJ
+zI
+zI
+zI
+zI
+dJ
 eU
 eU
 eU
@@ -4468,12 +4624,12 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
+dJ
+zI
+zI
+zI
+zI
+dJ
 eU
 eU
 eU
@@ -4550,12 +4706,12 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
+dJ
+zI
+zI
+zI
+zI
+dJ
 eU
 eU
 eU
@@ -4632,12 +4788,12 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
+dJ
+zI
+zI
+zI
+zI
+dJ
 eU
 eU
 eU
@@ -4714,12 +4870,12 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
+dJ
+zI
+zI
+zI
+zI
+dJ
 eU
 eU
 eU
@@ -4796,12 +4952,12 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
+dJ
+dJ
+zI
+vo
+dJ
+dJ
 eU
 eU
 eU
@@ -4876,16 +5032,16 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+zN
+zN
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+zN
+zN
 eU
 eU
 eU
@@ -4958,16 +5114,16 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+zN
+Xf
+Xf
+Xf
+Xf
+Xf
+Xf
+Xf
+Xf
+zN
 eU
 eU
 eU
@@ -5040,16 +5196,16 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+zN
+yz
+Jv
+zU
+Qw
+Xf
+Xf
+Xf
+Xf
+zN
 eU
 eU
 eU
@@ -5122,16 +5278,16 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+zN
+Ps
+Ps
+us
+Qw
+Xf
+Xf
+Xf
+Xf
+zN
 eU
 eU
 eU
@@ -5204,16 +5360,16 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+zN
+Ps
+Ps
+Ps
+gn
+Xf
+Xf
+Xf
+Xf
+zN
 eU
 eU
 eU
@@ -5286,16 +5442,16 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+zN
+Ps
+Ps
+Ps
+Ps
+Xf
+Xf
+Xf
+Xf
+zN
 eU
 eU
 eU
@@ -5368,16 +5524,16 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
 eU
 eU
 eU
