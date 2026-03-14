@@ -8328,6 +8328,15 @@
 	},
 /turf/floor/wood/mahogany,
 /area/tower12/security_processing)
+"hHk" = (
+/obj/structure/railing/mapped/wooden/ebony,
+/obj/machinery/computer/cryopod/checkpoint{
+	dir = 4;
+	pixel_y = 17;
+	pixel_x = -27
+	},
+/turf/floor/tiled,
+/area/tower12/residential_exit)
 "hHB" = (
 /obj/machinery/light{
 	dir = 4
@@ -37898,7 +37907,7 @@ rVC
 jWB
 vxo
 lsD
-swE
+hHk
 oYD
 vxo
 lsD
