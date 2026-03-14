@@ -83,11 +83,14 @@
 /area/tower12/engineering_hall)
 "aeF" = (
 /obj/structure/table/steel_reinforced,
-/obj/item/gun/projectile/pistol,
-/obj/item/gun/projectile/pistol,
-/obj/item/gun/projectile/pistol,
-/obj/item/gun/projectile/pistol,
-/obj/item/gun/projectile/pistol,
+/obj/item/clothing/suit/armor/pcarrier/medium,
+/obj/item/clothing/suit/armor/pcarrier/medium,
+/obj/item/clothing/suit/armor/pcarrier/medium,
+/obj/item/clothing/suit/armor/pcarrier/medium,
+/obj/item/clothing/suit/armor/pcarrier/medium,
+/obj/effect/decal/cleanable/cobweb{
+	dir = 4
+	},
 /turf/floor/tiled,
 /area/tower12/secure_armory)
 "afj" = (
@@ -1577,11 +1580,7 @@
 /area/tower12/trauma_recovery)
 "bCr" = (
 /obj/structure/table/steel_reinforced,
-/obj/item/ammo_magazine/pistol,
-/obj/item/ammo_magazine/pistol,
-/obj/item/ammo_magazine/pistol,
-/obj/item/ammo_magazine/pistol,
-/obj/item/ammo_magazine/pistol,
+/obj/item/clothing/armor_attachment/plate/tactical,
 /turf/floor/tiled,
 /area/tower12/secure_armory)
 "bDa" = (
@@ -3207,10 +3206,6 @@
 /area/tower12/eps_coord_office)
 "cUd" = (
 /obj/structure/table/steel_reinforced,
-/obj/item/clothing/armor_attachment/plate/medium,
-/obj/item/clothing/armor_attachment/plate/tactical,
-/obj/item/clothing/head/helmet/tactical,
-/obj/item/clothing/head/helmet/ballistic,
 /turf/floor/tiled,
 /area/tower12/secure_armory)
 "cUH" = (
@@ -7037,6 +7032,27 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/red/mono,
+/obj/structure/closet/crate,
+/obj/item/clothing/armband,
+/obj/item/clothing/armband,
+/obj/item/clothing/armband,
+/obj/item/clothing/armband,
+/obj/item/clothing/armband,
+/obj/item/clothing/armor_attachment/helmcover{
+	color = COLOR_BLOOD_RED
+	},
+/obj/item/clothing/armor_attachment/helmcover{
+	color = COLOR_BLOOD_RED
+	},
+/obj/item/clothing/armor_attachment/helmcover{
+	color = COLOR_BLOOD_RED
+	},
+/obj/item/clothing/armor_attachment/helmcover{
+	color = COLOR_BLOOD_RED
+	},
+/obj/item/clothing/armor_attachment/helmcover{
+	color = COLOR_BLOOD_RED
+	},
 /turf/floor/tiled,
 /area/tower12/security_lockers)
 "guI" = (
@@ -8502,16 +8518,6 @@
 	dir = 4
 	},
 /obj/structure/table/steel_reinforced,
-/obj/item/clothing/armor_attachment/plate,
-/obj/item/clothing/armor_attachment/plate,
-/obj/item/clothing/armor_attachment/plate,
-/obj/item/clothing/armor_attachment/plate,
-/obj/item/clothing/armor_attachment/plate,
-/obj/item/clothing/head/helmet,
-/obj/item/clothing/head/helmet,
-/obj/item/clothing/head/helmet,
-/obj/item/clothing/head/helmet,
-/obj/item/clothing/head/helmet,
 /turf/floor/tiled,
 /area/tower12/secure_armory)
 "hNP" = (
@@ -9896,12 +9902,6 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/structure/table/steel_reinforced,
-/obj/item/ammo_magazine/pistol/flash,
-/obj/item/ammo_magazine/pistol/flash,
-/obj/item/ammo_magazine/pistol/flash,
-/obj/item/ammo_magazine/pistol/flash,
-/obj/item/ammo_magazine/pistol/flash,
 /turf/floor/tiled,
 /area/tower12/secure_armory)
 "jhb" = (
@@ -11335,6 +11335,7 @@
 	dir = 1
 	},
 /obj/structure/table/steel_reinforced,
+/obj/item/ammo_magazine/pistol/emp,
 /obj/item/ammo_magazine/pistol/emp,
 /obj/item/ammo_magazine/pistol/emp,
 /turf/floor/tiled,
@@ -13088,8 +13089,11 @@
 /area/tower12/eps_stairwell_d2)
 "mfl" = (
 /obj/structure/table/steel_reinforced,
-/obj/item/ammo_magazine/shotholder/flash,
-/obj/item/ammo_magazine/shotholder/flash,
+/obj/item/ammo_magazine/pistol/flash,
+/obj/item/ammo_magazine/pistol/flash,
+/obj/item/ammo_magazine/pistol/flash,
+/obj/item/ammo_magazine/pistol/flash,
+/obj/item/ammo_magazine/pistol/flash,
 /turf/floor/tiled,
 /area/tower12/secure_armory)
 "mfr" = (
@@ -15031,13 +15035,15 @@
 /turf/floor/plating,
 /area/tower12/engine_room)
 "nQq" = (
-/obj/structure/closet/secure_closet/guncabinet,
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "armor locker"
+	},
 /obj/effect/floor_decal/corner/red/mono,
-/obj/item/gun/energy/gun,
-/obj/item/gun/energy/gun,
-/obj/item/gun/energy/gun,
-/obj/item/gun/energy/gun,
-/obj/item/gun/energy/gun,
+/obj/item/clothing/suit/armor/pcarrier/light,
+/obj/item/clothing/suit/armor/pcarrier/light,
+/obj/item/clothing/suit/armor/pcarrier/light,
+/obj/item/clothing/suit/armor/pcarrier/light,
+/obj/item/clothing/suit/armor/pcarrier/light,
 /turf/floor/tiled,
 /area/tower12/security_lockers)
 "nQw" = (
@@ -17111,11 +17117,9 @@
 /area/tower12/aft_port_hall_d3)
 "pNe" = (
 /obj/structure/table/steel_reinforced,
-/obj/item/clothing/suit/armor/pcarrier,
-/obj/item/clothing/suit/armor/pcarrier,
-/obj/item/clothing/suit/armor/pcarrier,
-/obj/item/clothing/suit/armor/pcarrier,
-/obj/item/clothing/suit/armor/pcarrier,
+/obj/effect/decal/cleanable/cobweb2{
+	dir = 8
+	},
 /turf/floor/tiled,
 /area/tower12/secure_armory)
 "pNj" = (
@@ -20330,6 +20334,7 @@
 /obj/machinery/camera/network/security{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/cobweb2,
 /turf/floor/tiled,
 /area/tower12/secure_armory)
 "sLY" = (
@@ -21717,17 +21722,24 @@
 /turf/floor/tiled,
 /area/tower12/engineering_eva)
 "tTR" = (
-/obj/structure/table/steel_reinforced,
-/obj/item/gun/energy/laser,
-/obj/item/gun/energy/laser,
+/obj/structure/closet/secure_closet/guncabinet,
+/obj/item/gun/energy/gun/secure,
+/obj/item/gun/energy/gun/secure,
+/obj/item/gun/energy/gun/secure,
+/obj/item/gun/energy/gun/secure,
+/obj/item/gun/energy/gun/secure,
 /turf/floor/tiled,
 /area/tower12/secure_armory)
 "tUU" = (
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/structure/table/steel_reinforced,
-/obj/item/gun/projectile/shotgun/pump,
+/obj/item/gun/projectile/pistol,
+/obj/item/gun/projectile/pistol,
+/obj/item/gun/projectile/pistol,
+/obj/item/gun/projectile/pistol,
+/obj/item/gun/projectile/pistol,
+/obj/structure/closet/secure_closet/guncabinet,
 /turf/floor/tiled,
 /area/tower12/secure_armory)
 "tVe" = (
@@ -21980,20 +21992,6 @@
 /obj/structure/cable/green{
 	icon_state = "0-8"
 	},
-/obj/structure/closet/crate{
-	dir = 8
-	},
-/obj/item/clothing/armor_attachment/helmcover/blue,
-/obj/item/clothing/armor_attachment/helmcover/blue,
-/obj/item/clothing/armor_attachment/helmcover/green,
-/obj/item/clothing/armor_attachment/helmcover/green,
-/obj/item/clothing/armor_attachment/helmcover/tan,
-/obj/item/clothing/armor_attachment/helmcover/tan,
-/obj/item/clothing/armband/bluegold,
-/obj/item/clothing/armband/bluegold,
-/obj/item/clothing/armband/bluegold,
-/obj/item/clothing/armband/bluegold,
-/obj/item/clothing/armband/bluegold,
 /turf/floor/tiled,
 /area/tower12/secure_armory)
 "ujV" = (
@@ -50874,7 +50872,7 @@ rVC
 rVC
 eTC
 eTC
-tTR
+dzp
 dzp
 bCr
 bdw

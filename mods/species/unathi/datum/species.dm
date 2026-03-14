@@ -95,13 +95,13 @@
 		/decl/emote/exertion/biological/breath,
 		/decl/emote/exertion/biological/pant
 	)
-
+/*
 /decl/species/unathi/Initialize()
 	. = ..()
 	LAZYINITLIST(available_background_info)
 	LAZYDISTINCTADD(available_background_info[/decl/background_category/heritage], /decl/background_detail/heritage/unathi)
 	LAZYSET(default_background_info, /decl/background_category/heritage, /decl/background_detail/heritage/unathi)
-
+*/
 /decl/species/unathi/equip_survival_gear(mob/living/wearer, box_type = /obj/item/box/survival)
 	. = ..()
 	wearer.equip_to_slot_or_del(new /obj/item/clothing/shoes/sandal(wearer), slot_shoes_str)

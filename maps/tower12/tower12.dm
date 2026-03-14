@@ -44,6 +44,9 @@
 	#include "loadout/clothing.dm"
 	#include "loadout/uniforms.dm"
 
+	#include "species/lore/digital_intelligence_backgrounds.dm"
+	#include "species/lore/unathi_backgrounds.dm"
+
 	#include "species/digital_intelligence.dm"
 
 	#include "tower12_combined.dmm"
