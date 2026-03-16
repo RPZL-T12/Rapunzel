@@ -65,7 +65,7 @@
 	else
 		global.using_map.make_maint_all_access()
 		SSstatistics.add_field("alert_keycard_auth_maintGrant",1)
-
+/* Nah.
 /decl/keycard_auth_event/nuke_code
 	name = "Grant Nuclear Authorization Code"
 	uid = "keycard_event_nuke_code"
@@ -77,3 +77,4 @@
 	else
 		auth.visible_message(SPAN_WARNING("\The [src] blinks and displays a message: No self-destruct terminal found."), range=2)
 	SSstatistics.add_field("alert_keycard_auth_nukecode",1)
+*/

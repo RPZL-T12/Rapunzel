@@ -16,30 +16,8 @@
 /turf/floor/shuttle/airless,
 /area/tower12/shuttle/evac)
 "bW" = (
-/obj/structure/chair/armchair/purple{
-	dir = 8;
-	pixel_x = 5
-	},
-/obj/item/toy/plushie/nymph{
-	pixel_y = 4;
-	pixel_x = 2;
-	name = "Loaf"
-	},
-/obj/item/book/skill/general/pilot/adept{
-	pixel_y = -7;
-	pixel_x = -8
-	},
-/obj/machinery/computer/ship/navigation/telescreen{
-	pixel_x = -32
-	},
-/obj/machinery/computer/ship/navigation/telescreen{
-	pixel_x = -32;
-	pixel_y = 20
-	},
-/obj/machinery/computer/ship/navigation/telescreen{
-	pixel_y = -32
-	},
-/turf/floor/shuttle/yellow,
+/obj/structure/shuttle/engine/propulsion/left,
+/turf/floor/plating/airless,
 /area/tower12/shuttle/supply)
 "dJ" = (
 /turf/wall/r_wall,
@@ -74,11 +52,8 @@
 /turf/unsimulated/floor/lino,
 /area/tower12/uta)
 "gi" = (
-/obj/machinery/computer/ship/navigation/telescreen{
-	pixel_y = 23
-	},
-/obj/machinery/light/small{
-	dir = 1
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/floor/shuttle/yellow,
 /area/tower12/shuttle/supply)
@@ -103,6 +78,12 @@
 	},
 /turf/unsimulated/floor/carpet,
 /area/tower12/uta)
+"jL" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/wall/shuttle,
+/area/tower12/shuttle/supply)
 "kc" = (
 /turf/unsimulated/floor/carpet,
 /area/tower12/uta)
@@ -123,15 +104,33 @@
 /turf/unsimulated/floor/dark,
 /area/tower12/uta)
 "mc" = (
-/obj/machinery/light,
+/obj/machinery/computer/ship/navigation/telescreen{
+	pixel_y = -32
+	},
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	id_tag = "supply_shuttle";
+	tag_door = "supply_shuttle_hatch";
+	dir = 8
+	},
+/obj/structure/chair/armchair/purple{
+	pixel_y = 6
+	},
+/obj/item/toy/plushie/nymph{
+	pixel_y = 4;
+	pixel_x = 2;
+	name = "Loaf";
+	desc = "Shhh, he's hard at work!"
+	},
+/obj/item/book/skill/general/pilot/adept{
+	pixel_y = -7;
+	pixel_x = -8
+	},
 /turf/floor/shuttle/yellow,
 /area/tower12/shuttle/supply)
 "mV" = (
-/obj/structure/shuttle/engine/propulsion/right{
-	dir = 8
-	},
-/turf/floor/plating/airless,
-/area/tower12/shuttle/supply)
+/obj/machinery/light/small,
+/turf/floor/shuttle/yellow,
+/area/tower12/uta)
 "nr" = (
 /obj/machinery/light{
 	dir = 8
@@ -182,6 +181,12 @@
 	},
 /turf/floor/shuttle/blue,
 /area/tower12/shuttle/evac)
+"rh" = (
+/obj/machinery/door/airlock/external/bolted{
+	id_tag = "uta_warehouse_door"
+	},
+/turf/floor/shuttle/yellow,
+/area/tower12/uta)
 "rr" = (
 /obj/machinery/computer/shuttle_control/emergency{
 	shuttle_tag = "Rapunzel Evacuation Shuttle";
@@ -348,11 +353,14 @@
 /turf/unsimulated/floor/plating,
 /area/tower12/uta)
 "GW" = (
-/obj/machinery/embedded_controller/radio/airlock/docking_port{
-	dir = 1;
-	pixel_y = -24;
-	id_tag = "supply_shuttle";
-	tag_exterior_door = "supply_shuttle_hatch"
+/obj/machinery/computer/ship/navigation/telescreen{
+	pixel_y = -32
+	},
+/obj/machinery/computer/ship/navigation/telescreen{
+	pixel_x = -32
+	},
+/obj/machinery/light/small{
+	dir = 8
 	},
 /turf/floor/shuttle/yellow,
 /area/tower12/shuttle/supply)
@@ -379,11 +387,12 @@
 /turf/unsimulated/floor/carpet,
 /area/tower12/uta)
 "Lw" = (
-/obj/structure/shuttle/engine/propulsion/left{
-	dir = 8
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	id_tag = "uta_warehouse";
+	tag_door = "uta_warehouse_door"
 	},
-/turf/floor/plating/airless,
-/area/tower12/shuttle/supply)
+/turf/floor/shuttle/yellow,
+/area/tower12/uta)
 "Mv" = (
 /obj/machinery/light{
 	dir = 8
@@ -3292,16 +3301,16 @@ eU
 eU
 eU
 eU
-zN
-zN
-zN
-zN
-zN
-zN
-zN
-zN
-zN
-zN
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 eU
 eU
 eU
@@ -3374,7 +3383,6 @@ eU
 eU
 eU
 eU
-zN
 eU
 eU
 eU
@@ -3383,7 +3391,8 @@ eU
 eU
 eU
 eU
-zN
+eU
+eU
 eU
 eU
 eU
@@ -3456,16 +3465,16 @@ eU
 eU
 eU
 eU
-zN
 eU
 eU
-fO
-fO
-fO
-fO
 eU
 eU
-zN
+eU
+eU
+eU
+eU
+eU
+eU
 eU
 eU
 eU
@@ -3533,20 +3542,20 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
 zN
-eU
-eU
-fO
-gi
-bW
-fO
-eU
-eU
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
 zN
 dJ
 dJ
@@ -3615,19 +3624,19 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
 zN
 eU
-fO
-fO
-Yz
-Ce
-fO
-fO
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 eU
 zN
 dJ
@@ -3697,19 +3706,19 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
 zN
 eU
 fO
-nr
-FA
-FA
-nr
 fO
+fO
+fO
+fO
+jL
+fO
+fO
+fO
+eU
+eU
 eU
 zN
 dJ
@@ -3779,18 +3788,18 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
 zN
 eU
+bW
 fO
+sO
+FA
+nr
 FA
 FA
-FA
-GW
+nr
+fO
+fO
 fO
 eU
 zN
@@ -3861,20 +3870,20 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
 zN
 eU
+fO
 fO
 FA
 FA
 FA
-fr
-pa
-zN
+FA
+FA
+FA
+Yz
+GW
+fO
+eU
 zN
 dJ
 zI
@@ -3943,20 +3952,20 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
 zN
 eU
+fO
 fO
 FA
 FA
 FA
 FA
-pa
-zN
+FA
+FA
+Ce
+mc
+fO
+eU
 zN
 dJ
 QI
@@ -4025,18 +4034,18 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
 zN
 eU
+bW
 fO
 sO
 FA
+gi
 FA
-mc
+fr
+gi
+fO
+fO
 fO
 eU
 zN
@@ -4107,19 +4116,19 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
 zN
 eU
 fO
-FA
-FA
-FA
-FA
 fO
+fO
+fO
+fO
+pa
+pa
+fO
+fO
+eU
+eU
 eU
 zN
 dJ
@@ -4189,19 +4198,19 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
 zN
 eU
-fO
-fO
-fO
-fO
-fO
-fO
+eU
+eU
+eU
+eU
+dJ
+rh
+rh
+dJ
+eU
+eU
+eU
 eU
 zN
 dJ
@@ -4271,19 +4280,19 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
 zN
 eU
-fO
-mV
-fO
-fO
+eU
+eU
+eU
+eU
+dJ
 Lw
-fO
+mV
+dJ
+eU
+eU
+eU
 eU
 zN
 dJ
@@ -4353,16 +4362,16 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
 zN
 eU
 eU
 eU
 eU
+eU
+dJ
+dJ
+dJ
+dJ
 eU
 eU
 eU
@@ -4435,11 +4444,11 @@ eU
 eU
 eU
 eU
-eU
-eU
-eU
-eU
-eU
+zN
+zN
+zN
+zN
+zN
 zN
 zN
 zN

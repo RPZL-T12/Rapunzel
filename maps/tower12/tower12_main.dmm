@@ -397,6 +397,8 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air,
+/obj/abstract/airlock_helper/atmos/chamber_pump,
 /turf/floor/plating,
 /area/tower12/telecomms_servers)
 "aY" = (
@@ -523,6 +525,11 @@
 	},
 /turf/floor/tiled,
 /area/tower12/eng/engineering_eva)
+"bo" = (
+/obj/machinery/door/airlock/external/bolted,
+/obj/abstract/airlock_helper/door/ext_door,
+/turf/floor/tiled,
+/area/tower12/supply/dock)
 "bp" = (
 /obj/machinery/door/firedoor,
 /obj/structure/grille,
@@ -1116,7 +1123,7 @@
 /area/tower12/hall/cent_starboard_d2)
 "cO" = (
 /obj/machinery/door/airlock/external/glass/bolted{
-	id_tag = "ai_hatch"
+	id_tag = "ai_upload_hatch_ext"
 	},
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -1815,6 +1822,7 @@
 	dir = 1
 	},
 /obj/machinery/disposal,
+/obj/machinery/network/relay/wall_mounted/west,
 /turf/floor/wood/yew,
 /area/tower12/med/cmo)
 "eB" = (
@@ -3262,6 +3270,7 @@
 /area/tower12/civ/chapel)
 "hU" = (
 /obj/machinery/light/small,
+/obj/machinery/atmospherics/pipe/manifold,
 /turf/floor/tiled,
 /area/tower12/supply/dock)
 "hV" = (
@@ -3350,7 +3359,8 @@
 /area/tower12/hall/cent_stairs_d2)
 "if" = (
 /obj/machinery/conveyor_switch/oneway{
-	id_tag = "disposals_belt"
+	id_tag = "disposals_belt";
+	convdir = -1
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -4848,6 +4858,13 @@
 /obj/structure/window/reinforced/full,
 /turf/floor/plating,
 /area/tower12/med/lobby)
+"mb" = (
+/obj/machinery/portable_atmospherics/canister/air/airlock,
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/turf/floor/tiled,
+/area/tower12/supply/dock)
 "md" = (
 /obj/structure/window/reinforced{
 	current_health = 1e+007
@@ -5081,8 +5098,8 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 6
+/obj/machinery/atmospherics/pipe/manifold{
+	dir = 8
 	},
 /turf/floor/plating,
 /area/tower12/telecomms_servers)
@@ -5454,12 +5471,9 @@
 /turf/floor/tiled,
 /area/tower12/med/chemistry)
 "nI" = (
-/obj/machinery/button/access/exterior{
-	id_tag = "ai_hatch";
-	req_access = list(access_heads)
-	},
-/turf/floor/plating/airless,
-/area/space)
+/obj/machinery/network/relay/wall_mounted/west,
+/turf/floor/laminate/mahogany,
+/area/tower12/eps/coord_office)
 "nJ" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -10599,11 +10613,11 @@
 /turf/floor/tiled,
 /area/tower12/supply/tradepost)
 "AB" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
 /obj/machinery/camera/network/engineering{
 	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
 	},
 /turf/floor/tiled/airless,
 /area/tower12/smes/ai)
@@ -10767,6 +10781,9 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
+	},
+/obj/structure/cable/orange{
+	icon_state = "1-8"
 	},
 /turf/floor/tiled,
 /area/tower12/hall/aft_hall_d1)
@@ -11758,13 +11775,6 @@
 /turf/floor/tiled,
 /area/tower12/hall/docking_port)
 "Dn" = (
-/obj/machinery/airlock_sensor{
-	dir = 4;
-	pixel_x = -22
-	},
-/obj/machinery/button/access/interior,
-/obj/abstract/airlock_helper/button,
-/obj/abstract/airlock_helper/sensor/chamber_sensor,
 /turf/floor/plating,
 /area/tower12/telecomms_servers)
 "Do" = (
@@ -12329,6 +12339,12 @@
 "EK" = (
 /turf/wall/r_wall,
 /area/tower12/supply/dock)
+"EL" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/wall/r_wall,
+/area/tower12/ai/core)
 "EM" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -12805,6 +12821,10 @@
 "FW" = (
 /turf/open,
 /area/tower12/hall/cent_elevator_d3)
+"FY" = (
+/obj/effect/shuttle_landmark/supply_station,
+/turf/space,
+/area/space)
 "FZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -13067,6 +13087,12 @@
 	},
 /turf/floor/tiled,
 /area/tower12/med/or)
+"GI" = (
+/obj/machinery/button/access/exterior{
+	id_tag = "ai_upload_hatch"
+	},
+/turf/floor/plating/airless,
+/area/space)
 "GJ" = (
 /obj/abstract/landmark/start/ai,
 /obj/structure/cable/yellow{
@@ -13132,6 +13158,13 @@
 	dir = 4
 	},
 /obj/structure/disposalpipe/segment,
+/obj/structure/cable/orange{
+	icon_state = "0-4"
+	},
+/obj/machinery/apc/high{
+	dir = 8;
+	pixel_x = -22
+	},
 /turf/floor/tiled,
 /area/tower12/hall/aft_hall_d1)
 "GT" = (
@@ -14106,6 +14139,14 @@
 	dir = 8
 	},
 /obj/machinery/camera/network/security,
+/obj/machinery/turretid/stun{
+	control_area = /area/tower12/ai/upload;
+	pixel_y = 27
+	},
+/obj/machinery/button/access/interior{
+	dir = 1;
+	id_tag = "ai_upload_hatch"
+	},
 /turf/floor/tiled/airless,
 /area/tower12/ai/upload)
 "Jv" = (
@@ -14341,6 +14382,9 @@
 /obj/machinery/apc/high{
 	dir = 8;
 	pixel_x = -22
+	},
+/obj/machinery/camera/network{
+	dir = 1
 	},
 /turf/floor/tiled,
 /area/tower12/civ/mess/bar_backroom)
@@ -14656,6 +14700,7 @@
 /area/tower12/hall/cent_elevator_d1)
 "KO" = (
 /obj/machinery/door/airlock/external/bolted,
+/obj/abstract/airlock_helper/door/int_door,
 /turf/floor/tiled,
 /area/tower12/supply/dock)
 "KP" = (
@@ -15012,6 +15057,14 @@
 /obj/machinery/disposal,
 /turf/floor/tiled,
 /area/tower12/med/chemistry)
+"LI" = (
+/obj/machinery/door/airlock/external/bolted,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/abstract/airlock_helper/door/int_door,
+/turf/floor/tiled,
+/area/tower12/supply/dock)
 "LJ" = (
 /obj/machinery/door/firedoor,
 /turf/floor/laminate/mahogany,
@@ -15908,9 +15961,11 @@
 /turf/floor/wood/mahogany,
 /area/tower12/med/recovery)
 "NU" = (
-/obj/machinery/button/access/exterior{
-	dir = 1;
-	id_tag = "ai_hatch"
+/obj/machinery/embedded_controller/radio/airlock/access_controller{
+	id_tag = "ai_upload_hatch";
+	dir = 4;
+	tag_exterior_door = "ai_upload_hatch_ext";
+	tag_interior_door = "ai_upload_hatch_int"
 	},
 /turf/floor/tiled/airless,
 /area/tower12/ai/upload)
@@ -15925,11 +15980,7 @@
 /turf/floor/tiled,
 /area/tower12/supply/tradepost)
 "NW" = (
-/obj/machinery/button/access/exterior{
-	dir = 1
-	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
-/obj/abstract/airlock_helper/button,
 /obj/machinery/light{
 	dir = 4
 	},
@@ -16501,6 +16552,7 @@
 "PD" = (
 /obj/structure/railing/mapped/wooden/ebony,
 /obj/effect/floor_decal/corner/brown/full,
+/obj/machinery/network/relay/wall_mounted/north,
 /turf/floor/tiled,
 /area/tower12/supply/tradepost)
 "PE" = (
@@ -16643,6 +16695,9 @@
 	},
 /obj/machinery/light/small{
 	dir = 4
+	},
+/obj/machinery/door/airlock/external/glass/bolted{
+	id_tag = "ai_upload_hatch_int"
 	},
 /turf/floor/tiled/airless,
 /area/tower12/ai/upload)
@@ -17057,14 +17112,9 @@
 /turf/floor/tiled,
 /area/tower12/eps/brig)
 "QY" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-8"
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/floor/tiled/airless,
-/area/tower12/smes/ai)
+/obj/machinery/network/relay/wall_mounted/east,
+/turf/floor/wood/yew,
+/area/tower12/supply/civil_manager)
 "QZ" = (
 /obj/machinery/alarm/server,
 /obj/machinery/network/mainframe,
@@ -17512,7 +17562,7 @@
 /area/tower12/eng/engineering_lockers)
 "Sj" = (
 /obj/structure/cable/yellow{
-	icon_state = "4-8"
+	icon_state = "2-8"
 	},
 /turf/wall/r_wall,
 /area/tower12/ai/core)
@@ -17724,6 +17774,9 @@
 /obj/machinery/apc/high{
 	dir = 8;
 	pixel_x = -22
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
 /turf/floor/tiled/airless,
 /area/tower12/smes/ai)
@@ -18329,6 +18382,13 @@
 	},
 /turf/floor/laminate/mahogany,
 /area/tower12/bridge/controls)
+"Ud" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 4
+	},
+/obj/abstract/airlock_helper/atmos/chamber_pump,
+/turf/floor/tiled,
+/area/tower12/supply/dock)
 "Uf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -18434,6 +18494,7 @@
 /obj/machinery/status_display/supply_display{
 	pixel_x = -32
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/floor/tiled,
 /area/tower12/supply/dock)
 "Up" = (
@@ -18684,13 +18745,12 @@
 /turf/floor/tiled,
 /area/tower12/eng/atmospherics)
 "UX" = (
-/obj/machinery/turretid/stun{
-	control_area = /area/tower12/ai/upload;
-	dir = 4;
-	pixel_x = -27
+/obj/machinery/button/access/exterior{
+	dir = 8
 	},
-/turf/floor/tiled/airless,
-/area/tower12/ai/upload)
+/obj/abstract/airlock_helper/button,
+/turf/space,
+/area/space)
 "UY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -19559,6 +19619,13 @@
 /obj/abstract/landmark/latejoin/observer,
 /turf/floor/fake_grass,
 /area/tower12/civ/commons)
+"Xi" = (
+/obj/machinery/airlock_sensor,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air,
+/obj/abstract/airlock_helper/atmos/chamber_pump,
+/obj/abstract/airlock_helper/sensor/chamber_sensor,
+/turf/floor/tiled,
+/area/tower12/supply/dock)
 "Xj" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -19914,6 +19981,8 @@
 	pixel_x = 22;
 	id_tag = "d3_airlock"
 	},
+/obj/machinery/airlock_sensor,
+/obj/abstract/airlock_helper/sensor/chamber_sensor,
 /turf/floor/plating,
 /area/tower12/telecomms_servers)
 "Yd" = (
@@ -19953,6 +20022,12 @@
 /turf/floor/tiled,
 /area/tower12/med/chemistry)
 "Yh" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/floor/tiled/airless,
 /area/tower12/smes/ai)
 "Yi" = (
@@ -20115,6 +20190,12 @@
 	},
 /turf/floor/tiled,
 /area/tower12/eng/engineering_lobby)
+"YC" = (
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	id_tag = "station_supply_dock"
+	},
+/turf/floor/tiled,
+/area/tower12/supply/dock)
 "YD" = (
 /obj/effect/floor_decal/corner/green/mono,
 /obj/machinery/camera/network{
@@ -20243,11 +20324,11 @@
 /turf/floor/tiled,
 /area/tower12/hall/cent_elevator_d2)
 "YU" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 10
 	},
-/turf/floor/tiled/airless,
-/area/tower12/smes/ai)
+/turf/floor/tiled,
+/area/tower12/supply/dock)
 "YV" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/ai_status_display{
@@ -20285,6 +20366,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/network/relay/wall_mounted/north,
 /turf/floor/tiled,
 /area/tower12/eps/utility)
 "Za" = (
@@ -20352,6 +20434,13 @@
 	},
 /turf/floor/plating,
 /area/tower12/maint/d1/eng)
+"Zg" = (
+/obj/machinery/button/access/interior{
+	dir = 4
+	},
+/obj/abstract/airlock_helper/button,
+/turf/floor/tiled,
+/area/tower12/supply/dock)
 "Zh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -20514,6 +20603,7 @@
 	dir = 4
 	},
 /obj/machinery/disposal,
+/obj/machinery/network/relay/wall_mounted/west,
 /turf/floor/tiled,
 /area/tower12/eng/engineering_lobby)
 "ZB" = (
@@ -27980,7 +28070,7 @@ sz
 sz
 sz
 sz
-sz
+FY
 sz
 sz
 sz
@@ -28133,7 +28223,7 @@ sz
 sz
 sz
 sz
-sz
+UX
 sz
 sz
 sz
@@ -28283,8 +28373,8 @@ sz
 sz
 sz
 EK
-KO
-KO
+bo
+bo
 EK
 sz
 sz
@@ -28435,8 +28525,8 @@ sz
 sz
 sz
 tY
-xb
-xb
+YC
+Ud
 tY
 sz
 sz
@@ -28587,7 +28677,7 @@ sz
 sz
 sz
 tY
-xb
+Xi
 hU
 tY
 sz
@@ -28740,7 +28830,7 @@ tY
 EK
 EK
 KO
-KO
+LI
 EK
 EK
 EK
@@ -28890,11 +28980,11 @@ xb
 xb
 xb
 aT
-Uo
+Zg
 Ek
-xb
+YU
 Uo
-by
+mb
 EK
 sz
 sz
@@ -29645,7 +29735,7 @@ uc
 SA
 Vu
 nn
-XS
+QY
 Aq
 XS
 ba
@@ -56385,7 +56475,7 @@ jk
 oH
 ZP
 MT
-Nc
+nI
 Nc
 vK
 la
@@ -79776,7 +79866,7 @@ Po
 Po
 Po
 Sj
-Po
+EL
 Po
 yP
 OL
@@ -79926,20 +80016,20 @@ nb
 Po
 Po
 Po
+Po
 KP
 eq
 KP
 KP
-KP
 Ju
-UX
+yP
 NU
 yP
-lc
+GI
 eT
 eT
 eT
-vN
+eT
 Oj
 Dn
 uE
@@ -80078,8 +80168,8 @@ nb
 nb
 nb
 nb
+nb
 KP
-YU
 SI
 pp
 EE
@@ -80230,8 +80320,8 @@ nb
 nb
 nb
 nb
+nb
 KP
-YU
 Yh
 qM
 KP
@@ -80239,12 +80329,12 @@ yP
 yP
 yP
 yP
-nI
+lc
 eT
 eT
 eT
-eT
-Oj
+vN
+Oq
 Yc
 NW
 Oq
@@ -80382,8 +80472,8 @@ nb
 nb
 nb
 nb
+nb
 KP
-QY
 AB
 qk
 KP
@@ -80534,7 +80624,7 @@ nb
 nb
 nb
 nb
-KP
+nb
 KP
 KP
 xd

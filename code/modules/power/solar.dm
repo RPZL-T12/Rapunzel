@@ -491,6 +491,10 @@ var/global/list/solars_list = list()
 	track = 2 // Auto tracking mode
 
 /obj/machinery/power/solar_control/autostart/Initialize()
+	..()
+	return INITIALIZE_HINT_LATELOAD
+
+/obj/machinery/power/solar_control/autostart/LateInitialize()
 	search_for_connected()
 	var/datum/sun/sun = get_best_sun()
 	if(connected_tracker && track == 2 && sun)
