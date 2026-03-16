@@ -24,7 +24,8 @@
 	)
 
 	job_to_species_whitelist = list(
-		/datum/job/upper_tower_rep = list(/decl/species/human)
+		/datum/job/upper_tower_rep = list(/decl/species/human),
+		/datum/job/department_coordinator = list(/decl/species/human)
 	)
 
 	species_to_job_blacklist = list(

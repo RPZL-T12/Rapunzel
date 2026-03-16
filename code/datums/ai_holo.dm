@@ -76,3 +76,7 @@
 	icon_state = "malf-TCC"
 	requires_malf = TRUE
 	bypass_colorize = TRUE
+
+/decl/ai_holo/holo_girl
+	name = "Hologram Girl"
+	icon_state = "holo_girl"

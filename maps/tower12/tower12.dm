@@ -49,8 +49,9 @@
 
 	#include "species/digital_intelligence.dm"
 
-	#include "tower12_combined.dmm"
+//	#include "tower12_combined.dmm"
 	#include "tower12_uta.dmm"
+	#include "tower12_wip_map.dmm"
 
 	#define USING_MAP_DATUM /datum/map/tower12
 

@@ -30,12 +30,12 @@
 	ceiling_type = /turf/floor/shuttle_ceiling
 
 ///// Escape Shuttle
-/obj/effect/shuttle_landmark/stationdock_primary
-	name = "Tower 12 Primary Docking Arm"
-	landmark_tag = "nav_stationdock_primary"
-	docking_controller = "dockarm_primary"
+/obj/effect/shuttle_landmark/stationdock_starboard
+	name = "Tower 12 Docking Arm Starboard"
+	landmark_tag = "nav_stationdock_starboard"
+	docking_controller = "dockarm_starboard"
 	special_dock_targets = list(
-		/datum/shuttle/autodock/ferry/emergency/tower12 = "PRIMARY"
+		/datum/shuttle/autodock/ferry/emergency/tower12 = "PORT"
 	)
 
 /obj/effect/shuttle_landmark/utadock_port
@@ -49,42 +49,29 @@
 /datum/shuttle/autodock/ferry/emergency/tower12
 	name = "Rapunzel Evacuation Shuttle"
 	shuttle_area = /area/tower12/shuttle/evac
-	dock_target = "dockarm_primary"
+	dock_target = "dockarm_starboard"
 	location = 1
-	waypoint_station = "nav_stationdock_primary"
+	waypoint_station = "nav_stationdock_starboard"
 	waypoint_offsite = "nav_uta_port"
 	docking_cues = list(
-		"PRIMARY" = "evac_port",
+		"PORT" = "evac_port",
 		"STARBOARD" = "evac_starboard"
 	)
 	ceiling_type = /turf/floor/shuttle_ceiling
 
-///// Elevators
+///// Central Elevator
 
 /obj/abstract/turbolift_spawner/central
 	name = "Central Elevator"
 	icon = 'icons/obj/turbolift_preview_5x5.dmi'
-	depth = 3
+	depth = 4
 	lift_size_x = 4
 	lift_size_y = 4
 	areas_to_use = list(
-		/area/turbolift/tower12/central_d1,
-		/area/turbolift/tower12/central_d2,
-		/area/turbolift/tower12/central_d3
-	)
-	floor_departure_sound = 'sound/effects/lift_heavy_start.ogg'
-	floor_arrival_sound = 'sound/effects/lift_heavy_stop.ogg'
-
-
-/obj/abstract/turbolift_spawner/supply
-	name = "Warehouse Elevator"
-	icon = 'icons/obj/turbolift_preview_5x5.dmi'
-	depth = 2
-	lift_size_x = 4
-	lift_size_y = 4
-	areas_to_use = list(
-		/area/turbolift/tower12/supply_d1,
-		/area/turbolift/tower12/supply_d2
+		/area/turbolift/central_d1,
+		/area/turbolift/central_d2,
+		/area/turbolift/central_d3,
+		/area/turbolift/central_d4
 	)
 	floor_departure_sound = 'sound/effects/lift_heavy_start.ogg'
 	floor_arrival_sound = 'sound/effects/lift_heavy_stop.ogg'

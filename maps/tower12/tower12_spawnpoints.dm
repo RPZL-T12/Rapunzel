@@ -28,6 +28,6 @@
 	on_store_visible_message = "$TARGET$ hums and hisses as it moves $USER$ into storage."
 	on_enter_occupant_message = "The elevator hatch shuts and prepares to depart."
 	on_enter_visible_message = "$USER$ begins to enter the $TARGET$."
-	time_till_despawn = 30 SECONDS
+	time_till_despawn = 1 MINUTE
 	time_entered = 0
 	applies_stasis = 0
