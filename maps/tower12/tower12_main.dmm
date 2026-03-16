@@ -726,7 +726,10 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning,
-/obj/machinery/atmospherics/pipe/simple/visible/blue,
+/obj/machinery/atmospherics/binary/passive_gate/on{
+	dir = 2;
+	name = "Air to Supply"
+	},
 /turf/floor/tiled,
 /area/tower12/eng/atmospherics)
 "bL" = (
@@ -1056,12 +1059,6 @@
 	},
 /turf/floor/laminate/mahogany,
 /area/tower12/bridge/controls)
-"cA" = (
-/obj/machinery/light_switch/on{
-	dir = 8
-	},
-/turf/floor/tiled,
-/area/tower12/hall/fore_port_d2)
 "cB" = (
 /turf/floor/tiled,
 /area/tower12/supply/tradepost)
@@ -1494,6 +1491,10 @@
 	},
 /turf/floor/plating,
 /area/tower12/maint/d2/aft_starboard)
+"dC" = (
+/obj/structure/flora/bush/grassybush,
+/turf/floor/fake_grass,
+/area/tower12/civ/garden)
 "dD" = (
 /obj/structure/cable/green{
 	icon_state = "1-4"
@@ -1648,12 +1649,6 @@
 	},
 /turf/floor/wood/yew,
 /area/tower12/med/cmo)
-"dT" = (
-/obj/machinery/ai_status_display{
-	pixel_x = 32
-	},
-/turf/floor/tiled,
-/area/tower12/hall/cent_elevator_d1)
 "dU" = (
 /obj/effect/floor_decal/corner/white/full,
 /obj/structure/cable/green{
@@ -1823,6 +1818,12 @@
 /obj/effect/floor_decal/corner/green/three_quarters,
 /turf/floor/tiled,
 /area/tower12/hall/cent_starboard_d2)
+"eo" = (
+/obj/machinery/light_switch/on{
+	dir = 8
+	},
+/turf/floor/tiled,
+/area/tower12/hall/aft_hall_d1)
 "ep" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/double/mining{
@@ -3625,6 +3626,12 @@
 /obj/item/radio/intercom,
 /turf/floor/tiled,
 /area/tower12/hall/docking_starboard)
+"is" = (
+/obj/machinery/alarm{
+	dir = 8
+	},
+/turf/floor/tiled,
+/area/tower12/hall/cent_elevator_d1)
 "it" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -3773,6 +3780,15 @@
 /obj/effect/floor_decal/corner/green,
 /turf/floor/tiled,
 /area/tower12/hall/cent_elevator_d2)
+"iM" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	dir = 5
+	},
+/turf/floor/tiled,
+/area/tower12/eng/atmospherics)
 "iO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4422,10 +4438,6 @@
 /obj/structure/closet/secure_closet/engineering_personal,
 /turf/floor/tiled,
 /area/tower12/eps/utility)
-"kx" = (
-/obj/structure/flora/bush/brflowers,
-/turf/floor/fake_grass,
-/area/tower12/civ/mess/hydro)
 "ky" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -5175,6 +5187,12 @@
 	},
 /turf/floor/tiled,
 /area/tower12/med/storage)
+"ml" = (
+/obj/machinery/light_switch/on{
+	dir = 8
+	},
+/turf/floor/tiled,
+/area/tower12/hall/fore_port_d2)
 "mm" = (
 /obj/machinery/recharge_station,
 /obj/machinery/light/small,
@@ -5367,13 +5385,6 @@
 	},
 /turf/floor/tiled,
 /area/tower12/civ/commons)
-"mO" = (
-/obj/structure/curtain/open/bar{
-	pixel_y = 32
-	},
-/obj/structure/flora/bush/ppflowers,
-/turf/floor/fake_grass,
-/area/tower12/civ/mess/hydro)
 "mP" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -5546,7 +5557,9 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 6
+	},
 /turf/floor/tiled,
 /area/tower12/eng/atmospherics)
 "nk" = (
@@ -5725,9 +5738,12 @@
 /turf/floor/tiled,
 /area/tower12/med/chemistry)
 "nH" = (
-/obj/machinery/light_switch/on,
-/turf/floor/carpet/purple,
-/area/tower12/bridge/uta_rep_office)
+/obj/structure/curtain/open/bar{
+	pixel_y = 32
+	},
+/obj/structure/flora/bush/brflowers,
+/turf/floor/fake_grass,
+/area/tower12/civ/mess/hydro)
 "nI" = (
 /obj/machinery/network/relay/wall_mounted/west,
 /obj/machinery/hologram/holopad,
@@ -6915,15 +6931,6 @@
 /obj/machinery/hologram/holopad,
 /turf/floor/tiled,
 /area/tower12/hall/docking_port)
-"qo" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 6
-	},
-/turf/floor/tiled,
-/area/tower12/eng/atmospherics)
 "qp" = (
 /obj/effect/floor_decal/corner/red/border{
 	dir = 4
@@ -7131,12 +7138,9 @@
 /turf/floor/tiled,
 /area/tower12/civ/commons)
 "qT" = (
-/obj/structure/curtain/open/bar{
-	pixel_y = 32
-	},
-/obj/structure/flora/bush/brflowers,
+/obj/structure/flora/bush/ywflowers,
 /turf/floor/fake_grass,
-/area/tower12/civ/mess/hydro)
+/area/tower12/civ/commons)
 "qU" = (
 /obj/structure/flora/pottedplant/flower,
 /obj/machinery/camera/network/medbay{
@@ -7456,12 +7460,6 @@
 	},
 /turf/floor/tiled,
 /area/tower12/hall/cent_d2)
-"rJ" = (
-/obj/machinery/light_switch/on{
-	dir = 8
-	},
-/turf/floor/tiled,
-/area/tower12/telecomms_servers)
 "rK" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/double/glass/security{
@@ -7745,6 +7743,12 @@
 /obj/machinery/camera/network/medbay,
 /turf/floor/tiled,
 /area/tower12/med/aid/d2)
+"ss" = (
+/obj/machinery/light_switch/on{
+	dir = 8
+	},
+/turf/floor/wood/yew,
+/area/tower12/supply/civil_manager)
 "st" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -7978,10 +7982,15 @@
 /turf/floor/tiled,
 /area/tower12/eng/atmospherics)
 "sW" = (
-/obj/structure/flora/bush/ywflowers,
-/obj/structure/flora/bush/grassybush,
-/turf/floor/fake_grass,
-/area/tower12/civ/commons)
+/obj/machinery/light_switch/on{
+	dir = 4
+	},
+/turf/floor/laminate/mahogany,
+/area/tower12/civ/chaplain_office)
+"sX" = (
+/obj/machinery/light_switch/on,
+/turf/floor/laminate/mahogany,
+/area/tower12/bridge/controls)
 "sY" = (
 /obj/machinery/alarm{
 	dir = 4
@@ -8010,6 +8019,11 @@
 /obj/structure/disposalpipe/segment,
 /turf/floor/tiled,
 /area/tower12/hall/fore_port_d2)
+"tb" = (
+/obj/structure/flora/bush/ppflowers,
+/obj/structure/flora/bush/grassybush,
+/turf/floor/fake_grass,
+/area/tower12/civ/commons)
 "tc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -8052,11 +8066,6 @@
 	},
 /turf/floor/tiled,
 /area/tower12/eps/security_chk)
-"th" = (
-/obj/structure/flora/bush/brflowers,
-/obj/structure/flora/bush/grassybush,
-/turf/floor/fake_grass,
-/area/tower12/civ/commons)
 "ti" = (
 /obj/effect/floor_decal/corner/green/half{
 	dir = 8
@@ -8185,10 +8194,6 @@
 /obj/machinery/door/airlock/glass/engineering,
 /turf/floor/tiled,
 /area/tower12/eng/engineering_hall)
-"tA" = (
-/obj/structure/flora/bush/ywflowers,
-/turf/floor/fake_grass,
-/area/tower12/civ/garden)
 "tB" = (
 /obj/machinery/atmospherics/omni/mixer{
 	tag_north = 1;
@@ -8940,12 +8945,6 @@
 	},
 /turf/floor/plating,
 /area/tower12/maint/d1/medical)
-"vn" = (
-/obj/machinery/light_switch/on{
-	dir = 8
-	},
-/turf/floor/tiled,
-/area/tower12/supply/warehouse)
 "vo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -8982,12 +8981,6 @@
 	},
 /turf/floor/plating,
 /area/tower12/maint/d2/aft_port)
-"vt" = (
-/obj/machinery/light_switch{
-	dir = 1
-	},
-/turf/floor/laminate/mahogany,
-/area/tower12/bridge/meeting)
 "vu" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass/engineering,
@@ -9010,10 +9003,6 @@
 	},
 /turf/floor/wood/yew,
 /area/tower12/supply/civil_manager)
-"vy" = (
-/obj/machinery/hologram/holopad,
-/turf/floor/tiled,
-/area/tower12/eng/atmospherics)
 "vz" = (
 /obj/machinery/alarm{
 	dir = 4
@@ -9411,12 +9400,6 @@
 	},
 /turf/floor/tiled,
 /area/tower12/eng/atmospherics)
-"wy" = (
-/obj/machinery/alarm{
-	dir = 8
-	},
-/turf/floor/tiled,
-/area/tower12/hall/cent_elevator_d1)
 "wz" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -10363,12 +10346,11 @@
 /turf/wall/r_wall,
 /area/tower12/ai/upload)
 "yR" = (
-/obj/effect/floor_decal/corner/brown/full,
-/obj/machinery/light_switch{
-	dir = 1
+/obj/machinery/light_switch/on{
+	dir = 8
 	},
 /turf/floor/tiled,
-/area/tower12/supply/tradepost)
+/area/tower12/supply/warehouse)
 "yS" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 1
@@ -10711,15 +10693,9 @@
 /turf/floor/tiled,
 /area/tower12/hall/cent_d2)
 "zC" = (
-/obj/structure/grille,
-/obj/machinery/door/firedoor,
-/obj/structure/window/reinforced/full,
-/obj/machinery/door/blast/regular/open{
-	id_tag = "brig_obv";
-	name = "Brig Observation"
-	},
-/turf/floor/plating,
-/area/tower12/eps/brig)
+/obj/structure/flora/bush/ywflowers,
+/turf/floor/fake_grass,
+/area/tower12/civ/garden)
 "zD" = (
 /turf/wall/r_wall,
 /area/tower12/hall/aft_hall_d1)
@@ -11163,12 +11139,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/floor/tiled,
 /area/tower12/hall/docking_port)
-"AG" = (
-/obj/machinery/light_switch/on{
-	dir = 8
-	},
-/turf/floor/tiled,
-/area/tower12/hall/aft_hall_d1)
 "AH" = (
 /turf/wall/r_wall,
 /area/tower12/eng/engineering_eva)
@@ -12434,9 +12404,8 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/visible/blue,
-/obj/machinery/atmospherics/portables_connector{
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	dir = 10
 	},
 /turf/floor/tiled,
 /area/tower12/eng/atmospherics)
@@ -12539,9 +12508,9 @@
 /turf/wall/r_wall,
 /area/tower12/maint/d1/eng)
 "DL" = (
-/obj/machinery/light_switch/on,
-/turf/floor/laminate/mahogany,
-/area/tower12/bridge/controls)
+/obj/structure/flora/bush/brflowers,
+/turf/floor/fake_grass,
+/area/tower12/civ/commons)
 "DM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/green{
@@ -12714,9 +12683,9 @@
 /turf/floor/tiled,
 /area/tower12/civ/lift)
 "Ei" = (
-/obj/structure/flora/bush/ppflowers,
-/turf/floor/fake_grass,
-/area/tower12/civ/garden)
+/obj/machinery/hologram/holopad,
+/turf/floor/tiled,
+/area/tower12/eng/atmospherics)
 "Ej" = (
 /obj/structure/chair/office/comfy/brown{
 	dir = 8
@@ -13651,6 +13620,10 @@
 	},
 /turf/floor/tiled,
 /area/tower12/eps/emt)
+"Gw" = (
+/obj/machinery/light_switch/on,
+/turf/floor/carpet/purple,
+/area/tower12/bridge/uta_rep_office)
 "Gx" = (
 /turf/wall/r_wall,
 /area/tower12/eng/engine_entry)
@@ -13900,7 +13873,7 @@
 /turf/floor/laminate/mahogany,
 /area/tower12/hall/cent_stairs_d3)
 "Hf" = (
-/obj/structure/flora/bush/ppflowers,
+/obj/structure/flora/bush/brflowers,
 /obj/structure/flora/bush/grassybush,
 /turf/floor/fake_grass,
 /area/tower12/civ/commons)
@@ -14169,6 +14142,12 @@
 /obj/structure/disposalpipe/segment,
 /turf/floor/laminate/mahogany,
 /area/tower12/civ/mess/kitchen)
+"HK" = (
+/obj/machinery/light_switch{
+	dir = 1
+	},
+/turf/floor/laminate/mahogany,
+/area/tower12/bridge/meeting)
 "HL" = (
 /obj/machinery/apc/high{
 	dir = 4;
@@ -14458,9 +14437,11 @@
 /turf/floor/tiled,
 /area/tower12/med/gtc)
 "Iy" = (
-/obj/structure/flora/bush/ywflowers,
-/turf/floor/fake_grass,
-/area/tower12/civ/commons)
+/obj/machinery/ai_status_display{
+	pixel_x = 32
+	},
+/turf/floor/tiled,
+/area/tower12/hall/cent_elevator_d1)
 "Iz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -14665,6 +14646,10 @@
 /obj/structure/closet/emcloset,
 /turf/floor/tiled,
 /area/tower12/hall/docking_port)
+"IY" = (
+/obj/structure/flora/bush/ppflowers,
+/turf/floor/fake_grass,
+/area/tower12/civ/commons)
 "IZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -14677,6 +14662,10 @@
 "Ja" = (
 /turf/wall/r_wall,
 /area/tower12/med/gtc)
+"Jb" = (
+/obj/structure/flora/bush/ppflowers,
+/turf/floor/fake_grass,
+/area/tower12/civ/mess/hydro)
 "Jc" = (
 /obj/structure/chair/bench/pew/ebony{
 	dir = 1
@@ -14941,6 +14930,12 @@
 /obj/machinery/light,
 /turf/floor/carpet/purple,
 /area/tower12/bridge/uta_rep_office)
+"JG" = (
+/obj/machinery/light_switch/on{
+	dir = 8
+	},
+/turf/floor/tiled,
+/area/tower12/hall/cent_elevator_d2)
 "JH" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -15332,13 +15327,9 @@
 /turf/floor/tiled,
 /area/tower12/eps/hall)
 "KA" = (
-/obj/structure/table/steel_reinforced,
-/obj/item/clothing/suit/space/void/security/alt,
-/obj/item/clothing/head/helmet/space/void/security/alt,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/mask/breath,
-/turf/floor/tiled,
-/area/tower12/eps/armory)
+/obj/structure/flora/bush/ppflowers,
+/turf/floor/fake_grass,
+/area/tower12/civ/garden)
 "KB" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/double/glass/civilian{
@@ -15645,11 +15636,6 @@
 	},
 /turf/floor/tiled/freezer,
 /area/tower12/med/morgue)
-"Lm" = (
-/obj/structure/railing/mapped/wooden/ebony,
-/obj/structure/flora/bush/brflowers,
-/turf/floor/fake_grass,
-/area/tower12/civ/garden)
 "Ln" = (
 /obj/machinery/light{
 	dir = 4
@@ -15768,6 +15754,11 @@
 /obj/structure/disposalpipe/segment,
 /turf/floor/laminate/mahogany,
 /area/tower12/hall/starboard_d3)
+"LB" = (
+/obj/structure/railing/mapped/wooden/ebony,
+/obj/structure/flora/bush/brflowers,
+/turf/floor/fake_grass,
+/area/tower12/civ/garden)
 "LC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
@@ -16703,6 +16694,13 @@
 /obj/effect/floor_decal/corner/green/half,
 /turf/floor/tiled,
 /area/tower12/hall/cent_starboard_d2)
+"NK" = (
+/obj/structure/curtain/open/bar{
+	pixel_y = 32
+	},
+/obj/structure/flora/bush/ppflowers,
+/turf/floor/fake_grass,
+/area/tower12/civ/mess/hydro)
 "NL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -16839,6 +16837,12 @@
 	},
 /turf/floor/laminate/mahogany,
 /area/tower12/civ/mess/bar)
+"Oc" = (
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/full,
+/turf/floor/plating,
+/area/tower12/maint/d2/eps_aft)
 "Od" = (
 /obj/structure/railing/mapped/wooden/ebony{
 	dir = 4
@@ -17209,10 +17213,6 @@
 /obj/effect/catwalk_plated/dark,
 /turf/floor/plating,
 /area/tower12/maint/d1/medical)
-"Pb" = (
-/obj/structure/flora/bush/brflowers,
-/turf/floor/fake_grass,
-/area/tower12/civ/garden)
 "Pc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -17248,12 +17248,6 @@
 /obj/effect/floor_decal/corner/green/three_quarters,
 /turf/floor/tiled,
 /area/tower12/hall/cent_elevator_d2)
-"Ph" = (
-/obj/machinery/light_switch/on{
-	dir = 8
-	},
-/turf/floor/wood/yew,
-/area/tower12/supply/civil_manager)
 "Pi" = (
 /obj/item/radio/intercom,
 /turf/floor/fake_grass,
@@ -17297,10 +17291,6 @@
 "Po" = (
 /turf/wall/r_wall,
 /area/tower12/ai/core)
-"Pp" = (
-/obj/structure/flora/bush/ppflowers,
-/turf/floor/fake_grass,
-/area/tower12/civ/commons)
 "Pq" = (
 /obj/effect/floor_decal/corner/green,
 /turf/floor/tiled,
@@ -17396,12 +17386,6 @@
 	},
 /turf/floor/carpet/purple,
 /area/tower12/bridge/meeting)
-"PA" = (
-/obj/machinery/light_switch/on{
-	dir = 8
-	},
-/turf/floor/tiled,
-/area/tower12/hall/cent_elevator_d2)
 "PB" = (
 /obj/structure/cable/green{
 	icon_state = "2-8"
@@ -17544,6 +17528,16 @@
 /obj/structure/window/reinforced/full,
 /turf/floor/plating,
 /area/tower12/maint/d2/aft_starboard)
+"PQ" = (
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/full,
+/obj/machinery/door/blast/regular/open{
+	id_tag = "brig_obv";
+	name = "Brig Observation"
+	},
+/turf/floor/plating,
+/area/tower12/eps/brig)
 "PR" = (
 /obj/machinery/alarm,
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
@@ -18462,10 +18456,10 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/machinery/atmospherics/binary/passive_gate/on{
-	dir = 2;
-	name = "Air to Supply"
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/simple/visible/blue,
 /turf/floor/tiled,
 /area/tower12/eng/atmospherics)
 "Sf" = (
@@ -18487,6 +18481,12 @@
 	},
 /turf/wall/r_wall,
 /area/tower12/ai/core)
+"Sk" = (
+/obj/machinery/light_switch/on{
+	dir = 8
+	},
+/turf/floor/tiled,
+/area/tower12/telecomms_servers)
 "Sl" = (
 /obj/structure/grille,
 /obj/machinery/door/firedoor,
@@ -19331,12 +19331,6 @@
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /turf/floor/tiled,
 /area/tower12/supply/dock)
-"Ue" = (
-/obj/machinery/light_switch/on{
-	dir = 4
-	},
-/turf/floor/laminate/mahogany,
-/area/tower12/civ/chaplain_office)
 "Uf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -19650,11 +19644,13 @@
 /turf/floor/plating,
 /area/tower12/maint/d2/eps_aft)
 "UP" = (
-/obj/structure/grille,
-/obj/machinery/door/firedoor,
-/obj/structure/window/reinforced/full,
-/turf/floor/plating,
-/area/tower12/maint/d2/eps_aft)
+/obj/structure/table/steel_reinforced,
+/obj/item/clothing/suit/space/void/security/alt,
+/obj/item/clothing/head/helmet/space/void/security/alt,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/mask/breath,
+/turf/floor/tiled,
+/area/tower12/eps/armory)
 "UQ" = (
 /obj/machinery/camera/network,
 /turf/floor/laminate/mahogany,
@@ -19754,6 +19750,7 @@
 	dir = 4
 	},
 /obj/machinery/meter/turf,
+/obj/machinery/atmospherics/pipe/simple/visible/blue,
 /turf/floor/tiled,
 /area/tower12/eng/atmospherics)
 "Ve" = (
@@ -20120,10 +20117,6 @@
 /obj/structure/grille,
 /turf/floor/tiled,
 /area/tower12/civ/janitor)
-"VS" = (
-/obj/structure/flora/bush/grassybush,
-/turf/floor/fake_grass,
-/area/tower12/civ/garden)
 "VT" = (
 /obj/machinery/camera/network/engineering{
 	dir = 8
@@ -20496,9 +20489,12 @@
 /turf/floor/tiled,
 /area/tower12/hall/docking_starboard)
 "WR" = (
-/obj/structure/flora/bush/ppflowers,
-/turf/floor/fake_grass,
-/area/tower12/civ/mess/hydro)
+/obj/effect/floor_decal/corner/brown/full,
+/obj/machinery/light_switch{
+	dir = 1
+	},
+/turf/floor/tiled,
+/area/tower12/supply/tradepost)
 "WS" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -20874,6 +20870,10 @@
 	},
 /turf/floor/tiled,
 /area/tower12/hall/cent_d2)
+"XI" = (
+/obj/structure/flora/bush/brflowers,
+/turf/floor/fake_grass,
+/area/tower12/civ/mess/hydro)
 "XJ" = (
 /obj/structure/cable/green{
 	icon_state = "2-8"
@@ -21297,6 +21297,10 @@
 	},
 /turf/floor/tiled,
 /area/tower12/hall/fore_port_d2)
+"YK" = (
+/obj/structure/flora/bush/brflowers,
+/turf/floor/fake_grass,
+/area/tower12/civ/garden)
 "YL" = (
 /turf/floor/carpet/red,
 /area/tower12/hall/cent_starboard_d2)
@@ -21307,7 +21311,8 @@
 /turf/floor/bluegrid,
 /area/tower12/telecomms_servers)
 "YN" = (
-/obj/structure/flora/bush/brflowers,
+/obj/structure/flora/bush/ywflowers,
+/obj/structure/flora/bush/grassybush,
 /turf/floor/fake_grass,
 /area/tower12/civ/commons)
 "YO" = (
@@ -30799,7 +30804,7 @@ Vu
 nn
 QY
 Aq
-Ph
+ss
 ba
 BP
 VG
@@ -31110,7 +31115,7 @@ Eo
 Qm
 zi
 KX
-vn
+yR
 SO
 eI
 eI
@@ -32914,7 +32919,7 @@ sz
 zD
 Vr
 ry
-AG
+eo
 cH
 fR
 UR
@@ -33686,8 +33691,8 @@ gZ
 VJ
 LQ
 VJ
-dT
-wy
+Iy
+is
 VJ
 VJ
 hd
@@ -34584,7 +34589,7 @@ Xq
 Yv
 aA
 Vd
-qo
+iM
 nj
 Hd
 Qj
@@ -35191,7 +35196,7 @@ he
 SH
 Ve
 sV
-vy
+Ei
 Ve
 Ve
 aL
@@ -54516,7 +54521,7 @@ sH
 GT
 NV
 BL
-yR
+WR
 GT
 nb
 nb
@@ -54785,7 +54790,7 @@ Ax
 xy
 xy
 SL
-cA
+ml
 Jd
 Gk
 YJ
@@ -54798,7 +54803,7 @@ LU
 LU
 vj
 zN
-Ue
+sW
 sm
 vj
 uj
@@ -55063,9 +55068,9 @@ sz
 sz
 sz
 Tu
-qT
+nH
 zg
-WR
+Jb
 zg
 wW
 Gl
@@ -55367,7 +55372,7 @@ sz
 sz
 sz
 Tu
-mO
+NK
 zg
 Hb
 zg
@@ -55522,7 +55527,7 @@ Tu
 UN
 zg
 Zt
-kx
+XI
 pU
 Me
 Vj
@@ -56440,17 +56445,17 @@ jQ
 jQ
 ab
 Vf
-VS
+dC
 Fm
-tA
+zC
 Fm
 sv
 Vf
-Pb
+YK
 Fm
 Fm
 Fm
-VS
+dC
 JR
 Vf
 jt
@@ -56591,16 +56596,16 @@ Fm
 kv
 jQ
 XM
-VS
+dC
 Fm
 Fm
 Fm
-tA
+zC
 Fm
 Vf
 sv
 Fm
-Ei
+KA
 sv
 Fm
 JR
@@ -56743,18 +56748,18 @@ Fm
 zx
 jQ
 UQ
-Pb
+YK
 sv
-Ei
+KA
 sv
 gW
 Vf
 Vf
 Fm
-Ei
+KA
 Fm
 Fm
-tA
+zC
 JR
 Vf
 Na
@@ -56903,10 +56908,10 @@ aR
 xC
 Vf
 xz
-tA
+zC
 sv
 Fm
-VS
+dC
 JR
 Qf
 Na
@@ -57048,16 +57053,16 @@ Fm
 IP
 Vf
 sv
-Ei
+KA
 Fm
-Lm
+LB
 eU
 Vf
 Fq
 wV
 As
 Fm
-VS
+dC
 Vf
 JR
 Vf
@@ -57071,10 +57076,10 @@ tu
 UG
 Pk
 nN
-Iy
+qT
+tb
 Hf
-th
-Pp
+IY
 oH
 Ew
 oH
@@ -57223,10 +57228,10 @@ UG
 UG
 Pk
 nN
-YN
-Pp
+DL
+IY
 Xh
-Pp
+IY
 NF
 TU
 ka
@@ -57360,8 +57365,8 @@ xH
 Vf
 Vf
 As
-Ei
-VS
+KA
+dC
 Vf
 Uj
 vl
@@ -57375,10 +57380,10 @@ Pk
 SR
 ai
 nN
-Pp
-sW
-th
-Iy
+IY
+YN
+Hf
+qT
 oH
 Ew
 Le
@@ -57504,7 +57509,7 @@ Fm
 IP
 Vf
 Fm
-Pb
+YK
 Fm
 Fo
 aR
@@ -57514,7 +57519,7 @@ It
 Fm
 sv
 Fm
-VS
+dC
 ZZ
 Qf
 Na
@@ -57657,7 +57662,7 @@ jQ
 UQ
 Fm
 sv
-Ei
+KA
 sv
 kz
 Vf
@@ -57665,8 +57670,8 @@ Vf
 Fm
 Fm
 Fm
-Ei
-tA
+KA
+zC
 ZZ
 Vf
 AJ
@@ -57807,16 +57812,16 @@ ea
 CK
 jQ
 XM
-VS
+dC
 Fm
 Fm
-tA
-Ei
+zC
+KA
 Fm
 Vf
 sv
 Fm
-tA
+zC
 sv
 Fm
 ih
@@ -57960,17 +57965,17 @@ jQ
 jQ
 Vf
 Vf
-VS
-Pb
+dC
+YK
 Fm
 Fm
 sv
 Vf
 Fm
-Ei
+KA
 Fm
 Fm
-VS
+dC
 ZZ
 wV
 tm
@@ -59074,7 +59079,7 @@ iF
 FM
 JS
 nK
-PA
+JG
 zQ
 SN
 vw
@@ -60119,13 +60124,13 @@ yO
 Cy
 ic
 UB
-KA
+UP
 vY
 Qi
 Qi
-UP
-UP
-UP
+Oc
+Oc
+Oc
 Qi
 Qi
 Qi
@@ -60271,7 +60276,7 @@ jr
 vY
 JT
 LE
-KA
+UP
 vY
 hL
 sz
@@ -60562,9 +60567,9 @@ PC
 Bp
 go
 go
-zC
-zC
-zC
+PQ
+PQ
+PQ
 go
 ul
 lt
@@ -77919,7 +77924,7 @@ lO
 lO
 lO
 Va
-DL
+sX
 Wa
 kN
 Vt
@@ -78674,7 +78679,7 @@ ff
 mv
 CB
 yq
-vt
+HK
 Sf
 Sf
 CX
@@ -79750,7 +79755,7 @@ yD
 pz
 vc
 aF
-nH
+Gw
 Su
 Ry
 OP
@@ -81410,7 +81415,7 @@ zq
 Xa
 an
 Jn
-rJ
+Sk
 Oq
 Iv
 Fr
