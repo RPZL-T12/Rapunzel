@@ -107,8 +107,8 @@
 /turf/unsimulated/floor/carpet,
 /area/tower12/uta)
 "kK" = (
-/obj/machinery/embedded_controller/radio/docking_port_multi{
-	child_tags_txt = list("evac_starboard","evac_port")
+/obj/structure/chair/shuttle/black{
+	dir = 4
 	},
 /turf/floor/shuttle/purple,
 /area/tower12/shuttle/evac)
@@ -144,7 +144,7 @@
 /area/tower12/uta)
 "oS" = (
 /obj/structure/chair/shuttle/black{
-	dir = 1
+	dir = 8
 	},
 /turf/floor/shuttle/purple,
 /area/tower12/shuttle/evac)
@@ -161,7 +161,8 @@
 /turf/wall/shuttle/light,
 /area/tower12/shuttle/evac)
 "ps" = (
-/obj/structure/shuttle/window,
+/obj/structure/grille,
+/obj/structure/window/reinforced/full,
 /turf/floor/shuttle/white,
 /area/tower12/shuttle/evac)
 "pw" = (
@@ -183,7 +184,8 @@
 /area/tower12/shuttle/evac)
 "rr" = (
 /obj/machinery/computer/shuttle_control/emergency{
-	shuttle_tag = "Rapunzel Evacuation Shuttle"
+	shuttle_tag = "Rapunzel Evacuation Shuttle";
+	dir = 8
 	},
 /turf/floor/shuttle/purple,
 /area/tower12/shuttle/evac)
@@ -386,6 +388,9 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/chair/shuttle/black{
+	dir = 4
+	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
 	id_tag = "evac_port";
 	tag_door = "escape_shuttle_hatch"
@@ -400,7 +405,8 @@
 /turf/unsimulated/floor/lino,
 /area/tower12/uta)
 "Nx" = (
-/obj/structure/shuttle/window,
+/obj/structure/window/reinforced/full,
+/obj/structure/grille,
 /turf/floor/shuttle,
 /area/tower12/shuttle/evac)
 "NN" = (
@@ -430,6 +436,9 @@
 "RT" = (
 /obj/machinery/light{
 	dir = 4
+	},
+/obj/structure/chair/shuttle/black{
+	dir = 8
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
 	id_tag = "evac_starboard";
@@ -2561,18 +2570,18 @@ eU
 eU
 eU
 eU
-zN
-zN
 eU
 eU
 eU
 eU
 eU
 eU
-zP
-zP
-zP
-zP
+eU
+eU
+eU
+eU
+eU
+eU
 eU
 eU
 eU
@@ -2640,21 +2649,21 @@ eU
 eU
 eU
 eU
-Nx
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 zP
 zP
-rM
-rM
-Th
-ps
-ps
-ps
-Th
 zP
 zP
-ra
-zP
-bE
 eU
 eU
 eU
@@ -2721,22 +2730,22 @@ eU
 eU
 eU
 eU
-Nx
-Nx
-Mv
-px
-AU
-in
-FR
-FR
-FR
-FR
-in
-NN
-ig
-fs
+eU
 zP
 zP
+zP
+rM
+rM
+Th
+ps
+ps
+ps
+Th
+zP
+zP
+ra
+zP
+bE
 eU
 eU
 eU
@@ -2803,22 +2812,22 @@ eU
 eU
 eU
 eU
-Nx
-in
-oS
-px
-Ft
-in
-FR
-FR
-FR
-FR
-in
-px
-sg
-ig
 zP
-bE
+zP
+Mv
+px
+AU
+in
+FR
+FR
+FR
+FR
+in
+NN
+ig
+fs
+zP
+zP
 eU
 eU
 eU
@@ -2889,16 +2898,16 @@ Nx
 kK
 in
 px
+Ft
 in
+FR
+FR
+FR
+FR
 in
-in
-in
-in
-in
-in
-zP
-zP
-zP
+px
+sg
+ig
 zP
 bE
 eU
@@ -3050,8 +3059,8 @@ eU
 eU
 eU
 Nx
-in
 oS
+in
 px
 Ft
 in
@@ -3131,8 +3140,8 @@ eU
 eU
 eU
 eU
-Nx
-Nx
+zP
+zP
 RT
 px
 Zr
@@ -3214,7 +3223,7 @@ eU
 eU
 eU
 eU
-Nx
+zP
 zP
 zP
 rz

@@ -258,6 +258,9 @@
 /area/tower12/med/icu
 	name = "Intensive Care Unit"
 
+/area/tower12/med/storage
+	name = "Trauma Center Storage"
+
 /area/tower12/med/morgue
 	name = "Morgue"
 	req_access = list("ACCESS_MEDICAL", "ACCESS_MORGUE")

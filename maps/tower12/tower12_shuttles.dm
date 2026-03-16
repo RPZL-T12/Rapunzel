@@ -31,9 +31,9 @@
 
 ///// Escape Shuttle
 /obj/effect/shuttle_landmark/stationdock_primary
-	name = "Tower 12 Primary Docking Arm"
+	name = "Tower 12 Port Primary Docking Arm"
 	landmark_tag = "nav_stationdock_primary"
-	docking_controller = "dockarm_primary"
+	docking_controller = "dockingarm_primary_port"
 	special_dock_targets = list(
 		/datum/shuttle/autodock/ferry/emergency/tower12 = "PRIMARY"
 	)
@@ -49,7 +49,7 @@
 /datum/shuttle/autodock/ferry/emergency/tower12
 	name = "Rapunzel Evacuation Shuttle"
 	shuttle_area = /area/tower12/shuttle/evac
-	dock_target = "dockarm_primary"
+	dock_target = "dockingarm_primary_port"
 	location = 1
 	waypoint_station = "nav_stationdock_primary"
 	waypoint_offsite = "nav_uta_port"
