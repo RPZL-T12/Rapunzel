@@ -12,19 +12,22 @@
 	)
 
 /decl/species/unathi
+	description = "The Unathi are a massive bipedal reptillian species noted for their extended lifespans and a culture with great emphasis on respect and education. \
+					Their leadership, once unbreakable and unified, has recently fragmented a serious secondary governance known as the New Era. Any who fall outside of \
+					these parties, however, have more than likely been burdened with something else: the title of Inconsequential."
 	available_background_info = list(
 			/decl/background_category/homeworld = list(
 				/decl/background_detail/location/tower12/unathi_homeworld
 			),
-			/decl/background_category/heritage    = list(
-				/decl/background_detail/faction/tower12/old_regime,
-				/decl/background_detail/faction/tower12/new_era,
-				/decl/background_detail/faction/tower12/unbound
-			),
-			/decl/background_category/faction = list(
+			/decl/background_category/heritage = list(
 				/decl/background_detail/heritage/tower12/traditionalist,
 				/decl/background_detail/heritage/tower12/heretical,
-				/decl/background_detail/heritage/tower12/inconsequential
+				/decl/background_detail/heritage/tower12/disgraced
+			),
+			/decl/background_category/faction    = list(
+				/decl/background_detail/faction/tower12/old_regime,
+				/decl/background_detail/faction/tower12/new_era,
+				/decl/background_detail/faction/tower12/inconsequential
 			),
 			/decl/background_category/religion = list(
 				/decl/background_detail/religion/tower12/unathi,
@@ -60,12 +63,12 @@
 					and dissent, but they carry on in the name of progress, knowledge, and the future."
 	uid = "faction_new_era"
 
-/decl/background_detail/faction/tower12/unbound
-	name = "Unbound"
+/decl/background_detail/faction/tower12/inconsequential
+	name = "Inconsequential"
 	description = "For whatever reason, you have abandoned your heritage, home, and culture. Perhaps this was willing, perhaps it was not. You do not \
 					necessarily abandon the beliefs you were raised upon in whole, but you could no longer find your place among your kin. You are stripped \
-					of your family's name, and thus you are Unbound."
-	uid = "faction_unbound"
+					of your family's name, and thus you are Inconsequential."
+	uid = "faction_inconsequential"
 	economic_power = 0.7
 
 //// Heritage
@@ -81,12 +84,13 @@
 					can be as beneficial as it can detrimental, and the views you hold are likely unique to you and your immediate community."
 	uid = "heritage_heretical"
 
-/decl/background_detail/heritage/tower12/inconsequential
-	name = "The Inconsequential"
+/decl/background_detail/heritage/tower12/disgraced
+	name = "Disgraced"
 	description = "You are a disgrace. A shame. A blight to your family name. This is why they have stripped it from you. Perhaps it was justified, a crime \
 					so horrible that acceptance was no longer possible. Perhaps unfair circumstances gave you this label. You are reviled by kin that know \
-					you by this title, and to ever bare your family name again is more than dishonorable: it's unforgivable. NOTE: The Inconsequential MUST be Unbound."
-	uid = "heritage_inconsequential"
+					you by this title, and to ever bare your family name again is more than dishonorable: it's unforgivable. NOTE: Disgraced MUST be of the \
+					Inconsequential faction."
+	uid = "heritage_disgraced"
 	economic_power = 0.5
 
 //// Religion
@@ -97,5 +101,5 @@
 
 /decl/background_detail/religion/tower12/other_unathi
 	name = "Other"
-	description = "For whatever reason, you've found yourself following different tenants than your kin."
+	description = "For whatever reason, you've found yourself following different tenants than your kin. This is likely quite controversial among traditional Unathi."
 	uid = "religion_other_unathi"

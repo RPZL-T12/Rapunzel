@@ -46,6 +46,7 @@
 
 	#include "species/lore/digital_intelligence_backgrounds.dm"
 	#include "species/lore/unathi_backgrounds.dm"
+	#include "species/lore/skrell_backgrounds.dm"
 
 	#include "species/digital_intelligence.dm"
 

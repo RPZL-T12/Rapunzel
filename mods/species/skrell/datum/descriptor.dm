@@ -1,3 +1,4 @@
+/*
 /datum/appearance_descriptor/headtail_length
 	name = "headtail length"
 	chargen_label = "headtails (caste)"
@@ -38,3 +39,4 @@
 
 /datum/appearance_descriptor/headtail_length/get_third_person_message_start(var/decl/pronouns/my_gender)
 	. = "[my_gender.His] headtails are"
+*/
