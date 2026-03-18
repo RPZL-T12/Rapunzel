@@ -387,9 +387,9 @@ Helpers
 
 /datum/controller/subsystem/ticker/proc/declare_completion()
 	to_world("<br><br><br><H1>A round of [mode.name] has ended!</H1>")
-	for(var/client/C)
+	/*for(var/client/C)
 		if(!C.credits)
-			C.RollCredits()
+			C.RollCredits()*/
 	for(var/mob/Player in global.player_list)
 		if(Player.mind && !isnewplayer(Player))
 			global.using_map.summarize_roundend_for(Player)

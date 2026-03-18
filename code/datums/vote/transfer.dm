@@ -45,6 +45,7 @@
 	if(..())
 		return 1
 	if(result[1] == "Initiate Crew Transfer")
+		priority_announcement.Announce("A shift change has been scheduled. The Upper Tower Authority would like to thank this shift for their hard work.", "Shift Change", new_sound = sound('sound/effects/tritone_announce.ogg', volume = 40))
 		init_autotransfer()
 	else if(result[1] == "Add Antagonist")
 		SSvote.queued_auto_vote = /datum/vote/add_antagonist
