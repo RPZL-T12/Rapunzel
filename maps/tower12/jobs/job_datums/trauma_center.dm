@@ -35,7 +35,8 @@
 	minimum_character_age = list("species_human" = 30)
 	ideal_character_age = list("species_human" = 35)
 	alt_titles = list(
-		"Trauma Surgeon"
+		"Trauma Surgeon",
+		"Pharmacist"
 	)
 	total_positions = 3
 	spawn_positions = 3
@@ -47,14 +48,15 @@
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_MEDICAL = SKILL_EXPERT,
-		SKILL_ANATOMY = SKILL_EXPERT,
+		SKILL_ANATOMY = SKILL_ADEPT,
 		SKILL_CHEMISTRY = SKILL_BASIC
 	)
 	access = list(
 		access_medical,
 		access_medical_equip,
 		access_surgery,
-		access_morgue
+		access_morgue,
+		access_chemistry
 	)
 
 /datum/job/medical/nurse

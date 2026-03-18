@@ -715,7 +715,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-4"
 	},
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "bI" = (
 /obj/structure/disposalpipe/segment/bent{
@@ -1067,7 +1067,7 @@
 /obj/machinery/keycard_auth{
 	dir = 4
 	},
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "cA" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -1118,6 +1118,10 @@
 	},
 /obj/machinery/camera/network/security{
 	dir = 4
+	},
+/obj/item/paper_bin,
+/obj/item/pen{
+	pixel_x = 7
 	},
 /turf/floor/tiled,
 /area/tower12/eps/security_chk)
@@ -1968,6 +1972,8 @@
 /obj/structure/disposalpipe/junction/mirrored{
 	dir = 8
 	},
+/obj/item/paper_bin,
+/obj/item/pen,
 /turf/floor/tiled,
 /area/tower12/med/lobby)
 "eD" = (
@@ -2199,7 +2205,7 @@
 	dir = 4
 	},
 /obj/structure/disposalpipe/segment,
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "fc" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -3015,7 +3021,7 @@
 /obj/machinery/computer/shuttle_control/emergency{
 	dir = 4
 	},
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "gS" = (
 /obj/structure/cable/green{
@@ -3471,7 +3477,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "hS" = (
 /obj/structure/cable/yellow{
@@ -3830,7 +3836,7 @@
 	dir = 4
 	},
 /obj/machinery/hologram/holopad,
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "iI" = (
 /obj/machinery/light{
@@ -4068,6 +4074,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/table/wood/reinforced/ebony/walnut,
 /obj/item/paper_bin,
+/obj/item/pen,
 /turf/floor/carpet/red,
 /area/tower12/eps/coord_office)
 "jm" = (
@@ -4739,7 +4746,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-4"
 	},
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "kT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -5163,7 +5170,7 @@
 /obj/machinery/camera/network/security{
 	dir = 1
 	},
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "lT" = (
 /obj/machinery/door/firedoor,
@@ -5328,6 +5335,14 @@
 	},
 /turf/floor/tiled,
 /area/tower12/med/storage)
+"ml" = (
+/obj/structure/table/steel_reinforced,
+/obj/effect/floor_decal/corner/white/full,
+/obj/machinery/light,
+/obj/machinery/reagentgrinder/juicer,
+/obj/item/chems/glass/beaker/large,
+/turf/floor/tiled,
+/area/tower12/med/chemistry)
 "mm" = (
 /obj/machinery/recharge_station,
 /obj/machinery/light/small,
@@ -5880,8 +5895,21 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
+/obj/structure/chair/office/comfy/teal{
+	dir = 4
+	},
 /turf/floor/tiled,
 /area/tower12/med/chemistry)
+"nH" = (
+/obj/structure/window/reinforced{
+	current_health = 1e+007
+	},
+/obj/structure/table/steel_reinforced,
+/obj/effect/floor_decal/corner/orange/border,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/floor/tiled,
+/area/tower12/eng/engineering_lobby)
 "nI" = (
 /obj/machinery/network/relay/wall_mounted/west,
 /obj/machinery/hologram/holopad,
@@ -6236,6 +6264,10 @@
 	pixel_x = 6
 	},
 /obj/item/stamp,
+/obj/item/pen{
+	pixel_x = 7
+	},
+/obj/item/paper_bin,
 /turf/floor/laminate/mahogany,
 /area/tower12/bridge/dept_coord)
 "oy" = (
@@ -6489,7 +6521,7 @@
 /obj/machinery/computer/modular/preset/medical{
 	dir = 4
 	},
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "pb" = (
 /obj/machinery/door/airlock/external/bolted{
@@ -6680,6 +6712,9 @@
 /obj/machinery/light,
 /obj/structure/table/wood/reinforced,
 /obj/item/paper_bin,
+/obj/item/pen{
+	pixel_x = 7
+	},
 /turf/floor/laminate/mahogany,
 /area/tower12/civ/mess/kitchen)
 "pv" = (
@@ -6865,7 +6900,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "pP" = (
 /obj/effect/floor_decal/corner/white/full,
@@ -7757,7 +7792,7 @@
 /obj/machinery/computer/modular/preset/cardslot/command{
 	dir = 4
 	},
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "sb" = (
 /obj/structure/closet/secure_closet/medical_wall{
@@ -7849,6 +7884,8 @@
 	},
 /obj/structure/table/steel_reinforced,
 /obj/effect/floor_decal/corner/red/full,
+/obj/item/paper_bin,
+/obj/item/pen,
 /turf/floor/tiled,
 /area/tower12/eps/lobby)
 "sk" = (
@@ -7939,6 +7976,12 @@
 /obj/machinery/camera/network/medbay,
 /turf/floor/tiled,
 /area/tower12/med/aid/d2)
+"ss" = (
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/turf/floor/carpet/purple,
+/area/tower12/bridge/controls)
 "st" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -8708,7 +8751,7 @@
 /obj/machinery/computer/atmos_alert{
 	dir = 4
 	},
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "ul" = (
 /obj/machinery/door/firedoor,
@@ -9688,6 +9731,10 @@
 	icon_state = "4-8"
 	},
 /obj/structure/table/wood/reinforced/ebony/walnut,
+/obj/item/pen{
+	pixel_x = 7
+	},
+/obj/item/paper_bin,
 /turf/floor/tiled,
 /area/tower12/supply/tradepost)
 "wC" = (
@@ -9708,9 +9755,9 @@
 /turf/floor/fake_grass,
 /area/tower12/civ/garden)
 "wE" = (
-/obj/structure/table/steel_reinforced,
 /obj/effect/floor_decal/corner/white/full,
 /obj/machinery/light,
+/obj/structure/closet/wardrobe/chemistry_white,
 /turf/floor/tiled,
 /area/tower12/med/chemistry)
 "wF" = (
@@ -10547,6 +10594,22 @@
 "yG" = (
 /obj/structure/table/steel_reinforced,
 /obj/effect/floor_decal/corner/white/full,
+/obj/item/chems/glass/beaker{
+	pixel_x = -5;
+	pixel_y = 10
+	},
+/obj/item/chems/glass/beaker{
+	pixel_x = 6;
+	pixel_y = 10
+	},
+/obj/item/chems/glass/beaker{
+	pixel_x = 6;
+	pixel_y = 3
+	},
+/obj/item/chems/glass/beaker{
+	pixel_x = -5;
+	pixel_y = 3
+	},
 /turf/floor/tiled,
 /area/tower12/med/chemistry)
 "yH" = (
@@ -10925,7 +10988,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "zv" = (
 /obj/structure/disposalpipe/segment,
@@ -11192,7 +11255,7 @@
 /obj/machinery/computer/station_alert/all{
 	dir = 4
 	},
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "Ac" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -11936,7 +11999,7 @@
 /obj/item/radio/intercom{
 	dir = 4
 	},
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "BK" = (
 /turf/floor/tiled/airless,
@@ -12310,6 +12373,15 @@
 	},
 /turf/floor/carpet/purple,
 /area/tower12/bridge/meeting)
+"CC" = (
+/obj/structure/table/wood/reinforced/ebony/walnut,
+/obj/item/paper_bin,
+/obj/item/pen{
+	pixel_x = 6;
+	pixel_y = 7
+	},
+/turf/floor/carpet/purple,
+/area/tower12/bridge/controls)
 "CD" = (
 /obj/structure/cable/orange{
 	icon_state = "4-8"
@@ -12786,6 +12858,9 @@
 /obj/effect/floor_decal/corner/red/border{
 	dir = 8
 	},
+/obj/structure/table/steel_reinforced,
+/obj/item/paper_bin,
+/obj/item/pen,
 /turf/floor/tiled,
 /area/tower12/eps/brig)
 "DF" = (
@@ -12828,6 +12903,9 @@
 "DK" = (
 /turf/wall/r_wall,
 /area/tower12/maint/d1/eng)
+"DL" = (
+/turf/floor/carpet/purple,
+/area/tower12/bridge/controls)
 "DM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/green{
@@ -13464,7 +13542,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "Fk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -13808,6 +13886,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
+/obj/structure/chair/office/comfy/teal{
+	dir = 8
+	},
 /turf/floor/tiled,
 /area/tower12/med/chemistry)
 "Gb" = (
@@ -13924,7 +14005,7 @@
 /obj/machinery/computer/modular/preset/security{
 	dir = 4
 	},
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "Gr" = (
 /obj/structure/table/marble,
@@ -14788,7 +14869,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "Ir" = (
 /obj/structure/closet/emcloset,
@@ -15140,6 +15221,10 @@
 	},
 /turf/floor/tiled,
 /area/tower12/eng/atmospherics)
+"Jk" = (
+/obj/structure/table/wood/reinforced/ebony/walnut,
+/turf/floor/carpet/purple,
+/area/tower12/bridge/controls)
 "Jl" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -15731,7 +15816,7 @@
 /obj/machinery/alarm{
 	dir = 4
 	},
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "Kz" = (
 /obj/machinery/light{
@@ -16066,7 +16151,6 @@
 /turf/floor/laminate/mahogany,
 /area/tower12/bridge/dept_coord)
 "Lo" = (
-/obj/structure/table/steel_reinforced,
 /obj/effect/floor_decal/corner/white/full,
 /obj/machinery/camera/network/medbay{
 	dir = 1
@@ -16074,6 +16158,7 @@
 /obj/item/radio/intercom{
 	dir = 1
 	},
+/obj/structure/closet/wardrobe/chemistry_white,
 /turf/floor/tiled,
 /area/tower12/med/chemistry)
 "Lp" = (
@@ -16757,7 +16842,7 @@
 /obj/machinery/alarm{
 	dir = 4
 	},
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "MW" = (
 /obj/structure/table/wood/reinforced/ebony/walnut,
@@ -17749,6 +17834,7 @@
 /obj/item/radio/intercom{
 	dir = 8
 	},
+/obj/item/paper_bin,
 /turf/floor/laminate/mahogany,
 /area/tower12/civ/library)
 "Pm" = (
@@ -18433,6 +18519,10 @@
 	icon_state = "1-4"
 	},
 /obj/structure/table/wood/reinforced/ebony/walnut,
+/obj/item/pen{
+	pixel_x = 7
+	},
+/obj/item/paper_bin,
 /turf/floor/laminate/mahogany,
 /area/tower12/bridge/uta_rep_office)
 "QS" = (
@@ -18676,9 +18766,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/grille,
-/obj/structure/window/reinforced/full,
-/turf/floor/plating,
+/obj/effect/floor_decal/corner/white/full,
+/obj/machinery/smartfridge/chemistry,
+/turf/floor/tiled,
 /area/tower12/med/chemistry)
 "Rx" = (
 /obj/effect/floor_decal/corner/white/full,
@@ -20751,6 +20841,10 @@
 	},
 /obj/machinery/light,
 /obj/structure/table/laminate/reinforced/ebony,
+/obj/item/pen{
+	pixel_x = 7
+	},
+/obj/item/paper_bin,
 /turf/floor/laminate/mahogany,
 /area/tower12/civ/chaplain_office)
 "Wf" = (
@@ -21103,7 +21197,7 @@
 	icon_state = "1-2"
 	},
 /obj/structure/disposalpipe/segment,
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "Xa" = (
 /obj/machinery/light{
@@ -22303,7 +22397,7 @@
 	dir = 4
 	},
 /obj/machinery/hologram/holopad,
-/turf/floor/laminate/mahogany,
+/turf/floor/carpet/purple,
 /area/tower12/bridge/controls)
 "ZI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -33786,7 +33880,7 @@ el
 Ux
 ZA
 Tv
-gX
+nH
 fF
 qY
 Xc
@@ -36708,7 +36802,7 @@ zt
 NA
 AP
 nG
-wE
+ml
 FR
 sz
 sz
@@ -77731,11 +77825,11 @@ nb
 Va
 Va
 BJ
-kN
-kN
-kN
-kN
-kN
+DL
+DL
+DL
+DL
+DL
 lS
 Va
 Va
@@ -77882,13 +77976,13 @@ nb
 nb
 Va
 MV
-Eu
+ss
 kS
 hR
-kN
-kN
+DL
+DL
 zu
-kN
+DL
 Ky
 IK
 sz
@@ -78034,13 +78128,13 @@ lO
 lO
 lO
 Iq
-oo
+CC
 uk
 iH
-oo
+Jk
 pa
 ZH
-oo
+Jk
 Gq
 IK
 sz
@@ -78186,13 +78280,13 @@ NY
 MR
 De
 Eu
-Eu
+ss
 bH
 pO
-kN
-kN
+DL
+DL
 Fj
-kN
+DL
 kN
 aG
 nb
