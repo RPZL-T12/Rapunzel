@@ -7,8 +7,8 @@
 	station_name  = "Rapunzel Tower 12"
 
 	dock_name = "Rapunzel Upper Tower Dock"
-	boss_name = "Reza Kaleva"
-	company_name  = "Rapunzel"
+	boss_name = "Rapunzel Upper Tower Authority"
+	company_name  = "Rapunzel Towers"
 	company_short = "RPNZL"
 	game_year = 350
 	lobby_screens = list('maps/tower12/lobby/rpzl12_lobby.png')
