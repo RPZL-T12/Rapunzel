@@ -54,7 +54,8 @@
 	)
 	access = list(
 		access_cargo,
-		access_maint_tunnels
+		access_maint_tunnels,
+		access_mailsorting
 	)
 
 /datum/job/engineering/maintenance

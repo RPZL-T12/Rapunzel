@@ -1,14 +1,14 @@
 /datum/appearance_descriptor/age/unathi
 	standalone_value_descriptors = list(
 		"an infant" =       1,
-		"a toddler" =       5,
-		"a child" =        10,
-		"an adolescent" =  16,
-		"a young adult" =  20,
-		"an adult" =       45,
+		"a toddler" =       7,
+		"a child" =        15,
+		"an adolescent" =  30,
+		"a young adult" =  38,
+		"an adult" =       60,
 		"middle-aged" =    150,
-		"aging" =         200,
-		"elderly" =       260
+		"aging" =         220,
+		"elderly" =       280
 	)
 
 /decl/species/unathi
