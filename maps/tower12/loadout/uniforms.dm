@@ -78,3 +78,9 @@
 	name = "dress, turtleneck"
 	path = /obj/item/clothing/dress/turtleneck
 	uid = "gear_under_turtleneck"
+
+/decl/loadout_option/uniform/gear_harness
+	name = "gear harness (Digital Intelligence)"
+	path = /obj/item/clothing/shirt/harness
+	uid = "gear_under_harness"
+	whitelisted = list(/decl/species/utility_frame::uid)

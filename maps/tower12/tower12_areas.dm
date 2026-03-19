@@ -277,6 +277,7 @@
 
 /area/tower12/med/recovery
 	name = "Recovery Ward"
+	req_access = list()
 
 /area/tower12/med/hall
 	name = "Trauma Center Hallway"
@@ -322,11 +323,11 @@
 
 /area/tower12/eps/utility
 	name = "\improper EPS - Utility Lockers"
-	req_access = list("ACCESS_EPS", "ACCESS_ENGINEERING")
+	req_access = list("ACCESS_EPS", "ACCESS_EPS_UTILITY")
 
 /area/tower12/eps/emt
 	name = "\improper EPS - EMT Lockers"
-	req_access = list("ACCESS_EPS", "ACCESS_MEDICAL")
+	req_access = list("ACCESS_EPS", "ACCESS_EPS_EMT")
 
 /area/tower12/eps/peacekeeper
 	name = "\improper EPS - Peacekeeper Lockers"

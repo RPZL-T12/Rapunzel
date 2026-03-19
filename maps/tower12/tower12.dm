@@ -37,6 +37,8 @@
 	#include "jobs/job_datums/supply_operations.dm"
 	#include "jobs/job_datums/trauma_center.dm"
 
+	#include "books/causerie_catalogue.dm"
+
 	#include "jobs/headsets.dm"
 	#include "jobs/id_cards.dm"
 	#include "jobs/outfits.dm"

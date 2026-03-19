@@ -60,4 +60,4 @@
 	desc = "A long dress with a turtleneck."
 	icon = 'icons/clothing/dresses/dress_turtleneck.dmi'
 	flags_inv = HIDESHOES
-	body_parts_covered = SLOT_UPPER_BODY|SLOT_ARMS|SLOT_LOWER_BODY|SLOT_LEGS|SLOT_FEET
+	body_parts_covered = SLOT_UPPER_BODY|SLOT_ARMS|SLOT_LOWER_BODY|SLOT_LEGS

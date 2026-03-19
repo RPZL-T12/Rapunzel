@@ -29,7 +29,8 @@
 		access_eva,
 		access_external_airlocks,
 		access_eps_emt,
-		access_eps_utility
+		access_eps_utility,
+		access_maint_tunnels
 	)
 
 /datum/job/peacekeeping_officer
@@ -59,7 +60,8 @@
 		access_security,
 		access_brig,
 		access_eva,
-		access_external_airlocks
+		access_external_airlocks,
+		access_maint_tunnels
 	)
 
 /datum/job/medical/emt
@@ -85,7 +87,8 @@
 		access_medical_equip,
 		access_eva,
 		access_external_airlocks,
-		access_eps_emt
+		access_eps_emt,
+		access_maint_tunnels
 	)
 
 /datum/job/engineering/utility
@@ -113,5 +116,6 @@
 		access_construction,
 		access_eva,
 		access_external_airlocks,
-		access_eps_utility
+		access_eps_utility,
+		access_maint_tunnels
 	)

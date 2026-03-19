@@ -51,5 +51,6 @@
 		access_medical,
 		access_eps,
 		access_cargo,
-		access_bridge
+		access_bridge,
+		access_janitor
 	)
