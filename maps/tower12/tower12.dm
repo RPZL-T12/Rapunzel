@@ -10,6 +10,7 @@
 	#include "../../mods/species/unathi/_unathi.dme"
 	#include "../../mods/species/skrell/_skrell.dme"
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
+	#include "../../mods/species/vatborn/_vatborn.dme"
 /*
 	#include "../../mods/content/pheromones/_pheromones.dme"
 	#include "../../mods/species/adherent/_adherent.dme"
