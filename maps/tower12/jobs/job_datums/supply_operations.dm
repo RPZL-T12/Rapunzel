@@ -86,3 +86,28 @@
 		access_eva,
 		access_external_airlocks
 	)
+
+/datum/job/robotics_maintainer
+	title = "Robotics Maintainer"
+	supervisors = "the Civil Manager and the Department Coordinator"
+	minimum_character_age = list("species_human" = 20)
+	ideal_character_age = list("species_human" = 25)
+	department_types = list(
+		/decl/department/supply_operations
+	)
+	total_positions = 2
+	spawn_positions = 2
+	selection_color = "#75582d"
+	outfit_type = /decl/outfit/job/tower/supply/robotics
+	min_skill = list(
+		SKILL_LITERACY = SKILL_ADEPT,
+		SKILL_COMPUTER = SKILL_ADEPT,
+		SKILL_DEVICES  = SKILL_ADEPT,
+		SKILL_ANATOMY  = SKILL_ADEPT
+	)
+	access = list(
+		access_robotics,
+		access_research,
+		access_morgue,
+		access_maint_tunnels
+	)

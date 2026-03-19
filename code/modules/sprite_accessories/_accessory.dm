@@ -30,7 +30,7 @@
 	/// Restricted from specific bodytypes. null matches none
 	var/list/decl/bodytype/bodytypes_denied
 	/// Restrict some styles to specific species UIDs.
-	var/list/species_allowed = list(/decl/species/human::uid)
+	var/list/species_allowed = list(/decl/species/human::uid, /decl/species/human/vatborn::uid)
 	/// Restrict some styles to specific bodytype flags.
 	var/body_flags_allowed
 	/// Restrict some styles to specific bodytype flags.

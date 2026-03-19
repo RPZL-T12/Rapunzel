@@ -13,6 +13,7 @@
 		/datum/job/mess_hall/bartender,
 		/datum/job/civil_manager,
 		/datum/job/provisions_technician,
+		/datum/job/robotics_maintainer,
 		/datum/job/engineering/maintenance,
 		/datum/job/chief_medical,
 		/datum/job/medical/doctor,

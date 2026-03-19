@@ -242,6 +242,16 @@
 /area/tower12/supply/tradepost
 	name = "\improper Trading Post"
 
+///// Robotics, all alone
+
+/area/tower12/scimed
+	abstract_type = /area/tower12/scimed
+	icon_state = "robotics"
+	req_access = list(access_robotics)
+
+/area/tower12/scimed/robotics
+	name = "\improper Robotics Repairs Lab"
+
 ///// Trauma Center /////
 /area/tower12/med
 	abstract_type =  /area/tower12/med

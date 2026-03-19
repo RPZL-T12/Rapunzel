@@ -47,6 +47,8 @@
 	id_type = /obj/item/card/id/tower/supply
 	l_ear = /obj/item/radio/headset/headset_cargo/tower12
 	uniform = /obj/item/clothing/jumpsuit/cargo
+	pda_type = /obj/item/modular_computer/pda/cargo
+	pda_slot = slot_l_store_str
 
 /decl/outfit/job/tower/supply/maint
 	name = "Job - General Maintenance"
@@ -55,8 +57,14 @@
 	belt = /obj/item/belt/utility/full
 	shoes = /obj/item/clothing/shoes/workboots
 	pda_type = /obj/item/modular_computer/pda/engineering
-	pda_slot = slot_l_store_str
 	l_ear = /obj/item/radio/headset/headset_cargo/tower12/engie
+
+/decl/outfit/job/tower/supply/robotics
+	name = "Job - Roboticist"
+	uniform = /obj/item/clothing/jumpsuit/roboticist
+	belt = /obj/item/belt/utility/full
+	shoes = /obj/item/clothing/shoes/jackboots
+	pda_type = /obj/item/modular_computer/pda
 
 /// Trauma Center ///
 

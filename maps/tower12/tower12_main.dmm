@@ -1126,8 +1126,13 @@
 /turf/floor/tiled,
 /area/tower12/eps/security_chk)
 "cG" = (
+/obj/machinery/fabricator/imprinter,
+/obj/effect/floor_decal/corner/white/full,
+/obj/effect/floor_decal/corner/b_green/border{
+	dir = 1
+	},
 /turf/floor/tiled,
-/area/tower12/maint/d1/vacant)
+/area/tower12/scimed/robotics)
 "cH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -1529,6 +1534,16 @@
 	},
 /turf/floor/plating,
 /area/tower12/maint/d2/aft_starboard)
+"dC" = (
+/obj/effect/floor_decal/corner/white/full,
+/obj/effect/floor_decal/corner/b_green/border{
+	dir = 4
+	},
+/obj/structure/table/steel_reinforced,
+/obj/item/multitool,
+/obj/item/roller,
+/turf/floor/tiled,
+/area/tower12/scimed/robotics)
 "dD" = (
 /obj/structure/cable/green{
 	icon_state = "1-4"
@@ -3042,9 +3057,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/obj/machinery/light{
-	dir = 1
-	},
 /turf/floor/tiled,
 /area/tower12/hall/cent_elevator_d1)
 "gU" = (
@@ -4015,6 +4027,17 @@
 	},
 /turf/floor/tiled,
 /area/tower12/supply/lobby)
+"jd" = (
+/obj/machinery/fabricator/robotics,
+/obj/effect/floor_decal/corner/white/full,
+/obj/effect/floor_decal/corner/b_green/border{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/floor/tiled,
+/area/tower12/scimed/robotics)
 "je" = (
 /obj/machinery/hologram/holopad,
 /turf/floor/tiled,
@@ -4422,6 +4445,16 @@
 /obj/structure/disposalpipe/segment,
 /turf/floor/tiled,
 /area/tower12/hall/cent_starboard_d2)
+"kg" = (
+/obj/machinery/computer/robotics{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/white/full,
+/obj/effect/floor_decal/corner/b_green/border{
+	dir = 6
+	},
+/turf/floor/tiled,
+/area/tower12/scimed/robotics)
 "kh" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -4783,6 +4816,13 @@
 /obj/structure/table/marble,
 /turf/floor/tiled/freezer,
 /area/tower12/civ/mess/kitchen_freezer)
+"kX" = (
+/obj/effect/floor_decal/corner/white/full,
+/obj/structure/cable/orange{
+	icon_state = "2-8"
+	},
+/turf/floor/tiled,
+/area/tower12/scimed/robotics)
 "kY" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/clothing/mask,
@@ -5766,6 +5806,9 @@
 "np" = (
 /obj/structure/cable/orange{
 	icon_state = "4-8"
+	},
+/obj/structure/cable/orange{
+	icon_state = "1-8"
 	},
 /turf/floor/tiled,
 /area/tower12/hall/cent_elevator_d1)
@@ -6994,6 +7037,20 @@
 /obj/effect/catwalk_plated/dark,
 /turf/floor/plating,
 /area/tower12/maint/d2/central)
+"pZ" = (
+/obj/effect/floor_decal/corner/white/full,
+/obj/effect/floor_decal/corner/b_green/border{
+	dir = 8
+	},
+/obj/machinery/apc/high{
+	dir = 8;
+	pixel_x = -22
+	},
+/obj/structure/cable/orange{
+	icon_state = "0-4"
+	},
+/turf/floor/tiled,
+/area/tower12/scimed/robotics)
 "qa" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
@@ -7209,6 +7266,9 @@
 	},
 /turf/floor/tiled,
 /area/tower12/eng/engine_observation)
+"qB" = (
+/turf/wall/r_wall,
+/area/tower12/scimed/robotics)
 "qC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -7710,6 +7770,14 @@
 /obj/structure/disposalpipe/segment/bent,
 /turf/floor/tiled,
 /area/tower12/hall/cent_elevator_d1)
+"rP" = (
+/obj/effect/floor_decal/corner/white/full,
+/obj/effect/floor_decal/corner/b_green/border,
+/obj/structure/cable/orange{
+	icon_state = "1-2"
+	},
+/turf/floor/tiled,
+/area/tower12/scimed/robotics)
 "rQ" = (
 /turf/wall/r_wall,
 /area/tower12/bridge/dept_coord_bed)
@@ -8515,6 +8583,10 @@
 	},
 /turf/floor/laminate/mahogany,
 /area/tower12/hall/cent_elevator_d3)
+"tG" = (
+/obj/effect/floor_decal/corner/white/full,
+/turf/floor/tiled,
+/area/tower12/scimed/robotics)
 "tH" = (
 /obj/effect/floor_decal/corner/white/full,
 /obj/structure/cable/green{
@@ -9277,6 +9349,14 @@
 	},
 /turf/floor/plating,
 /area/tower12/maint/d2/aft_port)
+"vt" = (
+/obj/machinery/optable,
+/obj/effect/floor_decal/corner/white/full,
+/obj/effect/floor_decal/corner/b_green/border{
+	dir = 1
+	},
+/turf/floor/tiled,
+/area/tower12/scimed/robotics)
 "vu" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass/engineering,
@@ -9299,6 +9379,17 @@
 	},
 /turf/floor/wood/yew,
 /area/tower12/supply/civil_manager)
+"vy" = (
+/obj/effect/floor_decal/corner/white/full,
+/obj/effect/floor_decal/corner/b_green/border,
+/obj/structure/chair/office/comfy/teal{
+	dir = 4
+	},
+/obj/abstract/landmark/start{
+	name = "Robotics Maintainer"
+	},
+/turf/floor/tiled,
+/area/tower12/scimed/robotics)
 "vz" = (
 /obj/machinery/alarm{
 	dir = 4
@@ -9569,6 +9660,11 @@
 /obj/machinery/sleeper,
 /turf/floor/tiled,
 /area/tower12/med/icu)
+"wj" = (
+/obj/effect/floor_decal/corner/white/full,
+/obj/effect/floor_decal/corner/b_green/border,
+/turf/floor/tiled,
+/area/tower12/scimed/robotics)
 "wk" = (
 /obj/machinery/suit_cycler/engineering/alt,
 /turf/floor/tiled,
@@ -10394,6 +10490,20 @@
 	},
 /turf/floor/tiled,
 /area/tower12/hall/cent_stairs_d2)
+"yg" = (
+/obj/machinery/door/airlock/glass/medical{
+	name = "Robotics"
+	},
+/obj/machinery/door/firedoor{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/white/full,
+/obj/effect/floor_decal/corner/b_green/mono,
+/obj/structure/cable/orange{
+	icon_state = "1-2"
+	},
+/turf/floor/tiled,
+/area/tower12/scimed/robotics)
 "yh" = (
 /obj/machinery/camera/network{
 	dir = 4
@@ -10642,8 +10752,29 @@
 /turf/floor/tiled,
 /area/tower12/eng/atmospherics)
 "yK" = (
-/turf/wall/r_wall,
-/area/tower12/maint/d1/vacant)
+/obj/structure/table/steel_reinforced,
+/obj/machinery/door/firedoor{
+	dir = 8
+	},
+/obj/machinery/door/window/southleft{
+	name = "Robotics Desk"
+	},
+/obj/machinery/door/window/northleft{
+	name = "Robotics Desk";
+	req_access = list(access_robotics)
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/white/full,
+/obj/effect/floor_decal/corner/b_green/mono,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/floor/tiled,
+/area/tower12/scimed/robotics)
 "yL" = (
 /obj/structure/cable/green,
 /obj/machinery/apc/high{
@@ -13864,6 +13995,13 @@
 "FW" = (
 /turf/open,
 /area/tower12/hall/cent_elevator_d3)
+"FX" = (
+/obj/effect/floor_decal/corner/white/full,
+/obj/effect/floor_decal/corner/b_green/border,
+/obj/machinery/light,
+/obj/machinery/vending/robotics,
+/turf/floor/tiled,
+/area/tower12/scimed/robotics)
 "FY" = (
 /obj/effect/shuttle_landmark/supply_station,
 /turf/space,
@@ -14696,6 +14834,12 @@
 /obj/abstract/level_data_spawner/tower12_deck_two,
 /turf/space,
 /area/space)
+"HT" = (
+/obj/abstract/landmark/start{
+	name = "Nurse Practitioner"
+	},
+/turf/wall/r_wall,
+/area/tower12/med/gtc)
 "HU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -15143,6 +15287,20 @@
 /obj/structure/closet/emcloset,
 /turf/floor/tiled,
 /area/tower12/hall/docking_port)
+"IY" = (
+/obj/structure/chair/office/comfy/teal,
+/obj/effect/floor_decal/corner/white/full,
+/obj/effect/floor_decal/corner/b_green/border{
+	dir = 10
+	},
+/obj/abstract/landmark/start{
+	name = "Robotics Maintainer"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/floor/tiled,
+/area/tower12/scimed/robotics)
 "IZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -15427,6 +15585,14 @@
 /obj/machinery/light,
 /turf/floor/carpet/purple,
 /area/tower12/bridge/uta_rep_office)
+"JG" = (
+/obj/machinery/vitals_monitor,
+/obj/effect/floor_decal/corner/white/full,
+/obj/effect/floor_decal/corner/b_green/border{
+	dir = 5
+	},
+/turf/floor/tiled,
+/area/tower12/scimed/robotics)
 "JH" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -19067,6 +19233,22 @@
 	},
 /turf/wall/r_wall,
 /area/tower12/ai/core)
+"Sk" = (
+/obj/effect/floor_decal/corner/white/full,
+/obj/structure/table/steel_reinforced,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty{
+	pixel_x = 7
+	},
+/obj/item/toolbox/mechanical{
+	pixel_x = -3;
+	pixel_y = 8
+	},
+/obj/effect/floor_decal/corner/b_green/border{
+	dir = 1
+	},
+/turf/floor/tiled,
+/area/tower12/scimed/robotics)
 "Sl" = (
 /obj/structure/grille,
 /obj/machinery/door/firedoor,
@@ -22287,6 +22469,22 @@
 	},
 /turf/floor/tiled,
 /area/tower12/eng/engine_storage)
+"Zw" = (
+/obj/structure/table/steel_reinforced,
+/obj/structure/reagent_dispensers/acid{
+	pixel_y = 32
+	},
+/obj/item/box/beakers{
+	pixel_x = -5;
+	pixel_y = 14
+	},
+/obj/item/stack/material/sheet/mapped/steel/fifteen,
+/obj/effect/floor_decal/corner/white/full,
+/obj/effect/floor_decal/corner/b_green/border{
+	dir = 9
+	},
+/turf/floor/tiled,
+/area/tower12/scimed/robotics)
 "Zx" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
@@ -34951,9 +35149,9 @@ VX
 Qj
 aC
 ZX
-aC
-aC
-aC
+ZX
+ZX
+ZX
 ZX
 CD
 VJ
@@ -35102,10 +35300,10 @@ UJ
 yJ
 Qj
 aC
-yK
-yK
-yK
-yK
+qB
+Zw
+pZ
+IY
 yK
 gT
 Wv
@@ -35254,11 +35452,11 @@ nj
 Hd
 Qj
 aC
-yK
+qB
 cG
-cG
-cG
-yK
+kX
+rP
+yg
 np
 VJ
 Aj
@@ -35406,11 +35604,11 @@ Se
 bK
 cl
 sk
-yK
-cG
-cG
-cG
-yK
+qB
+Sk
+tG
+wj
+qB
 xK
 mG
 Ha
@@ -35558,11 +35756,11 @@ ZC
 WH
 Qj
 WM
-yK
-cG
-cG
-cG
-yK
+qB
+jd
+tG
+FX
+qB
 Um
 uW
 mG
@@ -35710,11 +35908,11 @@ SW
 pk
 Qj
 Mq
-yK
-cG
-cG
-cG
-yK
+qB
+vt
+tG
+vy
+qB
 lL
 td
 mG
@@ -35862,11 +36060,11 @@ Ve
 aL
 Qj
 Mq
-yK
-cG
-cG
-cG
-yK
+qB
+JG
+dC
+kg
+qB
 lu
 uI
 mG
@@ -36014,11 +36212,11 @@ YI
 Ds
 Qj
 Mq
-yK
-yK
-yK
-yK
-yK
+qB
+qB
+qB
+qB
+qB
 mG
 Mw
 mG
@@ -37849,7 +38047,7 @@ sz
 sz
 sz
 sz
-Ja
+HT
 Ja
 Ja
 Ja

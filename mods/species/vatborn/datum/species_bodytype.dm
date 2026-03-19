@@ -2,6 +2,7 @@
 	name                  = "feminine"
 	icon_base             = 'mods/species/vatborn/icons/body/body_female.dmi'
 	limb_icon_intensity   = 0.7
+	bodytype_category     = BODYTYPE_HUMANOID
 	associated_gender     = FEMALE
 	onmob_state_modifiers = list((slot_w_uniform_str) = "f")
 	uid                   = "bodytype_vatborn_fem"
@@ -21,6 +22,7 @@
 	name                  = "masculine"
 	icon_base             = 'mods/species/vatborn/icons/body/body_male.dmi'
 	icon_deformed         = 'icons/mob/human_races/species/human/deformed_body_male.dmi'
+	bodytype_category     = BODYTYPE_HUMANOID
 	associated_gender     = MALE
 	uid                   = "bodytype_vatborn_masc"
 	onmob_state_modifiers = null
