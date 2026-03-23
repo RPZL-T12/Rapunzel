@@ -18,3 +18,9 @@
 	name = "fine red suit"
 	desc = "A fine, bright red suit. For when you really want to stand out."
 	icon = 'icons/clothing/costumes/uniform_redsuit.dmi'
+
+/obj/item/clothing/costume/disheveled_suit
+	name = "disheveled suit"
+	desc = "Yeesh, you could've put in SOME effort today..."
+	icon = 'icons/clothing/costumes/disheveled_suit.dmi'
+

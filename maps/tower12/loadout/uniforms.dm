@@ -84,3 +84,42 @@
 	path = /obj/item/clothing/shirt/harness
 	uid = "gear_under_harness"
 	whitelisted = list(/decl/species/utility_frame::uid)
+
+/decl/loadout_option/uniform/sweaterskirt
+	name = "dress, comfy sweater and skirt"
+	path = /obj/item/clothing/dress/sweaterskirt_colorable
+	loadout_flags = GEAR_HAS_COLOR_SELECTION
+	uid = "gear_under_sweaterskirt"
+
+/decl/loadout_option/uniform/silk_gown
+	name = "dress, silk gown"
+	path = /obj/item/clothing/dress/silk_gown_colorable
+	loadout_flags = GEAR_HAS_COLOR_SELECTION
+	uid = "gear_under_silkgown"
+
+/decl/loadout_option/uniform/flower_skirt
+	name = "skirt, flowers"
+	path = /obj/item/clothing/dress/flower_skirt
+	loadout_flags = GEAR_HAS_COLOR_SELECTION
+	uid = "gear_under_flowerskirt"
+
+/decl/loadout_option/uniform/countess_dress
+	name = "dress, countess"
+	path = /obj/item/clothing/dress/countess
+	uid = "gear_under_countess"
+
+/decl/loadout_option/uniform/disheveled_suit
+	name = "suit, disheveled"
+	path = /obj/item/clothing/costume/disheveled_suit
+	uid = "gear_under_disheveled"
+
+/decl/loadout_option/uniform/longmesh_dress
+	name = "dress, long mesh"
+	path = /obj/item/clothing/dress/longmesh
+	loadout_flags = GEAR_HAS_COLOR_SELECTION
+	uid = "gear_under_longmesh"
+
+/decl/loadout_option/uniform/gothiclong_dress
+	name = "dress, long gothic"
+	path = /obj/item/clothing/dress/gothic_long
+	uid = "gear_under_gothiclong"

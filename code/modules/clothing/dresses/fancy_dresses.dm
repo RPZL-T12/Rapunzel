@@ -61,3 +61,44 @@
 	icon = 'icons/clothing/dresses/dress_turtleneck.dmi'
 	flags_inv = HIDESHOES
 	body_parts_covered = SLOT_UPPER_BODY|SLOT_ARMS|SLOT_LOWER_BODY|SLOT_LEGS
+
+/obj/item/clothing/dress/sweaterskirt_colorable
+	name = "cozy sweater and skirt"
+	desc = "A modest skirt with a comfy sweater to go with."
+	icon = 'icons/clothing/dresses/dress_sweaterskirt.dmi'
+	body_parts_covered = SLOT_UPPER_BODY|SLOT_ARMS|SLOT_LOWER_BODY|SLOT_LEGS
+	color = "#2e2727"
+	markings_state_modifier = "-shirt"
+	markings_color = "#ffffff"
+
+/obj/item/clothing/dress/silk_gown_colorable
+	name = "silk gown"
+	desc = "An elegant silk gown. Comes in a variety of colors!"
+	icon = 'icons/clothing/dresses/dress_silk_gown.dmi'
+	body_parts_covered = SLOT_UPPER_BODY|SLOT_ARMS|SLOT_LOWER_BODY|SLOT_LEGS|SLOT_FEET
+	color = "#f1e6e6"
+	markings_state_modifier = "-sleeves"
+	markings_color = "#d6b979"
+
+/obj/item/clothing/dress/flower_skirt
+	name = "flower skirt"
+	desc = "A skirt made up of various flowers."
+	icon = 'icons/clothing/dresses/dress_skirt_flowers.dmi'
+	body_parts_covered = SLOT_LOWER_BODY|SLOT_LEGS
+
+/obj/item/clothing/dress/countess
+	name = "countess dress"
+	desc = "A dress so regal it's tacky."
+	icon = 'icons/clothing/dresses/dress_countess.dmi'
+	flags_inv = HIDESHOES
+	body_parts_covered = SLOT_UPPER_BODY|SLOT_ARMS|SLOT_LOWER_BODY|SLOT_LEGS|SLOT_FEET
+
+/obj/item/clothing/dress/longmesh
+	name = "long mesh dress"
+	desc = "A fancy long dress with mesh sleeves and skirts."
+	icon = 'icons/clothing/dresses/dress_longmesh.dmi'
+
+/obj/item/clothing/dress/gothic_long
+	name = "long gothic dress"
+	desc = "There a funeral or something?"
+	icon = 'icons/clothing/dresses/dress_gothic_long.dmi'

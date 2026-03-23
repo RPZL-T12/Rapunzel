@@ -19,9 +19,6 @@
 /area/tower12/hall/cent_elevator_d1)
 "aca" = (
 /obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/floor/plating,
@@ -19584,17 +19581,6 @@
 /obj/structure/disposalpipe/junction/mirrored,
 /turf/floor/tiled,
 /area/tower12/eng/engineering_lobby)
-"uOH" = (
-/obj/machinery/power/breakerbox/activated{
-	RCon_tag = "main_engine_substation";
-	name = "Main Engine Breaker"
-	},
-/obj/structure/cable,
-/obj/structure/cable/orange{
-	icon_state = "0-4"
-	},
-/turf/floor/plating,
-/area/tower12/smes/engine)
 "uQZ" = (
 /obj/structure/table/steel_reinforced,
 /turf/floor/tiled,
@@ -21108,9 +21094,6 @@
 	},
 /obj/structure/cable/orange{
 	icon_state = "0-4"
-	},
-/obj/structure/cable/orange{
-	icon_state = "4-8"
 	},
 /turf/floor/plating,
 /area/tower12/smes/engine)
@@ -33676,7 +33659,7 @@ enU
 xsq
 jDK
 aca
-uOH
+xnu
 rsk
 uDP
 uDP
