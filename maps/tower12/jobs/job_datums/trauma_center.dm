@@ -26,7 +26,8 @@
 		access_chemistry,
 		access_morgue,
 		access_bridge,
-		access_keycard_auth
+		access_keycard_auth,
+		access_cmo
 	)
 
 /datum/job/medical/doctor

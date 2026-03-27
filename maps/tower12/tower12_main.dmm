@@ -3060,7 +3060,6 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/machinery/vending/dinnerware,
 /obj/effect/floor_decal/corner/white/full,
 /obj/effect/floor_decal/corner/black/diagonal,
 /turf/floor/tiled,
@@ -11368,6 +11367,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
+/obj/structure/closet/secure_closet/freezer/fridge,
 /turf/floor/tiled/freezer,
 /area/tower12/civ/mess/kitchen_freezer)
 "lZJ" = (
@@ -15774,6 +15774,9 @@
 /obj/machinery/alarm{
 	dir = 1
 	},
+/obj/machinery/camera/network/engineering{
+	dir = 1
+	},
 /turf/floor/plating,
 /area/tower12/smes/engine)
 "qJo" = (
@@ -17848,6 +17851,10 @@
 	},
 /turf/floor/tiled,
 /area/tower12/eng/engineering_eva)
+"sTq" = (
+/obj/machinery/camera/network/mining,
+/turf/space,
+/area/space)
 "sTx" = (
 /obj/machinery/alarm{
 	dir = 8
@@ -19799,8 +19806,7 @@
 /obj/machinery/alarm{
 	dir = 4
 	},
-/obj/item/picnic_basket,
-/obj/structure/table/marble,
+/obj/machinery/vending/dinnerware,
 /turf/floor/tiled/freezer,
 /area/tower12/civ/mess/kitchen_freezer)
 "veX" = (
@@ -20185,6 +20191,7 @@
 /obj/structure/table/steel_reinforced,
 /obj/item/multitool,
 /obj/item/roller,
+/obj/machinery/camera/network/mining,
 /turf/floor/tiled,
 /area/tower12/scimed/robotics)
 "vws" = (
@@ -21508,6 +21515,7 @@
 	pixel_x = 6
 	},
 /obj/item/soap,
+/obj/item/picnic_basket,
 /turf/floor/tiled/freezer,
 /area/tower12/civ/mess/kitchen_freezer)
 "wOW" = (
@@ -37319,7 +37327,7 @@ uDP
 uDP
 uDP
 uDP
-uDP
+sTq
 uDP
 aQo
 aQo
